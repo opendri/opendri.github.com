@@ -1,0 +1,8 @@
+<!-- Secondary Menu class="current" -->
+<div class="menu shadow" data-smallscreen="yes">
+	<ul id="secondary-menu">
+  {% assign pages_list = site.pages %}
+  {% assign group = 'guide_chapter' %}
+  {% include JB/pages_list %}
+	</ul>
+</div>

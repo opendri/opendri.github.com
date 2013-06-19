@@ -1,0 +1,151 @@
+/*-----------------------------------------------------------------------------------*/
+/*	Olive Green color scheme:
+
+/*	#548f11, rgb(84, 143, 17) - main color,
+/*	#3b640c - dark color,
+/*	#eef4e7 - light background color,
+/*	#83ad54 - dark background color,
+/*	#c2d4ae - border color
+/*-----------------------------------------------------------------------------------*/
+
+/* Base */
+h1 { color: #548f11; }
+h4.underlined.colored, h5.underlined.colored { border-bottom-color: #c2d4ae; } /* border color */
+h4.underlined.dashed.colored, h5.underlined.dashed.colored {
+	background-image: url(../../images/icons/colored/olive_green/dashed-line-horizontal.png);
+}
+.colored-text { color: #548f11 !important; }
+a { color: #548f11; }
+a:hover, a > *:hover { color: #3b640c; } /* dark color */
+a:hover .title, a.title:hover { color: #548f11 !important; }
+
+.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background-color: #83ad54; /* dark background color */
+}
+
+/* Primary Navigation */
+#primary-nav ul li a.current { color: #548f11 !important; }
+
+/* Info Board */
+#info-board { background-color: #eef4e7; } /* light background color */
+#info-board.colored {
+	background-color: #83ad54; /* dark background color */
+	background: rgba(84, 143, 17, 0.7); /* main color - opacity 0.7 */
+}
+#secondary-menu li a { border-color: #c2d4ae; } /* border color */
+#secondary-menu li.current a > * { color: #548f11; }
+#secondary-menu li.current { background-image: url(../../images/icons/colored/olive_green/list-marker-arrow.png); }
+
+/* FlexSlider */
+.flex-caption.colored {
+	background-color: #548f11;
+	background: rgba(84, 143, 17, 0.7); /* main color - opacity 0.7 */
+}
+.ie .flex-caption.colored {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#b3548f11,endColorstr=#b3548f11);
+}
+.flex-direction-nav .flex-prev:hover,
+.flex-direction-nav .flex-next:hover,
+.flex-control-paging li a.flex-active span { background-color: #548f11; }
+.flexslider.gallery .flex-direction-nav a {
+	background-color: #548f11;
+	background-color: rgba(84, 143, 17, 0.4); /* main color - opacity 0.4 */
+}
+.flexslider.gallery .flex-direction-nav .flex-prev:hover,
+.flexslider.gallery .flex-direction-nav .flex-next:hover {
+	background-color: #548f11;
+	background-color: rgba(84, 143, 17, 0.7); /* main color - opacity 0.7 */
+}
+.ie .flexslider.gallery .flex-direction-nav a,
+.ie .flexslider.gallery .flex-direction-nav .flex-prev:hover,
+.ie .flexslider.gallery .flex-direction-nav .flex-next:hover {
+	background-color: #548f11;
+}
+
+/* Info Box */
+.info-box.colored {
+	background-color: #eef4e7; /* light background color */
+	border-color: #c2d4ae; /* border color */
+}
+
+/* Portfolio */
+#portfolio-filter li a.current { color: #548f11; }
+.small-bar.colored { border-color: #c2d4ae; } /* border color */
+
+/* Team */
+.team .sub { color: #548f11; }
+
+/* Sidebar */
+#sidebar .widget { border-color: #c2d4ae; } /* border color */
+#sidebar ul.categories a:hover,
+#sidebar ul.categories li.current a { color: #548f11; }
+#sidebar ul.categories.arrow-list li.current,
+#sidebar ul.categories.arrow-list li.aHover { background-image: url(../../images/icons/colored/olive_green/list-marker-arrow.png); }
+#sidebar ul.categories.square-list li.current,
+#sidebar ul.categories.square-list li.aHover { background-image: url(../../images/icons/colored/olive_green/list-marker-square.png); }
+
+/* Tabs */
+.tabs-nav li a:hover { border-color: #c2d4ae; } /* border color */
+.tabs-nav li.active a {
+	color: #548f11;
+	border-color: #c2d4ae; /* border color */
+}
+
+/* Tweeter Feed */
+#sidebar .tweets .tweet_text a:hover,
+#sidebar .tweets .tweet_time a:hover { color: #548f11; }
+
+/* Other Elements */
+a.link-lg, a.link-lg span { background-image: url(../../images/icons/colored/olive_green/link-arrow-long.png); }
+a.link-sm, a.link-sm span { background-image: url(../../images/icons/colored/olive_green/link-arrow-small.png); }
+a.link-sm:hover { color: #3b640c; } /* dark color */
+.pagination span.current { /* dark background color */
+	border-color: #83ad54;
+	background-color: #83ad54;
+}
+
+/* Pricing Tables */
+#sidebar .pricing-table { border-color: #c2d4ae; } /* border color */
+.pricing-table .featured .header { background-color: #83ad54; } /* dark background color */
+.pricing-table .featured .price { color: #548f11; }
+
+/* Typography */
+.dropcap.colored { color: #548f11; }
+.highlight.dotted { border-bottom-color: #548f11; }
+.highlight.colored { background-color: #83ad54; } /* dark background color */
+
+.check-list.colored li { background-image: url(../../images/icons/colored/olive_green/list-marker-check.png); }
+.arrow-list.colored li { background-image: url(../../images/icons/colored/olive_green/list-marker-arrow.png); }
+.dash-list.colored li { background-image: url(../../images/icons/colored/olive_green/list-marker-dash.png); }
+.square-list.colored li { background-image: url(../../images/icons/colored/olive_green/list-marker-square.png); }
+.circle-list.colored li { background-image: url(../../images/icons/colored/olive_green/list-marker-circle.png); }
+
+.divider-line.colored { border-color: #c2d4ae; } /* border color */
+.divider-dashline.colored { background-image: url(../../images/icons/colored/olive_green/dashed-line-horizontal.png); }
+.divider-pattern.colored { background-image: url(../../images/icons/colored/olive_green/divider-pattern.png); }
+
+/* Screens with 768 pixels wide and higher (devices and browsers) */
+@media only screen and (min-width: 768px) {
+	#sidebar .tabs-nav li.active a { color: #548f11; }
+	
+	/* border color */
+	#sidebar .tabs-nav li a { border-bottom-color: #c2d4ae; }
+	#sidebar .tabs-nav li.active:first-child a { border-left-color: #c2d4ae; }
+	#sidebar .tabs-nav li.active a:hover { border-top-color: #c2d4ae; border-right-color: #c2d4ae; }
+	#sidebar .tabs-nav li a.border-right-colored { border-right-color: #c2d4ae; }
+	#sidebar .tabs-container { border-color: #c2d4ae; }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	/* border color */
+	.page-title { border-bottom-color: #c2d4ae; }
+	#iBoard .menu { border-bottom-color: #c2d4ae; }
+	#info-board, #info-board.colored { background: none; }
+	#sidebar .widget { border-top-color: #dedede; }
+	#sidebar .widget:first-child { border-top-color: #c2d4ae; }
+	.tabs-container { border-color: #c2d4ae; }
+}

@@ -1,0 +1,467 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*
+* Modified by Emerald
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Body Backgrounds
+	#Typography
+	#Buttons
+	#Forms
+	#Images & Video
+	#Misc. */
+
+	
+/*-----------------------------------------------------------------------------------*/
+/*	1. Reset & Basics (Inspired by E. Meyers)
+/*-----------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	2. Basic Styles
+/*-----------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 19px;
+	color: #666;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+	background-color: #f6f6f6;
+}
+	
+::-moz-selection{ color: #fff; background: #727378; }
+::selection { color: #fff; background: #727378; }
+
+.align-center { margin-left: auto !important; margin-right: auto !important; text-align: center !important; }
+.align-left { float: left !important; }
+.align-right { float: right !important; }
+.hidden { display: none; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	3. Body Backgrounds
+/*-----------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+	/* Body background images (full width) */
+	.body-bg-image1 { background: #f2f2f2 url(../images/backgrounds/bg-img1.jpg) no-repeat center top; }
+	.body-bg-image2 { background: #f2f2f2 url(../images/backgrounds/bg-img2.jpg) no-repeat center top; }
+	.body-bg-image3 { background: #f2f2f2 url(../images/backgrounds/bg-img3.jpg) no-repeat center top; }
+	.body-bg-image4 { background: #f2f2f2 url(../images/backgrounds/bg-img4.jpg) no-repeat center top; }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+	/* Body background images (reduced width - cropped from left and right) */
+	/* This also prevents iOS from background image scaling */
+	.body-bg-image1 { background: #f2f2f2 url(../images/backgrounds/bg-img1-cropped.jpg) no-repeat center top; }
+	.body-bg-image2 { background: #f2f2f2 url(../images/backgrounds/bg-img2-cropped.jpg) no-repeat center top; }
+	.body-bg-image3 { background: #f2f2f2 url(../images/backgrounds/bg-img3-cropped.jpg) no-repeat center top; }
+	.body-bg-image4 { background: #f2f2f2 url(../images/backgrounds/bg-img4-cropped.jpg) no-repeat center top; }
+}
+
+@media only screen and (min-width: 768px) {
+	/* Body background patterns */
+	.body-bg-pattern1 { background: #f2f2f2 url(../images/backgrounds/pattern-45degreee-fabric.png) repeat left top; }
+	.body-bg-pattern2 { background: #f2f2f2 url(../images/backgrounds/pattern-grunge-wall.png) repeat left top; }
+	.body-bg-pattern3 { background: #f2f2f2 url(../images/backgrounds/pattern-cork1.png) repeat left top; }
+	.body-bg-pattern4 { background: #f2f2f2 url(../images/backgrounds/pattern-project-papper.png) repeat left top; }
+	.body-bg-pattern5 { background: #f2f2f2 url(../images/backgrounds/pattern-scribble-light.png) repeat left top; }
+	.body-bg-pattern6 { background: #f2f2f2 url(../images/backgrounds/pattern-chruch.png) repeat left top; }
+	.body-bg-pattern7 { background: #f2f2f2 url(../images/backgrounds/pattern-husk.png) repeat left top; }
+	.body-bg-pattern8 { background: #f2f2f2 url(../images/backgrounds/pattern-fabric-plaid.png) repeat left top; }
+	.body-bg-pattern9 { background: #f2f2f2 url(../images/backgrounds/pattern-light-alu.png) repeat left top; }
+	.body-bg-pattern10 { background: #f2f2f2 url(../images/backgrounds/pattern-bright-squares.png) repeat left top; }
+	.body-bg-pattern11 { background: #f2f2f2 url(../images/backgrounds/pattern-brushed-alu.png) repeat left top; }
+	.body-bg-pattern12 { background: #f2f2f2 url(../images/backgrounds/pattern-smooth-wall.png) repeat left top; }
+	
+	/* Body solid backgrounds */
+	.body-bg-solid1 { background-color: #f2f2f2; }
+	.body-bg-solid2 { background-color: #eee; }
+	.body-bg-solid3 { background-color: #eaeaea; }
+	
+	/* Page gradient background */
+	.pattern-background #page-wrapper { background: url(../images/backgrounds/body-gradient-bg.png) repeat-x left bottom; }
+	.image-background #page-wrapper { background: url(../images/backgrounds/body-gradient-bg.png) repeat-x left bottom; }
+}
+
+	
+/*-----------------------------------------------------------------------------------*/
+/*	4. Typography
+/*-----------------------------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 { font-family: "Roboto Condensed", "Franklin Gothic Medium", Tahoma, sans-serif; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 30px; line-height: 40px; color: #c16225; font-weight: 700; }
+h2 { font-size: 24px; line-height: 30px; color: #444; font-weight: 400; }
+h3 { font-size: 20px; line-height: 26px; color: #444; font-weight: 400; }
+h4 { font-size: 18px; line-height: 24px; color: #444; font-weight: 400; }
+h5 { font-size: 16px; line-height: 23px; color: #444; font-weight: 400; }
+h6 { font-size: 14px; line-height: 21px; color: #444; font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 { margin-bottom: 15px; }
+
+h4.underlined, h5.underlined {
+	margin-bottom: 18px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dedede;
+}
+h4.underlined.dotted, h5.underlined.dotted { border-bottom-style: dotted; }
+h4.underlined.colored, h5.underlined.colored { border-bottom-color: #e3c7b4; }
+h4.underlined.dashed, h5.underlined.dashed {
+	background: url(../images/icons/dashed-line-horizontal.png) repeat-x left bottom;
+	border: none;
+	padding-bottom: 8px;
+}
+h4.underlined.dashed.colored, h5.underlined.dashed.colored {
+	background-image: url(../images/icons/colored/brown/dashed-line-horizontal.png);
+}
+
+p { margin: 0 0 12px 0; line-height: 19px; }
+p img { margin: 0; }
+
+.middle-font-size, .middle-font-size > * { font-size: 14px; line-height: 23px; color: #444; }
+.middle-font-size.caption { line-height: 21px; margin-bottom: 0; }
+
+em { font-style: italic; }
+strong, b { font-weight: bold; }
+
+.colored-text { color: #c16225 !important; }
+.black { color: #151515 !important; }
+.grey { color: #666 !important; }
+.uppercase { text-transform: uppercase; }
+
+hr { border: solid #dedede; border-width: 1px 0 0; clear: both; margin: 0 0 25px; height: 0; }
+
+
+/* Font-Face - fallback for Internet Explorer 7-8 (these browsers don't recognize multiple styles and weights that use the same font-family name)
+----------------------------- */
+@font-face {
+	font-family: 'OpenSansBold';
+	font-style: normal;
+	font-weight: 700;
+	src: url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHZ2MAKAc2x4R1uOSeegc5U.eot);
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHZ2MAKAc2x4R1uOSeegc5U.eot) format('embedded-opentype');
+}
+@font-face {
+	font-family: 'OpenSansItalic';
+	font-style: italic;
+	font-weight: 400;
+	src: url(http://themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBmfQcKutQXcIrRfyR5jdjY8.eot);
+	src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBmfQcKutQXcIrRfyR5jdjY8.eot) format('embedded-opentype');
+}
+@font-face {
+	font-family: 'RobotoCondensedBold';
+	font-style: normal;
+	font-weight: 700;
+	src: url(http://themes.googleusercontent.com/static/fonts/robotocondensed/v7/b9QBgL0iMZfDSpmcXcE8nJTpJ4fOLLwmHp8vl0kIMg4.eot);
+	src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(http://themes.googleusercontent.com/static/fonts/robotocondensed/v7/b9QBgL0iMZfDSpmcXcE8nJTpJ4fOLLwmHp8vl0kIMg4.eot) format('embedded-opentype');
+}
+
+.ie h1 { font-family: RobotoCondensedBold, "Franklin Gothic Medium", Tahoma, sans-serif; }
+.ie strong, .ie b { font-family: OpenSansBold, sans-serif; }
+.ie em, .ie i, .ie blockquote, .ie blockquote p { font-family: OpenSansItalic, sans-serif; }
+
+
+/* Blockquotes
+----------------------------- */
+blockquote, blockquote p {
+	font-size: 14px;
+	line-height: 23px;
+	color: #909090;
+	font-style: italic;
+}
+blockquote {
+	margin: 5px 0 20px 25px;
+	padding: 0 0 5px 25px;
+	border-left: 2px solid #d5d5d5;
+}
+blockquote cite { display: block; font-size: 12px; color: #666; margin-top: 5px; }
+blockquote cite:before { content: "\2014 \0020"; }
+
+#sidebar blockquote, #sidebar blockquote p { font-size: 13px; line-height: 22px; }
+
+
+/* Links
+----------------------------- */
+a, a > * {
+	text-decoration: none;
+	outline: 0;
+	-webkit-transition-property: color, border-color, background-color, opacity;
+	   -moz-transition-property: color, border-color, background-color, opacity;
+	     -o-transition-property: color, border-color, background-color, opacity;
+	    -ms-transition-property: color, border-color, background-color, opacity;
+	        transition-property: color, border-color, background-color, opacity;
+	-webkit-transition-duration: 0.15s;
+	   -moz-transition-duration: 0.15s;
+	     -o-transition-duration: 0.15s;
+	    -ms-transition-duration: 0.15s;
+	        transition-duration: 0.15s;
+}
+a { color: #c16225; }
+a:hover, a > *:hover { color: #87451a; }
+p a { line-height: inherit; }
+
+a h2.title, a h3.title, a h4.title, a h5.title, a h6.title { display: inline-block; }
+.ie7 a h2.title, .ie7 a h3.title, .ie7 a h4.title, .ie7 a h5.title, .ie7 a h6.title { display: inline; cursor: pointer; }
+
+a:hover .title, a.title:hover { color: #c16225 !important; }
+
+	
+/* Lists
+----------------------------- */
+ul, ol { margin-bottom: 20px; }
+ul { list-style: none outside; }
+ol { list-style: decimal; }
+ol, ul.square, ul.circle, ul.disc { padding-left: 30px; overflow: hidden; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+ul.square li, ul.circle li, ul.disc li, ol li { margin-bottom: 3px; }
+li { line-height: 19px; margin-bottom: 5px; }
+
+ul.tight li, ul.square.tight li, ul.circle.tight li, ul.disc.tight li, ol.tight li { margin-bottom: 0; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	5. Buttons
+/*-----------------------------------------------------------------------------------*/
+
+.button,
+input[type="submit"],
+input[type="submit"].button:active,
+input[type="reset"],
+input[type="button"] {
+	display: inline-block;
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #d08d62;
+	background-image: url(../images/icons/link-arrow-small-white.png);
+	background-repeat: no-repeat;
+	background-position: right 10px;
+	border: none;
+	-webkit-border-radius: 13px;
+	   -moz-border-radius: 13px;
+	        border-radius: 13px;
+	padding: 6px 25px 6px 15px;
+	outline: none;
+	cursor: pointer;
+}
+
+input[type="submit"],
+input[type="submit"].button:active,
+input[type="reset"],
+input[type="button"] {
+	line-height: 18px;
+	background-position: right 12px;
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+	        border-radius: 15px;
+}
+
+input[type="submit"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner {
+	padding: 0;	border: 0; margin: 0;
+}
+
+.ie .button,
+.ie input[type="submit"],
+.ie input[type="reset"],
+.ie input[type="button"] { background-image: none; padding-right: 15px; }
+
+.ie7 input[type="submit"],
+.ie7 input[type="reset"],
+.ie7 input[type="button"] { padding: 3px 0; }
+
+.button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+	color: #fff;
+	background-color: #727378;
+}
+
+.button.grey,
+input[type="submit"].button.grey:active { color: #fff !important; background-color: #727378; }
+.button.grey:hover { background-color: #444; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	6. Forms
+/*-----------------------------------------------------------------------------------*/
+
+fieldset { margin-bottom: 20px; }
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+	display: block;
+	width: 210px;
+	max-width: 100%;
+	background-color: #fcfcfc;
+	border: 1px solid #dedede;
+	-webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+	font: 12px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #666;
+	margin: 0 0 12px;
+	padding: 6px 4px;
+	outline: none;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none;
+}
+input[type="checkbox"] {
+	display: inline;
+	position: relative;
+	top: 2px;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	border: 1px solid #d5d5d5;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+select { width: 220px; }
+textarea { min-height: 60px; line-height: 19px; }
+label,
+legend {
+	display: block;
+	font-size: 11px;
+}
+
+input, textarea {
+	-webkit-transition-property: color, border-color, background-color;
+	   -moz-transition-property: color, border-color, background-color;
+	     -o-transition-property: color, border-color, background-color;
+	    -ms-transition-property: color, border-color, background-color;
+	        transition-property: color, border-color, background-color;
+	-webkit-transition-duration: 0.15s;
+	   -moz-transition-duration: 0.15s;
+	     -o-transition-duration: 0.15s;
+	    -ms-transition-duration: 0.15s;
+	        transition-duration: 0.15s;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	7. Images & Video
+/*-----------------------------------------------------------------------------------*/
+
+.scale-with-grid { display: block; max-width: 100%; height: auto; }
+
+@media only screen and (max-width: 767px) {
+	.adapted {
+		width: auto !important;
+		float: none !important;
+	}
+	.image-left.adapted, .image-right.adapted { margin: 0 0 20px !important; }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.twelve.columns #page-content .adapted {
+		width: auto !important;
+		float: none !important;
+	}
+	.twelve.columns #page-content .image-left.adapted,
+	.twelve.columns #page-content .image-right.adapted { margin: 0 0 20px !important; }
+}
+
+.frame-scale-with-grid { max-width: 100%; }
+
+.image-left { float: left; margin: 0 20px 10px 0; }
+.image-right { float: right; margin: 0 0 10px 20px; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	8. Misc
+/*-----------------------------------------------------------------------------------*/
+
+.remove-bottom { margin-bottom: 0 !important; }
+.margin-bottom-5px { margin-bottom: 5px !important; }
+.margin-bottom-7px { margin-bottom: 7px !important; }
+.margin-bottom-10px { margin-bottom: 10px !important; }
+.margin-bottom-15px { margin-bottom: 15px !important; }
+.margin-bottom-20px { margin-bottom: 20px !important; }
+.margin-bottom-25px { margin-bottom: 25px !important; }
+.margin-bottom-30px { margin-bottom: 30px !important; }
+.margin-bottom-35px { margin-bottom: 35px !important; }
+.margin-bottom-40px { margin-bottom: 40px !important; }
+.margin-bottom-45px { margin-bottom: 45px !important; }
+.margin-bottom-50px { margin-bottom: 50px !important; }
+
+.width-100px { width: 100px; }
+.width-150px { width: 150px; }
+.width-180px { width: 180px; }
+.width-200px { width: 200px; }
+.width-220px { width: 220px; }
+.width-250px { width: 250px; }
+.width-280px { width: 280px; }
+.width-300px { width: 300px; }
+.width-350px { width: 350px; }
+.width-400px { width: 400px; }
+.width-420px { width: 420px; }
+
+.width-one-fourth { width: 25%; }
+.width-one-third { width: 33.33%; }
+.width-one-half { width: 50%; }
+.width-two-thirds { width: 66.66%; }
+.width-three-fourths { width: 75%; }
+
+.width-10 { width: 10%; }
+.width-20 { width: 20%; }
+.width-30 { width: 30%; }
+.width-40 { width: 40%; }
+.width-50 { width: 50%; }
+.width-60 { width: 60%; }
+.width-70 { width: 70%; }
+.width-80 { width: 80%; }
+.width-90 { width: 90%; }
+.width-100 { width: 100%; }
