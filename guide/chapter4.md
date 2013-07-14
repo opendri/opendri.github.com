@@ -4,23 +4,42 @@ navgroup: guide
 group: guidechapter
 title: 4. Design
 excerpt: "xx"
-abstract: "OpenDRI starts from a shared problem: how to develop the baseline data necessary to drive better decision making around risk management."
+abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
 # 4.	Design
 
-## Partners
+## Objective
+
+### Partners
 What local partners and ministries will contribute?
 
-## Incubation
+### Multi-disciplinary, Multi-Disciplinary (MD2) design
+Risk modelers, community mappers, government officials, CSOs, universities, international organizations engage in process to design the effort. AIFDR model. 
+
+### Incubation
 Is there a local incubator and tech community to support the project
 
-## Sustainability
+### Sustainability
 What is the strategy for long-term sustainability
 
-## Data
+### Data
 Do partners have data that can be made open?
 
+## Team
+Multidisciplinary. 
 
+## Process
+
+
+## Outputs
+
+Elements to be planned
+
+1. data catalogue: GeoNode
+2. common vocabulary: Metadata.
+3. incubation space: 
+4. community mapping objectives. 
+5. 
 

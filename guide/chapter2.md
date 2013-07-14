@@ -4,14 +4,19 @@ navgroup: guide
 group: guidechapter
 title: 2. Open Data for Resilience
 excerpt: "xx"
-abstract: "OpenDRI starts from a shared problem: how to develop the baseline data necessary to drive better decision making around risk management."
+abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
 # 2.	Open Data for Resilience
 
+Characterize the approach of OpenDRI to the problem of aggregating risk information and providing platform for curating that data over time.
+
 ## History
-An exploration of how OpenDRI emerged from partnerships and a place where we can add new partners as they sign onto the guide. This puts them front and center.
+OpenDRI began from a difficult problem: risk 
+
+## Problem to be solved
+Collective action. Urbanization: Open Cities. 
 
 ## Work Process Overview
 
@@ -21,6 +26,7 @@ An exploration of how OpenDRI emerged from partnerships and a place where we can
 4.	Learning
 
 ## Partners
+OpenDRI is a partnership. Starts from communities in which it gets implemented. Part bottom-up, part top-down.
 1.	Government Clients
 2.	Science Agencies
 3.	Reinsurers
@@ -30,6 +36,9 @@ An exploration of how OpenDRI emerged from partnerships and a place where we can
 7.	Incubators
 
 ## Tools
+
+### Open Government Data
+
 ### Participatory Mapping
 1.	OpenStreetMap
 2.	Walking Papers

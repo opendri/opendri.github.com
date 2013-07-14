@@ -4,7 +4,7 @@ navgroup: guide
 group: guidechapter
 title: Community of Practice
 excerpt: "xx"
-abstract: "OpenDRI starts from a shared problem: how to develop the baseline data necessary to drive better decision making around risk management."
+abstract: "Field Guide"
 ---
 {% include JB/setup %}
 

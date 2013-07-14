@@ -5,6 +5,9 @@ tagline:
 ---
 {% include JB/setup %}
 
+{% include custom/tectonic/bloglist %}
+
+
 ## Partnering for Open Data
 From markets to governance, decisions are best made with information that is timely and transparent. And yet, across disaster risk management (DRM) cycle, most data is unavailable to decision-makers. Too often the information necessary to support proper understanding of disaster and climate risk is fragmented across different government ministries, the private sector or international organizations and therefore not able to be fully utilized in the challenge of building resilience. There is a strong need to establish partnerships amongst all parties in order to link data from risk modeling to risk reduction, early warning, response, and recovery so that decision makers can work under less uncertainty and with greater understanding of risk.
 

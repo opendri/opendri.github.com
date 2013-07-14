@@ -4,14 +4,31 @@ navgroup: guide
 group: guidechapter
 title: "7. Cases"
 excerpt: "xx"
-abstract: "OpenDRI starts from a shared problem: how to develop the baseline data necessary to drive better decision making around risk management."
+abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
 # 7. Cases
-Indonesia
-Nepal
-Horn of Africa and Sahel
+
+## Indonesia
+
+### Initial Engagement: Pilot with GeoscienceAustralia, BNBP, AIFDR in Padang
+### Extending: Monsoons and Jakarta, introduction to BIG
+### Scaling: POMI, BIG, and a community mapping SOP
+
+## Nepal: OpenDRI
+Nama. 
+Monday, 
+
+## Caribbean
+Communities of Practice
+
+## Bolivia
+
+## Horn of Africa and Sahel
+who has the nov 2011 meeting notes
+stu gill
+
 
 
 

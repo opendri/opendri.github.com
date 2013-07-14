@@ -1,0 +1,39 @@
+<!-- Blog Posts -->
+<section class="blog">
+
+{% for post in site.posts %}
+
+<!-- Post: Simple Text format -->
+<article class="clearfix">
+	<div class="post-date">
+		<span class="day">{{ post.date | date: "%d" }}</span> 
+		<span class="month">{{ post.date | date: "%b" }}</span>
+		<span class="year">{{ post.date | date: "%Y" }}</span>
+	</div>
+	<div class="post-content">
+		<a href="{{post.url}}">
+			<h3 class="title">A simple text post without media</h3>
+		</a>
+		<div class="post-meta">
+			{% if post.author %}
+			<span class="author">by {{post.author}}</span>
+			{% else %}
+			
+			{% endif %}
+			
+			{% if post.commentcount %}
+			<span class="bubble"><a href="single-post.html#comments">3 Comments</a></span>
+			{% else %}
+			<span class="bubble"><a href="single-post.html#comments">n/a Comments</a></span>
+			{% endif %}
+					
+		</div>
+		<p>{{ post.excerpt }}</p>
+		<a href="{{post.url}}" class="link-lg">Continue Reading<span></span></a>
+	</div>
+</article>
+
+{% endfor %}
+
+</section> 
+<!-- end blog list -->

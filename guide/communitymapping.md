@@ -61,3 +61,11 @@ It may be in the interests of government donors to catalyze and support communit
 * Capacity to involve the host nation's scientific community and ministries in training about the identification and mitigation of risks based on data that the host nation can curate.
 * Capacity to link DO with the investments of international organizations such as the World Bank, and potential partnerships to increase the leverage of government donor funding.
 
+## Sources
+BTOR: Sri Lanka Missions 1 &amp; 2
+Community Mapping Guide, WBI
+Mikel Maron, GroundTruth
+Kate Chapman, HOT
+GDFRR: Robert Soden, Abby Baca, Vivien Deparday
+
+
