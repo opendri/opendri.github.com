@@ -8,7 +8,7 @@ abstract: "Community Mapping"
 ---
 {% include JB/setup %}
 
-# Community Mapping
+# Community Mapping/Exposure Mapping
 
 ## Objectives
 
@@ -16,6 +16,13 @@ abstract: "Community Mapping"
 ### Capacity Building around Mapping and Data Curation
 
 ## Activities
+
+### Design
+
+#### Data/Tags
+Establish the tags to be used.
+
+#### 
 
 ### Training in Field Data Collection
 ### Training in OSM
@@ -25,7 +32,7 @@ abstract: "Community Mapping"
 
 ## Key Personnel
 
-### Project Lead
+### Project Lead (International STC, $10K/mo)
 ### Trainer
 ### Junior Trainer (preferably from a location which has done the work before)
 ### Students
@@ -67,5 +74,21 @@ Community Mapping Guide, WBI
 Mikel Maron, GroundTruth
 Kate Chapman, HOT
 GDFRR: Robert Soden, Abby Baca, Vivien Deparday
+
+## Budget
+
+Personnel
+Office
+Travel
+Food
+Equipment
+Office Space
+
+## Principles
+
+### Start Small and scale
+
+
+
 
 

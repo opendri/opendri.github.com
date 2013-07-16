@@ -9,6 +9,7 @@ abstract: "Field Guide"
 {% include JB/setup %}
 
 # 4.	Design
+Building the capacity to perform probabilistic risk modeling (PRM) often starts from building the data necessary to support analytical work. The OpenDRI design phase explores how to create an iterative process of building up data from the top-down and bottom-up, while simultaneously teaching the client what new analytical techniques are possible when data from multiple layers are fused into a risk model.
 
 ## Objective
 
@@ -42,4 +43,16 @@ Elements to be planned
 3. incubation space: 
 4. community mapping objectives. 
 5. 
+
+TORs for
+
+1. Data Catalogue. GeoNode or other.
+2. Community Mapping
+3. Incubator/Innovation Lab
+4. OpenDRI Consultant Lead
+5. OpenDRI Technical Lead
+
+
+
+
 

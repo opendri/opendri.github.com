@@ -2,32 +2,27 @@
 layout: guide
 navgroup: guide
 group: guidechapter
-title: 3. Intake
+title: 3. Scoping
 excerpt: "xx"
 abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
-# 3. Intake
-Deciding where and when to implement a OpenDRI project depends on a range of factors. OpenDRI initiatives work best in environments where a set of partners are ready for the challenge of collecting, assessing, and curating data about the built environment. 
+# 3. Scoping
+Deciding where and when to implement a OpenDRI project depends on a range of factors. OpenDRI initiatives work best in environments where a set of partners are ready for the challenge of collecting, assessing, and curating data about their built environment. Assessing the readiness of this environment requires a scoping mission (site visit) 
 
-( Fragment )
-* Top-down: Release and integration of existing data that is fragmented across organizations, ministries, or data sources.
-* Bottom-up: Collection of new data, curated by communities that the data describes.
+## Scoping Mission
+**OpenDRI starts by listening**. 
+
+Mission must assess three aspects:
+
+* Top-down: What factors will drive or constrain the release and integration of existing data that is fragmented across organizations, ministries, or data sources?
+* Bottom-up: what factors will drive and constrain the collection of new data and the curation of those data by ythe communities that the data describes?
+* Use Case: how ready is the client to apply the data to probabilistic risk modeling?
+
+GFDRR is developing a diagnostic tool to 
 
 ## Objective
-In general, the primary goal of OpenDRI project is to develop a deeper understanding of risks from natural hazards in a region or city. This goal usually has three parts:
-
-* *Aggregation of existing risk data into a public data catalogue*. Data about the exposure of a nation to natural hazards are often fragmented across multiple institutions, often under policies that hinder the aggregation of those data into more comprehensive models. GIS and DMS platforms that enable this kind of aggregation are also rare and (until recently) were very expensive.
-
-* *Collection of new risk data*. In many places, there exist no geospatial database of the built infrastructure that aggregates key attributes about its vintage, construction materials, height, or elevation. OpenDRI works with communities to build this asset database from the bottom-up using low-cost participatory mapping techniques, where collection and curation of the data is done by the communities that those data describe.
-
-* *Fusion and Analysis of all risk data into models that drive investment in DRM*. 
-
-<!-- sidebar DMS and GIS -->
-( DMS and GIS to be defined in sidebar )
-
-
 
 ### Determine the Fit
 Client ministries and the offices of international organizations at the regional and country levels set strategic objectives that may include risk assessment, disaster preparedness, mitigation, post-disaster needs assessment (PDNA), and recovery. OpenDRI can fit into each part of the DRM cycle. For the World Bank, regional DRM leads will need to determine if and how an OpenDRI project fit into broader DRM agenda. 
@@ -50,17 +45,36 @@ Is there funding for an OpenDRI program? What are the cost structures for an Ope
 
 
 ## Team Composition
+The team that scopes an OpenDRI deployment is generally composed of three types of individuals:
 
-### GFDRR OpenDRI Advisor
+### GFDRR/International OpenDRI Advisor(s)
+The 
 
-### Regional OpenDRI Advisor
+### Local (Regional/Country) OpenDRI Advisor(s)
 
-### Local Champion
+### Local Champion(s)
+
+
 
 ## Process
+Listen to problems government and other local leaders are having around managing risk. These might include
+* existing use of Probabilistic Risk Modeling 
+* Data being used for risk modeling and decisions
+* Geospatial information systems
+* 
 
 ## Outputs
 
 ### Readiness Report
 (link to readiness report template)
+
+#### Open Data Situation
+1. Are government ministries selling data? If so, to whom and what kind of revenue are the data generating? Is the sale price of datasets for DRM de minimus?
+
+2. Who are the early adopters who are willing to share data? Why?
+
+3. 
+
+
+
 

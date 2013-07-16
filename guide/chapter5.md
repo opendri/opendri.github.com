@@ -2,14 +2,18 @@
 layout: guide
 navgroup: guide
 group: guidechapter
-title: 5. Implementation
+title: 5. Piloting
 excerpt: "xx"
 abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
-# 5.	Implementation
+# 5.	Piloting
 OpenDRI team identifies consultants to partner with client on a campaign to collect, co-map, cleanse, and analyze new data around the DRM cycle, and to prepare existing data for release. Work includes:
+
+* Top-Down Collation of Data from government an other partners into a common data catalogue.
+* Bottom-up Collection of Exposure Data through community mapping
+* Deployment of an Impact Modeling Tool, the first step towards risk modeling.
 
 ## Objective
 

@@ -2,14 +2,15 @@
 layout: guide
 navgroup: guide
 group: guidechapter
-title: 6. Learning
+title: 6. Scaling
 excerpt: "xx"
 abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
-# 6.	Learning
-OpenDRI works with partners to develop living ecosystem around the data. 
+# 6. Scaling
+Expanding program to new cities, expanding the partnership, validating the work, 
+
 
 ## Objective
 
