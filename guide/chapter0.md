@@ -10,7 +10,7 @@ abstract: "Field Guide"
 {% include JB/setup %}
 
 # 1.	Preface
-We remember what to do to plan for events that happen frequently with relatively low intensity (seasonal flooding). We have no record of the impact of events that happened 500 or 5000 years ago and therefore have little basis to plan on how to mitigate high-impact events that which might happen in the lifetimes of our children. 
+Memory's vision of disasters tends to myopia. We remember what to do to plan for events that happen frequently with relatively low intensity (seasonal flooding). We have no record of the impact of events that happened 500 or 5000 years ago and therefore have little basis to plan on how to mitigate high-impact events that which might happen in the lifetimes of our children. 
 
 At the same time, the structure of risk is changing. While the world is becoming more interconnected and interdependent, new challenges are making it less likely that received wisdom will prudently inform decisions about the present and future (Suarez, 2013). From urbanization and climate change to population growth and technology, emerging risks are altering traditional approaches to disaster risk management. Among the large cities exposed to cyclones and earthquakes, the population will double from 2000 to 2050 (0.68 billion to 1.5 billion) (NHUD, 2012). At the same time, these cities will create more concrete and asphalt--making them less permeable and more liable to flood. Models of climate change estimate that damage from cyclones will increase 50-125% over the 21st century. Such patterns of natural hazards may rendering familiar adaptation techniques obsolete. 
 
