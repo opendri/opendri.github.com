@@ -94,9 +94,9 @@
 		<!-- Secondary Menu -->
 		<div class="menu shadow" data-smallscreen="yes">
 			<ul id="secondary-menu">
-			  {% assign pages_list = site.pages %}
+			  {% assign pages_list = site.pages|sort:"name" %}
 			  {% assign group = 'guidechapter' %}
-			  {% include JB/pages_list %}
+			  {% include custom/tectonic/pages_list %}
 			</ul>
 		</div>
 		
@@ -115,7 +115,7 @@
 		
 			<div class="twelve columns">
 				
-				<h2>Field Guide</h2>
+				<h2>{{page.section}}</h2>
 				
 				{{ content }}
 				
