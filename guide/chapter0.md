@@ -1,13 +1,17 @@
 ---
+published: true
 layout: guide
 navgroup: guide
 group: guidechapter
 section: I. Theory
 title: 0. Preface
-excerpt: "xx"
-abstract: "Field Guide"
+excerpt: xx
+abstract: Field Guide
 ---
+
+<!-- prose.io users: leave this bit alone -->
 {% include JB/setup %}
+<!-- end prose.io restriction -->
 
 # 1.	Preface
 Memory's vision of disasters tends to myopia. We remember what to do to plan for events that happen frequently with relatively low intensity (seasonal flooding). We have no record of the impact of events that happened 500 or 5000 years ago and therefore have little basis to plan on how to mitigate high-impact events that which might happen in the lifetimes of our children. 
@@ -49,4 +53,3 @@ The guide is written in short snippets. This approach allows for several dynamic
 
 ## Collective Intelligence around Open for Resilience
 The intention of this guide is to make the work itself a collective effort. It is seeded from the experience of a handful of partners, and given as a gift to the communities that are working in open data. Curators will continue to steward the content, ensuring that added knowledge reflects the community's shared experiences.
-
