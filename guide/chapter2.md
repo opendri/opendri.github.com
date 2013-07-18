@@ -2,6 +2,7 @@
 layout: guide
 navgroup: guide
 group: guidechapter
+section: I. Theory
 title: 2. Open Data for Resilience
 excerpt: "xx"
 abstract: "Field Guide"
@@ -9,6 +10,22 @@ abstract: "Field Guide"
 {% include JB/setup %}
 
 # 2.	Open Data for Resilience
+
+Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the data necessary for impact and risk modeling. A project will generally combine three elements: 
+
+1. **Collation of Open Government Data (OGD) and publication in an open geodata catalogue**. Data about the exposure of a nation to natural hazards are often fragmented across multiple institutions, often under policies that hinder the aggregation of those data into more comprehensive models. GIS and DMS platforms that enable this kind of aggregation are also rare and (until recently) were very expensive.
+
+2. **Collection of Exposure Data with Participatory Mapping**. In many places, there exist no geospatial database of the built infrastructure that aggregates key attributes about its vintage, construction materials, height, or elevation. OpenDRI works with communities to build this asset database from the bottom-up using low-cost participatory mapping techniques, where collection and curation of the data is done by the communities that those data describe.
+
+3. **Impact modeling of probable hazards on the built environment**. Fusion and Analysis of all risk data into models that drive investment in DRM.
+
+Some projects may extend into formal risk modeling. 
+
+To build risk assessment capacity, governments need to collate existing data, integration information currently spread across ministries, provincial and municipal governments into a comprehensive whole. Given the rate of urbanization and changes to landscape, they must also build the capacity to rapidly update maps on a continual basis. The most cost effective means for accomplishing this goal is through participatory mapping, where local communities curate their own maps. 
+
+OpenDRI starts with a client governments's problems and develops a work plan that combines risk assessment, open government data, and participatory mapping into a custom solution.
+
+[ define terms ]
 
 In general, the primary goal of OpenDRI project is to develop a deeper understanding of risks from natural hazards in a region or city. This goal usually has three parts:
 
@@ -23,6 +40,31 @@ In general, the primary goal of OpenDRI project is to develop a deeper understan
 
 ## History
 OpenDRI began from a difficult problem: how to make risk data available to decision makers from national leaders to heads of small businesses and households. 
+
+<!-- sidebar -->
+(potential sidebar: Open Source, Open Data, Open Standard: what’s the difference)
+
+<div class="info-box image-right adapted width-250px">
+<h4>Sendai Dialogue and GFDRR Framework</h4>
+
+<h4>Risk Management</h4>
+<p><em>(src: Improving the Assessment of Disaster Risks to Strengthen Financial Resilience)</em></p>
+
+<h5>Risk Identification</h5>
+<p>Risk assessments and risk communication</p>
+
+<h5>Risk Reduction</h5>
+<p>Structural and non-structural measures (infrastructure, land use planning, policies, and regulation
+)</p>
+<h5>Financial Protection</h5>
+<p>Assessing and reducing contingent liabilities (budget appropriation and execution; ex-ante and ex-post financial instruments)</p>
+
+<h5>Preparedness</h5>
+<p>Early warning systems, support of emergency measures, contingency planning</p>
+
+<h5>Post-Disaster Reconstruction</h5>
+<p>Resilience recovery and reconstruction policies, ex-ante-design of institutional structures</p>
+</div>
 
 ## Problem to be solved
 
@@ -44,6 +86,7 @@ Like open data initiatives, OpenDRI starts small and scales virally. It deploys 
 
 ## Partners
 OpenDRI is a partnership. Starts from communities in which it gets implemented. Part bottom-up, part top-down.
+
 1.	Government Clients
 2.	Science Agencies
 3.	Reinsurers
@@ -67,19 +110,19 @@ OpenDRI is a partnership. Starts from communities in which it gets implemented. 
 
 ## Practices
 
-* Opening Government Data
+* Opening Government Data: How to work with government ministries to open existing data sets.
 See [Data Catalogue](datacatalogue.html)
 
-* Using Participatory Mapping
+* Using Participatory Mapping: how to work with communities to build exposure data using OpenStreetMap
 See [Community Mapping](communitymapping.html)
 
-* Launching and Curating a GeoNode
+* Launching and Curating a GeoNode: how to deploy an open geo-data catalogue with GeoNode
 See [GeoNode](geonode.html)
 
-* Building Communities of Analysts
+* Building Communities of Analysts: how to build and sustain a community of experts around OpenDRI
 See [Community of Practice](communityofpractice.html)
 
-* Teaching Impact Modeling
+* Teaching Impact Modeling: how to teach impact modeling using InaSAFE
 See [Risk Assessment](riskassessment.html)
 
 ## Ecosystem
