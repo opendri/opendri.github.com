@@ -11,7 +11,7 @@ abstract: "Field Guide"
 # Table of Contents
 
 <ul id="secondary-menu">
-  {% assign pages_list = site.pages %}
+  {% assign pages_list = site.pages|sort:"name" %}
   {% assign group = 'guidechapter' %}
-  {% include JB/pages_list %}
+  {% include custom/tectonic/pages_list %}
 </ul>
