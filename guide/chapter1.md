@@ -261,27 +261,26 @@ How OpenDRI fits into the GFDRR/World Bank Sendai Framework and the HFA.
 The Sendai Framework derives from conversations after the Japan Earthquake of 2011. 
 
 
-<div class="info-box image-right adapted width-250px">
-<h4>Sendai Dialogue and GFDRR Framework</h4>
+#### Sendai Dialogue and GFDRR Framework
 
-<h4>Risk Management</h4>
-<p><em>(src: Improving the Assessment of Disaster Risks to Strengthen Financial Resilience)</em></p>
+#### Risk Management
+(src: Improving the Assessment of Disaster Risks to Strengthen Financial Resilience)
 
-<h5>Risk Identification</h5>
-<p>Risk assessments and risk communication</p>
+##### Risk Identification
+Risk assessments and risk communication
 
-<h5>Risk Reduction</h5>
-<p>Structural and non-structural measures (infrastructure, land use planning, policies, and regulation
-)</p>
-<h5>Financial Protection</h5>
-<p>Assessing and reducing contingent liabilities (budget appropriation and execution; ex-ante and ex-post financial instruments)</p>
+##### Risk Reduction
+Structural and non-structural measures (infrastructure, land use planning, policies, and regulation
+)
 
-<h5>Preparedness</h5>
-<p>Early warning systems, support of emergency measures, contingency planning</p>
+##### Financial Protection
+Assessing and reducing contingent liabilities (budget appropriation and execution; ex-ante and ex-post financial instruments)
 
-<h5>Post-Disaster Reconstruction</h5>
-<p>Resilience recovery and reconstruction policies, ex-ante-design of institutional structures</p>
-</div>
+##### Preparedness
+Early warning systems, support of emergency measures, contingency planning
+
+##### Post-Disaster Reconstruction
+Resilience recovery and reconstruction policies, ex-ante-design of institutional structures
 
 ### Hyogo Framework for Action
 The HFA and work in DRR/DRM.
