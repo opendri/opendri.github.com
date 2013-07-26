@@ -1,13 +1,17 @@
 ---
+published: true
 layout: guide
 navgroup: guide
 group: guidechapter
 section: I. Theory
 title: 0. Preface
-excerpt: "xx"
-abstract: "Field Guide"
+excerpt: xx
+abstract: Field Guide
 ---
+
+<!-- prose.io users: leave this bit alone -->
 {% include JB/setup %}
+<!-- end prose.io restriction -->
 
 <!-- warning/disclaimer -->
 <div class="message-box short error">
@@ -61,4 +65,3 @@ The guide also focuses on cataloguing the set of practices that have emerged ove
 
 ## Collective Intelligence around Open for Resilience
 The intention of this guide is to make the work itself a collective effort. It is seeded from the experience of a handful of partners, and given as a gift to the communities that are working in open data. Curators will continue to steward the content, ensuring that added knowledge reflects the community's shared experiences.
-
