@@ -9,10 +9,20 @@ abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
+<!-- warning/disclaimer -->
+<div class="message-box short error">
+<p><strong>NOTE</strong>: This document is a very early sketch by a consultant/writer, placed online for collaborative writing. In no way should this document be viewed as a reflection of the overall team's sense of OpenDRI processes. DO NOT USE for operations.</p>
+</div>
+
 # 1.	Preface
-Memory's vision of disasters tends to myopia. We remember what to do to plan for events that happen frequently with relatively low intensity (seasonal flooding). We have no record of the impact of events that happened 500 or 5000 years ago and therefore have little basis to plan on how to mitigate high-impact events that which might happen in the lifetimes of our children. 
+In the year 869, the residents of Miyato-jima (Japan) felt a strong earthquake and many fled to the top of a hill, knowing that a tsunami might soon follow. They watched in horror as the first wave from the sea combined with a second wave that came over the rice paddies, washing over the hill and pulling the helpless villagers out to sea. Those that survived constructed a monument on the hill, telling the story of how two tsunami waves fused together. For 1142 years, the shrine served as a warning future generations not to flee to the top of that particular hill. When the 11 March 2011 earthquake struck off the coast of Sendai, residents of Miyato-jima remembered the myth and fled further inland, where they watched two tsunami waves crash over the shrine. (ref LATimes, [Japan's 1,000-year-old warning] (http://articles.latimes.com/2012/mar/11/opinion/la-oe-holguin-veras-tsunami-20120311). 
+
+This story is an outlier--an example of collective memory reaching across 50 generations. In contrast, humans tend to remember how to plan for events that happen frequently with relatively low intensity, like seasonal flooding. Beyond isolated examples like the Miyato-jima shrine, there exists no catalogue of ancient disasters that provides sufficient data to model the periodicity or impact of infrequent events. 
+
+There are many cycles in deep history which are invisible to science, because many powerful cycles of nature are not measured in years but millennia. Volcanos may erupt in 500, 1000, or 10,000 year cycles. Earthquakes may have similar periodicities. Climate change is unfolding at an accelerating pace--a rate of change that will make prediction always behind. 
 
 At the same time, the structure of risk is changing. While the world is becoming more interconnected and interdependent, new challenges are making it less likely that received wisdom will prudently inform decisions about the present and future (Suarez, 2013). From urbanization and climate change to population growth and technology, emerging risks are altering traditional approaches to disaster risk management. Among the large cities exposed to cyclones and earthquakes, the population will double from 2000 to 2050 (0.68 billion to 1.5 billion) (NHUD, 2012). At the same time, these cities will create more concrete and asphalt--making them less permeable and more liable to flood. Models of climate change estimate that damage from cyclones will increase 50-125% over the 21st century. Such patterns of natural hazards may rendering familiar adaptation techniques obsolete. 
+
 
 <!-- OpenDRI as shared problem in risk management -->
 
@@ -46,6 +56,8 @@ The guide is written in short snippets. This approach allows for several dynamic
 2. Simplified Translation
 3. Multiple Layouts: A3, A4, A5, and web.
 4. Easy reference in the form of a growing body of knowledge
+
+The guide also focuses on cataloguing the set of practices that have emerged over the management of open data, the curation of community maps, and the rise of a simplified version of risk assessment and communication that models potential impact of natural hazards on a given place. Each of these practices is set forth as a wiki: a module in a larger whole that individuals can edit as they learn and improve upon the original idea of OpenDRI.
 
 ## Collective Intelligence around Open for Resilience
 The intention of this guide is to make the work itself a collective effort. It is seeded from the experience of a handful of partners, and given as a gift to the communities that are working in open data. Curators will continue to steward the content, ensuring that added knowledge reflects the community's shared experiences.

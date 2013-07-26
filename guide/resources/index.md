@@ -16,3 +16,8 @@ abstract: "Field Guide"
 
 ## Open Knowledge Foundation
 [Open Data Handbook](opendatahandbook.pdf "Open Data Handbook")
+
+## Cities
+Chicago: ask about city documentation on open data
+NYC: ask Mike Flowers about statistical lessons learned
+
