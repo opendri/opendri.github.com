@@ -252,4 +252,39 @@ To change the mindset of planners at all levels of government, it is not only ne
 ### InaSAFE
 Impact models are the brainchild of the partnership between the Government of Indonesia, AIFDR, AusAID, and the World Bank/GFDRR. (history to be continued).
 
+***
+
+## Sendai Frameworks and Hyogo Framework for Action (HFA)
+How OpenDRI fits into the GFDRR/World Bank Sendai Framework and the HFA.
+
+### Sendai Framework
+The Sendai Framework derives from conversations after the Japan Earthquake of 2011. 
+
+
+<div class="info-box image-right adapted width-250px">
+<h4>Sendai Dialogue and GFDRR Framework</h4>
+
+<h4>Risk Management</h4>
+<p><em>(src: Improving the Assessment of Disaster Risks to Strengthen Financial Resilience)</em></p>
+
+<h5>Risk Identification</h5>
+<p>Risk assessments and risk communication</p>
+
+<h5>Risk Reduction</h5>
+<p>Structural and non-structural measures (infrastructure, land use planning, policies, and regulation
+)</p>
+<h5>Financial Protection</h5>
+<p>Assessing and reducing contingent liabilities (budget appropriation and execution; ex-ante and ex-post financial instruments)</p>
+
+<h5>Preparedness</h5>
+<p>Early warning systems, support of emergency measures, contingency planning</p>
+
+<h5>Post-Disaster Reconstruction</h5>
+<p>Resilience recovery and reconstruction policies, ex-ante-design of institutional structures</p>
+</div>
+
+### Hyogo Framework for Action
+The HFA and work in DRR/DRM.
+Difference of DRR and DRM.
+
 
