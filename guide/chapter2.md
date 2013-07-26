@@ -9,6 +9,11 @@ abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
+<!-- warning/disclaimer -->
+<div class="message-box short error">
+<p><strong>NOTE</strong>: This document is a very early sketch by a consultant/writer, placed online for collaborative writing. In no way should this document be viewed as a reflection of the overall team's sense of OpenDRI processes. DO NOT USE for operations.</p>
+</div>
+
 # 2.	Open Data for Resilience
 
 Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the data necessary for impact and risk modeling. An OpenDRI project will generally combine three elements: 
@@ -29,6 +34,11 @@ OpenDRI starts with a client governments's problems and develops a work plan tha
 
 <!-- sidebar DMS and GIS -->
 ( DMS and GIS to be defined in sidebar )
+
+<!-- warning/disclaimer -->
+<div class="message-box info">
+<p><strong>NOTE</strong>: From here down, the chapter is in sketch form. I intend to write this chapter last.</p>
+</div>
 
 ## History
 OpenDRI began from a difficult problem: how to make risk data available to decision makers from national leaders to heads of small businesses and households. 
@@ -102,6 +112,9 @@ See [Risk Assessment](riskassessment.html)
 
 ## Ecosystem
 What does the whole OpenDRI ecosystem look like and how does it work at the macro level?
+
+## OpenCities Project
+OpenDRI and OpenCities. 
 
 ## Principles
 
