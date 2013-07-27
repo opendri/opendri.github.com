@@ -11,8 +11,6 @@ abstract: "Field Guide"
 <!-- disclaimer -->
 {% include custom/tectonic/disclaimer%}
 
-
-
 # 4.	Design
 Building the capacity to perform probabilistic risk modeling (PRM) often starts from building the data necessary to support analytical work. The OpenDRI design phase explores how to create an iterative process of building up data from the top-down and bottom-up, while simultaneously teaching the client what new analytical techniques are possible when data from multiple layers are fused into a risk model.
   
