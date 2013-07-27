@@ -8,6 +8,10 @@ abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
+<!-- disclaimer -->
+{% include custom/tectonic/disclaimer%}
+
+
 # 8. Program/Strategy Documents
 
 ## Request for Comment

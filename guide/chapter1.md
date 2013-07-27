@@ -8,10 +8,10 @@ excerpt: "xx"
 abstract: "Field Guide"
 ---
 {% include JB/setup %}
-<!-- warning/disclaimer -->
-<div class="message-box short error">
-<p><strong>NOTE</strong>: This document is a very early sketch by a consultant/writer, placed online for collaborative writing. In no way should this document be viewed as a reflection of the overall team's sense of OpenDRI processes. DO NOT USE for operations.</p>
-</div>
+
+<!-- disclaimer -->
+{% include custom/tectonic/disclaimer%}
+
 
 
 # 1.	Introduction: The Need for Disaster Risk Management Data

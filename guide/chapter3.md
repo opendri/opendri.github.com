@@ -9,10 +9,9 @@ abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
-<!-- warning/disclaimer -->
-<div class="message-box short error">
-<p><strong>NOTE</strong>: This document is a very early sketch by a consultant/writer, placed online for collaborative writing. In no way should this document be viewed as a reflection of the overall team's sense of OpenDRI processes. DO NOT USE for operations.</p>
-</div>
+<!-- disclaimer -->
+{% include custom/tectonic/disclaimer%}
+
 
 # 3. Scoping
 Deciding where and when to implement a OpenDRI project depends on a range of factors. OpenDRI initiatives work best in environments where a set of partners are ready for the challenge of collecting, assessing, and curating data about their built environment. Assessing the readiness of this environment requires a scoping mission (site visit) that looks at the country content across the four areas that fuse into OpenDRI:
@@ -42,9 +41,10 @@ GFDRR is developing a diagnostic tool to aid in understanding the readiness of a
 ### Staffing the Team
 The team should be multi-disciplinary, drawn together from the partners that will be sponsoring the project and connected to the contacts/early adopters in the host government. In general, the team will include:
 
-* [Risk Assessment Specialist](tor/scoping/riskassessment.html)
-* [Open Data Specialist](tor/scoping/opendata.html)
-* [Regional/Country DRM Specialist](tor/scoping/regionaldrm.html)
+* [**Regional/Country DRM Specialist**](tor/scoping/regionaldrm.html): OpenDRI happens as one component of a larger country and/or regional DRM strategy. The scoping mission should include a DRM specialist who can incorporate elements of the local and regional strategy, and connect local partners to resources from other OpenDRI or DRM/DRR activities.
+* [**OpenRI Specialist**](tor/scoping/opendata.html): assessing the 
+* [**Risk Assessment Specialist**](tor/scoping/riskassessment.html) (*optional*): some countries may require specialized technical assistance in risk assessment, modeling, and data curation. Such missions should include a risk assessment specialist.
+
 
 ### Surveying the Ecosystem
 Prior to travel, the OpenDRI mission team should 

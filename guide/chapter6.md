@@ -8,11 +8,9 @@ abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
+<!-- disclaimer -->
+{% include custom/tectonic/disclaimer%}
 
-<!-- warning/disclaimer -->
-<div class="message-box short error">
-<p><strong>NOTE</strong>: This document is a very early sketch by a consultant/writer, placed online for collaborative writing. In no way should this document be viewed as a reflection of the overall team's sense of OpenDRI processes. DO NOT USE for operations.</p>
-</div>
 
 # 6. Scaling
 Expanding program to new cities, expanding the partnership, validating the work, 

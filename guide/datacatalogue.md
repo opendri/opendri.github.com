@@ -8,6 +8,10 @@ abstract: "Data Catalogue"
 ---
 {% include JB/setup %}
 
+<!-- disclaimer -->
+{% include custom/tectonic/disclaimer%}
+
+
 # Data Catalogue
 
 ## Objectives

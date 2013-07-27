@@ -8,6 +8,10 @@ abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
+<!-- disclaimer -->
+{% include custom/tectonic/disclaimer%}
+
+
 # Community of Practice
 
 ## Objectives

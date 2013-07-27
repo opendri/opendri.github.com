@@ -13,15 +13,14 @@ abstract: Field Guide
 {% include JB/setup %}
 <!-- end prose.io restriction -->
 
-<!-- warning/disclaimer -->
-<div class="message-box short error">
-<p><strong>NOTE</strong>: This document is a very early sketch by a consultant/writer, placed online for collaborative writing. In no way should this document be viewed as a reflection of the overall team's sense of OpenDRI processes. DO NOT USE for operations.</p>
-</div>
+<!-- disclaimer -->
+{% include custom/tectonic/disclaimer%}
+
 
 # 1.	Preface
-In the year 869, the residents of Miyato-jima (Japan) felt a strong earthquake and many fled to the top of a hill, knowing that a tsunami might soon follow. They watched in horror as the first wave from the sea combined with a second wave that came over the rice paddies, washing over the hill and pulling the helpless villagers out to sea. Those that survived constructed a monument on the hill, telling the story of how two tsunami waves fused together. For 1142 years, the shrine served as a warning future generations not to flee to the top of that particular hill. When the 11 March 2011 earthquake struck off the coast of Sendai, residents of Miyato-jima remembered the myth and fled further inland, where they watched two tsunami waves crash over the shrine. (ref LATimes, [Japan's 1,000-year-old warning] (http://articles.latimes.com/2012/mar/11/opinion/la-oe-holguin-veras-tsunami-20120311). 
+In the year 869, the residents of Miyato-jima (Japan) felt a strong earthquake. Knowing that a tsunami might follow, many fled to the top of the nearest hill. Those who had fled to another high place watched in horror as the first wave from the sea combined with a second wave that came over the rice paddies, washing over the hill and pulling the helpless villagers out to sea. Those that survived that day constructed a monument on the hill, telling the story of how two tsunami waves fused together. For 1142 years, the shrine served as a warning future generations not to flee to the top of that particular hill. When the 11 March 2011 earthquake struck off the coast of Sendai, residents of Miyato-jima remembered the myth and fled further inland, where they watched two tsunami waves crash over the shrine. (ref LATimes, [Japan's 1,000-year-old warning] (http://articles.latimes.com/2012/mar/11/opinion/la-oe-holguin-veras-tsunami-20120311)). 
 
-This story is an outlier--an example of collective memory reaching across 50 generations. In contrast, humans tend to remember how to plan for events that happen frequently with relatively low intensity, like seasonal flooding. Beyond isolated examples like the Miyato-jima shrine, there exists no catalogue of ancient disasters that provides sufficient data to model the periodicity or impact of infrequent events. 
+This story is an outlier&mdash;an example of collective memory reaching across 50 generations. In contrast, humans tend to remember how to plan for events that happen frequently with relatively low intensity, like seasonal flooding. Beyond isolated examples like the Miyato-jima shrine, there exists no catalogue of ancient disasters that provides sufficient data to model the periodicity or impact of infrequent events. 
 
 There are many cycles in deep history which are invisible to science, because many powerful cycles of nature are not measured in years but millennia. Volcanos may erupt in 500, 1000, or 10,000 year cycles. Earthquakes may have similar periodicities. Climate change is unfolding at an accelerating pace--a rate of change that will make prediction always behind. 
 
@@ -63,5 +62,5 @@ The guide is written in short snippets. This approach allows for several dynamic
 
 The guide also focuses on cataloguing the set of practices that have emerged over the management of open data, the curation of community maps, and the rise of a simplified version of risk assessment and communication that models potential impact of natural hazards on a given place. Each of these practices is set forth as a wiki: a module in a larger whole that individuals can edit as they learn and improve upon the original idea of OpenDRI.
 
-## Collective Intelligence around Open for Resilience
+## Collective Intelligence around Open Data for Resilience
 The intention of this guide is to make the work itself a collective effort. It is seeded from the experience of a handful of partners, and given as a gift to the communities that are working in open data. Curators will continue to steward the content, ensuring that added knowledge reflects the community's shared experiences.

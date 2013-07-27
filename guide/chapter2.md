@@ -9,10 +9,9 @@ abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
-<!-- warning/disclaimer -->
-<div class="message-box short error">
-<p><strong>NOTE</strong>: This document is a very early sketch by a consultant/writer, placed online for collaborative writing. In no way should this document be viewed as a reflection of the overall team's sense of OpenDRI processes. DO NOT USE for operations.</p>
-</div>
+<!-- disclaimer -->
+{% include custom/tectonic/disclaimer%}
+
 
 # 2.	Open Data for Resilience
 
@@ -31,14 +30,16 @@ To build risk assessment capacity, governments need to collate existing data, in
 OpenDRI starts with a client governments's problems and develops a work plan that combines risk assessment, open government data, and participatory mapping into a custom solution.
 
 
-
 <!-- sidebar DMS and GIS -->
 ( DMS and GIS to be defined in sidebar )
+
 
 <!-- warning/disclaimer -->
 <div class="message-box info">
 <p><strong>NOTE</strong>: From here down, the chapter is in sketch form. I intend to write this chapter last.</p>
 </div>
+
+
 
 ## History
 OpenDRI began from a difficult problem: how to make risk data available to decision makers from national leaders to heads of small businesses and households. 
@@ -57,6 +58,17 @@ Impact Modeling/Risk Communication
 Risk Models
 
 Collective action. Urbanization: Open Cities. How to use collective action to build data necessary for understanding risk, then build system to curate the data. 
+
+<!-- Info Box -->
+<div class="info-box image-right adapted width-250px">
+<h4>Risk Assessment, Impact Modeling, and Risk Communication</h4>
+<p><em>Talk with Robert and Lana about defining each term</em></p>
+<ul>
+	<li><strong>Risk Communication</strong>: definition</li>
+	<li><strong>Impact Modeling</strong>: definition</li>
+	<li><strong>Risk Assessment</strong>: definition</li>
+</ul>
+</div>
 
 ## Work Process Overview
 Like open data initiatives, OpenDRI starts small and scales virally. It deploys in one city, and then another, expanding in utility as the amount of data increases, driving more pilots in more cities. As such, OpenDRI is not a linear process, but rather a cycle that iterates across cities (Ex: Pedang, then Jakarta, then west coast of Indonesia. Columbo then Batticloa).

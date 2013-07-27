@@ -8,6 +8,10 @@ abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
+<!-- disclaimer -->
+{% include custom/tectonic/disclaimer%}
+
+
 # 9. Project/Operational Documents
 
 ## Terms of Reference
