@@ -10,6 +10,14 @@ section: II. Practice
 {% include JB/setup %}
 
 # 6. Scaling
+<div class="info-box image-right adapted width-200px">
+<h4>Phase Summary</h4>
+<ul>
+<li>Timeline: ?? months</li>
+<li>Costs: $$</li>
+</ul> 
+</div>
+
 Expanding program to new cities, expanding the partnership, validating the work, 
 
 ***
@@ -50,6 +58,9 @@ ToR: Community Building
 ***
 
 ## 2. Community Mapping of Exposure Data
+
+### Expanding to additional sites
+The process of scaling a project from one neighborhood or city generally unfolds as as if the project were a new pilot. 
 
 ### Preparing incubator to be sustainable entity
 

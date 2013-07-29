@@ -10,9 +10,19 @@ section: II. Practice
 {% include JB/setup %}
 
 # 4.	Design
+
+<div class="info-box image-right adapted width-200px">
+	<h4>Phase Summary</h4>
+	<ul>
+	<li>Timeline: 1-6 months</li>
+	<li>Costs: $$</li>
+	</ul> 
+</div>
+
 Helping clients to target their DRM investments in areas with the highest potential impact starts from building the data necessary to support the underlying analytical work. The OpenDRI design phase explores how to create an **iterative** process of building up data from the top-down and bottom-up. In parallel, OpenDRI teaches the client new analytical techniques that become possible when data from multiple layers are fused into a risk model.
   
 The design of an OpenDRI engagement will generally have three parts: open risk data, open mapping, and impact modeling. Each requires its own work plan. 
+
 
 ***
 
@@ -39,7 +49,7 @@ The design of a data catalogue generally begins with a choice: using existing go
 <li>[Worldbank LAC | AusAID | AIFDR InaSAFE Guides](http://worldbank.org)</li>
 <li>[US Open Data Policy Implementation Guide ](http://project-open-data.github.io/schema/)</li>
 <li>[US Open Data Policy Metadata Schema ](http://project-open-data.github.io/schema/)</li>
-</ul> 
+</ul>
 </div>
 
 1. **Client Infrastructure**. If the host government has made major investments in building a spatial data infrastructure that uses a proprietary solution, it will likely wish to use OpenDRI as a method of driving additional open data into that infrastructure. If the client has a fragmented ecosystem with several different platforms (or different versions fo the same software), a free and open source solution may be ideal. 
@@ -91,6 +101,11 @@ How to build the COP. Talk with Bishwa and Brad some more on initial steps.
 
 ### Writing the Concept Note
 
+### Writing TORs
+ToR: Open Data Lead.
+ToR: Data Curator.
+ToR: System admin.
+
 ***
 
 ## 2. Open Participatory Mapping Data
@@ -118,6 +133,10 @@ authority in GIS in the country who can evaluate the quality of the asset data v
 
 ### Writing the Concept Note
 The concept note for Open Participatory mapping data TBD.
+
+### Writing the TORs
+
+
 
 ***
 

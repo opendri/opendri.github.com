@@ -11,12 +11,22 @@ abstract: "Field Guide"
 
 
 # 3. Scoping
+
+<div class="info-box image-right adapted width-200px">
+<h4>Phase Summary</h4>
+<ul>
+<li>Timeline: 1-6 months</li>
+<li>Costs: $$</li>
+</ul> 
+</div>
+
 Deciding where and when to implement a OpenDRI project depends on a range of factors. OpenDRI initiatives work best in environments where a set of partners are ready for the challenge of collecting, assessing, and curating data about their built environment. Assessing the readiness of this environment requires a scoping mission (site visit) that looks at the country content across the four areas that fuse into OpenDRI:
 
 1. **Open Government Risk Data**. What data does the government collect about natural hazards, the built environment, and other risk factors? How does the government collate, coordinate, and analyze this data? How is this data made available to other parts of the public and private sectors?
 2. **Participatory Open Mapping**. What is the status of the open mapping community in the country? What are the coverage (extent) and accuracy of the data?
 3. **Risk/Impact Modeling and Communication**. What kind of risk or impact modeling does the country engage in? Who is responsible for which models? How do risks get communicated to the public and how does the country track how the public uses this information?
 4. **Hazard Monitoring, Modeling, and Communication**. What is the status monitoring of major risks (including weather forecasting)? How does the country communicate those risks?
+
 
 ***
 
