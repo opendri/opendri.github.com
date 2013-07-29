@@ -13,9 +13,6 @@ abstract: Field Guide
 {% include JB/setup %}
 <!-- end prose.io restriction -->
 
-<!-- disclaimer -->
-{% include custom/tectonic/disclaimer%}
-
 
 # 1.	Preface
 In the year 869, the residents of Miyato-jima (Japan) felt a strong earthquake. Knowing that a tsunami might follow, many fled to the top of the nearest hill. Those who had fled to another high place watched in horror as the first wave from the sea combined with a second wave that came over the rice paddies, washing over the hill and pulling the helpless villagers out to sea. Those that survived that day constructed a monument on the hill, telling the story of how two tsunami waves fused together. For 1142 years, the shrine served as a warning future generations not to flee to the top of that particular hill. When the 11 March 2011 earthquake struck off the coast of Sendai, residents of Miyato-jima remembered the myth and fled further inland, where they watched two tsunami waves crash over the shrine. (ref LATimes, [Japan's 1,000-year-old warning] (http://articles.latimes.com/2012/mar/11/opinion/la-oe-holguin-veras-tsunami-20120311)). 

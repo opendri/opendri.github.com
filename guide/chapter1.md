@@ -9,10 +9,6 @@ abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
-<!-- disclaimer -->
-{% include custom/tectonic/disclaimer%}
-
-
 
 # 1.	Introduction: The Need for Disaster Risk Management Data
 

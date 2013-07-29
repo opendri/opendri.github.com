@@ -4,15 +4,15 @@ layout: guide
 navgroup: guide
 group: guidechapter
 section: III. Key Documents
-title: Budgets
+title: Terms of Reference
 excerpt: xx
 abstract: Field Guide
 ---
 {% include JB/setup %}
 
-# Budgets
+# Terms of Reference
 
-[Budget Design](budget.html)
+TBD: pending decision on Bank Information.
 
 
 

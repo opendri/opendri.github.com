@@ -9,13 +9,10 @@ abstract: "Field Guide"
 ---
 {% include JB/setup %}
 
-<!-- disclaimer -->
-{% include custom/tectonic/disclaimer%}
-
 
 # 2.	Open Data for Resilience
 
-Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the data necessary for impact and risk modeling. An OpenDRI project will generally combine three elements: 
+Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the data necessary for impact and risk modeling. Among the several intended impacts is improved targeting of investments in mitigating the effects of disasters. An OpenDRI project will generally combine three elements: 
 
 1. **Collation of Open Government Risk Data (OGRD) and publication in an open geodata catalogue**. Data about the exposure of a nation to natural hazards are often fragmented across multiple institutions, often under policies that hinder the aggregation of those data into more comprehensive models. GIS and DMS platforms that enable this kind of aggregation are also rare and (until recently) were very expensive.
 
@@ -29,10 +26,8 @@ To build risk assessment capacity, governments need to collate existing data, in
 
 OpenDRI starts with a client governments's problems and develops a work plan that combines risk assessment, open government data, and participatory mapping into a custom solution.
 
-
 <!-- sidebar DMS and GIS -->
 ( DMS and GIS to be defined in sidebar )
-
 
 <!-- warning/disclaimer -->
 <div class="message-box info">
@@ -40,13 +35,15 @@ OpenDRI starts with a client governments's problems and develops a work plan tha
 </div>
 
 
-
 ## History
-OpenDRI began from a difficult problem: how to make risk data available to decision makers from national leaders to heads of small businesses and households. 
+OpenDRI began from the a catastrophic loss. The 2010 earthquake in Haiti killed many of the staff of the CNIGS, destroying a growing knowledge of the geography of Haiti. The building collapse also destroyed servers with the sole copies of geographic data critical that would have aided the response and recovery to one of the great humanitarian disasters of the last century. Something unexpected then happened.
+
+Several satellite companies collected fresh imagery of the damage and made the data available for free. More than 600 volunteers of the OpenStreetMap community started tracing the imagery, creating a highly detailed map of Haiti. Volunteer made about 1.2 million edits to the map, performing an estimate year of cartographic work in about 20 days. 
+
+OpenDRI began from a difficult problem: how to make risk data available to decision makers from national leaders to heads of small businesses and households. Haiti: loss of data.
 
 <!-- sidebar -->
 (potential sidebar: Open Source, Open Data, Open Standard: what’s the difference)
-
 
 
 ## Problem to be solved
@@ -69,6 +66,10 @@ Collective action. Urbanization: Open Cities. How to use collective action to bu
 	<li><strong>Risk Assessment</strong>: definition</li>
 </ul>
 </div>
+
+### Transparency
+### Linking Risks to Investments
+### Partnerships
 
 ## Work Process Overview
 Like open data initiatives, OpenDRI starts small and scales virally. It deploys in one city, and then another, expanding in utility as the amount of data increases, driving more pilots in more cities. As such, OpenDRI is not a linear process, but rather a cycle that iterates across cities (Ex: Pedang, then Jakarta, then west coast of Indonesia. Columbo then Batticloa).
@@ -154,3 +155,12 @@ Look to Florian
 	<li>**term**: def</li>
 </ul>
 </div>
+
+## Principles and Lessons Learned
+1. Start with local needs. The project will flow from requirements driven by the client, rather than the needs of the risk modelers or international institution.
+
+2. Incubate Local Capacity. Create a space where citizens of the client nation can develop ever deeper capabilities. 
+
+3. Keep it simple, then scale. Agile development meets open data. 
+
+4. Question Assumptions. The underlying assumptions of an international are often different than the reality on the ground. Don't assume that client wants to perform advanced risk modeling when they lack a 0 level base layer.

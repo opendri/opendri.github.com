@@ -5,19 +5,18 @@ group: guidechapter
 title: 6. Scaling
 excerpt: "xx"
 abstract: "Field Guide"
+section: II. Practice
 ---
 {% include JB/setup %}
-
-<!-- disclaimer -->
-{% include custom/tectonic/disclaimer%}
-
 
 # 6. Scaling
 Expanding program to new cities, expanding the partnership, validating the work, 
 
 ***
 ## 1. Open Government Data
-After early adopters have added data, the slow process of building an ecosystem of users begins. This work focuses on meeting the use cases of partners, building relationships with gatekeepers to other data sets, and locating islands of data which may be considered core to DRM, but may be held outside of government (often survey or GIS firms).
+After early adopters have added data, the slow process of building an ecosystem of users begins. The sign for this work to start is if a champion has loaded data and a user base begins to use the data catalogue. The usage indicates that the pilot happened in a fertile environment for additional work. 
+
+This work focuses on meeting the use cases of partners, building relationships with gatekeepers to other data sets, and locating islands of data which may be considered core to DRM, but may be held outside of government (often survey or GIS firms).
 
 ### Creating Linked Data and federated network of data catalogues
 GeoNodes can be linked into a federation of nodes, where each node serves the data of the hosting organization and pulls in live data from other nodes in the network. From the perspective of an analysis or government official, the data exists as endpoints--URIs that can be added as a layer in GIS or risk modeling software. 
@@ -41,21 +40,31 @@ TBD: explanation of data formats OpenDRI commonly finds and discussion of open d
 
 ### Visualizing OGD
 
+### Team
+ToR: Data Curator.
+ToR: System admin.
+Tor: GeoNode. Have one for Haiti. Model (created year ago, reflects learning).
+ToR: Community Building
+
+
 ***
 
 ## 2. Community Mapping of Exposure Data
 
 ### Preparing incubator to be sustainable entity
 
-### Funding Proposals
+#### Funding Proposals
 
 ### Data Quality Reports with Universities
 
+### Certification of Mapping Entities
+
 ***
 
-## 3. Initial Impact Modeling
+## 3. Impact Modeling and Risk Communication
 
-### Hazard Data Coordination
+### Expanding Risk Communication to local governments
+Teaching the 
 
 ### Connection of impact models to planners at national and subnational levels
 
@@ -87,5 +96,26 @@ Links to ToRs or other descriptions of the position
 
 ***
 ## Outputs
+
+***
+
+Notes Positive effects on growth
+
+1. Disasters catalyze investment
+2. Funding handoffs between international institutions (new funding)
+3. new TORs approved (adding OSM, another network
+4. Training programs
+5. Expanding the number of people who use spatial data in an ecosystem
+6. Network building: get old GFDRR Labs TORs on "regional technical networks of expertise". How does one keep these networks healthy? Ask Biswha and Brad.
+
+Negative effects on growth
+
+1. Low data use: when few people use data every day
+2. Informal networks: cabal of small number of people have extant informal mechanisms to obtain risk data. That said, they like training...
+3. Data decay rate: how fast it goes out of date (Currency Fade Rate). Examples?
+4. Utility of some data also fades over time (Utility Fade Rate). Examples?
+
+
+## Creating a living ecosystem
 
 

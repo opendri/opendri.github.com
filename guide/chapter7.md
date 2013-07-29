@@ -5,16 +5,18 @@ group: guidechapter
 title: "7. Sustaining"
 excerpt: "xx"
 abstract: "Field Guide"
+section: II. Practice
 ---
 {% include JB/setup %}
-
-<!-- disclaimer -->
-{% include custom/tectonic/disclaimer%}
 
 
 # 7. Sustaining
 
-OpenDRI works with partners to develop living ecosystem around the data. 
+**Use cases**: The immediate usefulness of data and data platforms to problems in the country are the most important attributes for success of OpenDRI. While there are risk models that capture more of the complexity of the modeling process (e.g., CAPRA), these tools are build for experts. Most decision makers lack the technical training to use these tools. Hence, tools like InaSAFE are an emerging method of building "risk communication tools" alongside "risk modeling tools."
+
+**Academic Partnerships**: building GIS into curricula or creating training programs in local universities. Open Data becomes a platform for the work in the class. Becomes a common understanding among multiple communities, particularly important for those that feed graduates into positions in local, provincial, and national government.
+
+**Living Labs**. Build a community of users around social ventures, startups, and non-profits. Projects are sustained over periods of time and incubated in a place with expert advice.
 
 ***
 

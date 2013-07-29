@@ -1,12 +1,18 @@
 ---
-layout: tor
-category: 9
+published: true
+layout: guide
+navgroup: guide
+group: guidechapter
+section: III. Key Documents
 title: Concept Notes
-excerpt: "xx"
+excerpt: xx
+abstract: Field Guide
 ---
 {% include JB/setup %}
 
 # Concept Notes
+
+List TBD
 
 
 

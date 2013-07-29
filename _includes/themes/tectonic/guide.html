@@ -94,64 +94,64 @@
 		<!-- Secondary Menu -->
 		<div class="menu shadow" data-smallscreen="yes">
 			<ul id="secondary-menu">
-				<li id='preface'><a href='chapter0.html'>Preface</a></li>
+				<li id='preface'><a href='/guide/chapter0.html'>Preface</a></li>
 
 				<li id='i_theory'><strong>I. Theory</strong>
 					<ul>
 
-						<li id='introduction'><a href='chapter1.html'>Introduction</a></li>
+						<li id='introduction'><a href='/guide/chapter1.html'>Introduction</a></li>
 
-						<li id='open_data_for_resilience_overview'><a href='chapter2.html'>Open Data for Resilience Overview</a></li></ul></li>
+						<li id='open_data_for_resilience_overview'><a href='/guide/chapter2.html'>Open Data for Resilience Overview</a></li></ul></li>
 
 				<li id='ii_practice'><strong>II. Practice</strong>
 					<ul>
-				<li id='scoping'><a href='chapter3.html'>Scoping</a></li>
+				<li id='scoping'><a href='/guide/chapter3.html'>Scoping</a></li>
 
-				<li id='designing'><a href='chapter4.html'>Designing</a></li>
+				<li id='designing'><a href='/guide/chapter4.html'>Designing</a></li>
 
-				<li id='piloting'><a href='chapter5.html'>Piloting</a></li>
+				<li id='piloting'><a href='/guide/chapter5.html'>Piloting</a></li>
 
-				<li id='scaling'><a href='chapter6.html'>Scaling</a></li>
+				<li id='scaling'><a href='/guide/chapter6.html'>Scaling</a></li>
 
-				<li id='sustaining'><a href='chapter7.html'>Sustaining</a></li></ul></li>
+				<li id='sustaining'><a href='/guide/chapter7.html'>Sustaining</a></li></ul></li>
 
 				<li id='iii_key_documents'><strong>III. Key Documents</strong>
 					<ul>
 
-				<li id='budgets'><a href='budgets/'>Budgets</a></li>
+				<li id='budgets'><a href='/guide/budgets/'>Budgets</a></li>
 
-				<li id='concept_notes'><a href='cnotes/'>Concept Notes</a></li>
+				<li id='concept_notes'><a href='/guide/cnotes/'>Concept Notes</a></li>
 
-				<li id='data_schema'><a href='schema/'>Data Schema</a></li>
+				<li id='data_schema'><a href='/guide/schema/'>Data Schema</a></li>
 
-				<li id='reports'><a href='reports/'>Reports</a></li>
+				<li id='reports'><a href='/guide/reports/'>Reports</a></li>
 
-				<li id='terms_of_reference'><a href='tors/'>Terms of Reference</a></li></ul></li>
+				<li id='terms_of_reference'><a href='/guide/tors/'>Terms of Reference</a></li></ul></li>
 
 				<li id='appendices'><strong>Appendices</strong>
 					<ul>
 
-				<li id='glossary'><a href='glossary.html'>Glossary</a></li>
+				<li id='glossary'><a href='/guide/glossary.html'>Glossary</a></li>
 
-				<li id='resources_and_links'><a href='resources/'>Resources and Links</a></li>
+				<li id='resources_and_links'><a href='/guide/resources/'>Resources and Links</a></li>
 
 				<li id='methods'>Methods
 					<ul>
 
-				<li id='community_mapping'><a href='communitymapping.html'>Community Mapping</a></li>
+				<li id='community_mapping'><a href='/guide/communitymapping.html'>Community Mapping</a></li>
 
-				<li id='communities_of_practice'><a href='cops.html'>Communities of Practice</a></li>
+				<li id='communities_of_practice'><a href='/guide/cops.html'>Communities of Practice</a></li>
 
-				<li id='data_catalogues'><a href='datacatalogue.html'>Data Catalogues</a></li></ul>
+				<li id='data_catalogues'><a href='/guide/datacatalogue.html'>Data Catalogues</a></li></ul>
 				</li><!-- close methods -->
 
 				<li id='platforms'>Platforms
 					<ul>
-				<li id='openstreetmap'><a href='osm.html'>OpenStreetMap</a></li>
+				<li id='openstreetmap'><a href='/guide/osm.html'>OpenStreetMap</a></li>
 
-				<li id='geonode'><a href='geonode.html'>GeoNode</a></li>
+				<li id='geonode'><a href='/guide/geonode.html'>GeoNode</a></li>
 
-				<li id='inasafe'><a href='inasafe.html'>InaSAFE</a></li>
+				<li id='inasafe'><a href='/guide/inasafe.html'>InaSAFE</a></li>
 				</ul>
 				</li><!-- close platforms -->
 				</ul>
@@ -175,6 +175,9 @@
 			<div class="twelve columns">
 				
 				<h2>{{page.section}}</h2>
+				
+				<!-- disclaimer -->
+				{% include custom/tectonic/disclaimer %}
 				
 				{{ content }}
 				
