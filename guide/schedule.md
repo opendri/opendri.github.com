@@ -75,6 +75,25 @@ Schedule: Needs to be delegated to experts in each area. Ready by 22 Aug.
 #### [GeoNode](geonode.html)
 #### [InaSAFE](inasafe.html)
 
+***
+
+# Review Process
+
+## Who will review
+We need to ensure that internal and external partners have sufficient time to review the document. We also want to make sure that the information design is working from a version of the text that the partners have already reviewed. In this way, the book will remain malleable to the partners before it gets typeset. We need to brainstorm the list of contacts who must review...
+
+## Notes for the Designer
+1. Obtain as much feedback as possible
+2. Work with Bank printing to work out timeline, then stick with the timeline
+3. Leave plenty of extra room in the production schedule, but build for printed product to be available ahead of consultative group meeting 14 Nov 2013
+
+
+
+
+
+
+
+
 
 
 
