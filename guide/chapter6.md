@@ -18,115 +18,91 @@ section: II. Practice
 </ul> 
 </div>
 
-Expanding program to new cities, expanding the partnership, validating the work, 
+Pilots demonstrate new possibilities. They allow partners to see firsthand how cost effective, fast, and comprehensive the OpenDRI engagement can be. Pilots can also expose challenges of the local context. In either case, there will emerge a point where the partners to OpenDRI will discuss whether to scale the initiative and where the strategic areas of expansion might be.
+
+This chapter explores scaling two OpenDRI tactics: open government risk data and community mapping.
 
 ***
 ## 1. Open Government Data
-After early adopters have added data, the slow process of building an ecosystem of users begins. The sign for this work to start is if a champion has loaded data and a user base begins to use the data catalogue. The usage indicates that the pilot happened in a fertile environment for additional work. 
+After early adopters have added data to a data catalogue, the slow process of building an ecosystem of users begins. The sign for this work to start is if a champion has loaded data and a user base begins to use the data catalogue to solve immediate problems. The usage indicates that the pilot happened in a fertile environment for additional work. 
 
-This work focuses on meeting the use cases of partners, building relationships with gatekeepers to other data sets, and locating islands of data which may be considered core to DRM, but may be held outside of government (often survey or GIS firms).
+In general, there are three approaches to scaling open government risk data:
 
-### Creating Linked Data and federated network of data catalogues
-GeoNodes can be linked into a federation of nodes, where each node serves the data of the hosting organization and pulls in live data from other nodes in the network. From the perspective of an analysis or government official, the data exists as endpoints--URIs that can be added as a layer in GIS or risk modeling software. 
+* **Expanding the number of data catalogues**. Data catalogues no longer need to be centralized. Instead, they can form a confederation of catalogues. In this way, each ministry can own and curate its own data, and choose what data to make available to whom. The confederation of catalogues might offer other ministries very different access rights than the rights afforded to the general public.
+* **Increasing data sets within each data catalogue**. Often the initial data sets are limited to information which is considered to be low risk and high reward for its release. Expanding the data available in each catalogue will work towards data which might have lower rewards or higher risks for its release.
+* **Increasing interconnections**. The density of the interconnections between data will greatly affect the perceived value of the network. Each data set can be viewed as a LEGO(tm) piece. When topology data from one ministry can be combined with meteorological forecasts, flood inundation experts can more accurately predict flood damage from an upcoming storm seasons. When tsunami inundation models show the vulnerability of certain structures to the force of sea, disaster planners can design evacuation routes to alternative shelters.
 
-TBD: building the network of geonodes.
+In each case, planning how to scale requires considering several factors:
 
-### Building Policies to manage interlinked OGD
-When ministries begin sharing data that has previously been closed, policy and legal question often arise. Some of these concern access and privacy. Do the data reveal information about citizens that needs to be kept private? How can the data be released for DRM purposes in ways that protect citizen privacy? 
+* **Meeting the use cases of partners**. The availability of data often exposes new use cases, many of which may have additional data needs.
+* **Building relationships with gatekeepers to other data sets**. Data catalogues often become gravity wells for information: they pull others with data toward growing supernodes. This credibility enables the OpenDRI to locate islands of data which may be considered core to DRM, but may be held outside of government (often survey or GIS firms). Negotiating the release of these data sets has sometimes proven to be relatively easy when there is a place to host the data without cost to the gatekeepers.
 
-Other times, data might need to standardized, so that the cost of moving it from ministry to ministry are minimized and outside partners can also use the data. These standards often revolve around two areas: metadata (finability) and data formats.
+### Building Policies to manage linked open data
+When ministries begin sharing data that has previously been closed, policy and legal question often arise. Some of these issues center on access, privacy, and standards. The OpenDRI team will need consider several questions:
 
-#### Metadata standards
-TBD: explanation of metadata and importance for findability.
+<div class="info-box image-right adapted width-200px">
+<h4>US Metadata standards</h4>
+<p>When the US created an open data policy, its Office of Management and Budget was tasked with building a set of metadata standards that all US federal agencies would need to follow. The <a href="http://project-open-data.github.io/schema/">Common Core Metadata standards are now available on GitHub.</a></p>
+</div>
 
-#### Data Formats
-TBD: explanation of data formats OpenDRI commonly finds and discussion of open data formats.
+* **Access**. *Who can view the data?* Do some data need to be kept private for security reasons (such as some data about nuclear power plants)? 
+* **Privacy**. *What the data alone or as a mosaic reveals about others?* Do the data reveal information about citizens that needs to be kept private? How can the data be released for DRM purposes in ways that protect citizen privacy? 
+* **Standards**. *What is the national standard for certain data types?* Do ministries use formats that are compatible with each other? What is the cost of translating data from one format to another as it now moves from ministry to ministry and outside partners? If there are problems with standards and data translation, what is the standard that the nation will follow? 
+* **Metadata**. *How can users find the data they need?* Metadata provides a common language to describe the data. In this way, experts in various specialties can define their vocabularies and enable others to find the data that they need.
 
 ### Building Curation capacity and QA/M&amp;E
+As data scales in size and interconnection, the challenges of curating it increase. When a system is flooded with high volumes of poor quality data, it becomes far less useful than it was when it started with a few solid datasets. The Data Curator needs to become the steward of the data. He or she will not only add new data, but also removing data that has become stale, cleanse data that contains errors in accuracy or formatting. The Data Curator's role is to leave data better than he or she found it. The Quality Assurance capacity and M&amp;E around OpenDRI need to be tied to the quality, findability, and usage of the data under curation. OpenDRI is developing a [guide to this curation process](datacuration.html). 
 
-
-
-### Visualizing OGD
-
-### Team
-ToR: Data Curator.
-ToR: System admin.
-Tor: GeoNode. Have one for Haiti. Model (created year ago, reflects learning).
-ToR: Community Building
+### Building Communities of Practice
 
 
 ***
 
 ## 2. Community Mapping of Exposure Data
+Research indicates that scaling community mapping efforts is generally a process of building additional pilots, then interconnecting them. This strategy roughly parallels grassroots organizing, when organizers carry the effort from one place to the next, building a larger national effort along the way.
 
-### Expanding to additional sites
-The process of scaling a project from one neighborhood or city generally unfolds as as if the project were a new pilot. 
+### Expanding each site
+Each new pilot will generally start by cloning the previous cities, with customizations to context. Some areas of customization include architectural traditions of a particular city, natural hazards in the specific place, language, and custom.
 
-### Preparing incubator to be sustainable entity
+<div class="info-box image-right adapted width-200px">
+<h4>Certification of Mapping Entities with National Mapping Agencies</h4>
+<p>To be most useful to national mapping agencies, the data from community mapping needs to follow standard methods. One approach to ensuring this standardization is through certification of community mapping organizations. The national mapping agency in Indonesia (BIG), has recommended the creation of a set of certifications around community mapping. This effort should be tracked and evaluated for its effect on the quality of data.</p>
+</div>
 
-#### Funding Proposals
+### Preparing pilots be sustainable entity
+The communities that come together to collect exposure data are not meant to be a one-off. They must curate that data over time to create a viable risk management ecosystem. While the costs are low, these organizations need to sustain a small set of paid leaders around a network of volunteer surveyors. The OpenDRI team needs to consider strategies to fund and sustain these efforts. To date, all pilots are still working off pilot funding and none have developed revenue models in either the not-for-profit or for-profit spaces. Some groups might well be able to develop social ventures/social entrepreneurship models.
 
 ### Data Quality Reports with Universities
+As efforts scale, the dataset becomes an attractive subject for research by local academics. At the same time, the ecosystem often desires a third-party assessment of the quality of the growing data, along with recommendations about how to remedy any errors. OpenDRI team has had success contracting with local academic institutions to perform a QA study on community mapping data. One [such report was done by UGM in Indonesia](http://oo.or.id/2013-07-05/Dokumen%20Laporan/Final%20Report-OSM%20Evaluation%20in%20Indonesia_2012.pdf). It catalyzed a change to the conversation about community mapping in the client government, which subsequently expanded its use of OpenStreetMap.
 
-### Certification of Mapping Entities
 
-***
-
-## 3. Impact Modeling and Risk Communication
-
-### Expanding Risk Communication to local governments
-Teaching the 
-
-### Connection of impact models to planners at national and subnational levels
-
-### Convening meetings to build into ministry planning
 
 ***
 
-## Objective
-
-### Identify gaps from pilot
-
-### Plan strategy that fixes issues, addresses new context, and provides additional resources
-
-### Implement strategy
-
-### Training
-Striving toward deeper levels of modeling and analysis. 
-
-### Scaling
-Expanding the breadth of institutions using the data.
-
-### Revising
-Refining tools and practices.
-
-***
-
-## Team: Who needs to be part of this work
-Links to ToRs or other descriptions of the position
-
-***
 ## Outputs
+TBD
 
 ***
 
-Notes Positive effects on growth
+## Field Notes
+The is a growing set of insights around the scaling of OpenDRI which will be integrated into the guide over time. Some of these insights include the dynamics that cause net positive and negative effects on the ecosystem of open data. These dynamics include:
 
-1. Disasters catalyze investment
-2. Funding handoffs between international institutions (new funding)
-3. new TORs approved (adding OSM, another network
-4. Training programs
-5. Expanding the number of people who use spatial data in an ecosystem
-6. Network building: get old GFDRR Labs TORs on "regional technical networks of expertise". How does one keep these networks healthy? Ask Biswha and Brad.
+### Positive effects on growth
 
-Negative effects on growth
+1. Disasters catalyze investment in risk management. 
+2. Funding handoffs between international institutions also drive new funding sources.
+3. When approved, new ToRs often lead to increases to data.
+4. Training programs lead to more and better data.
+5. Expanding the number of people who use spatial data in an ecosystem.
 
-1. Low data use: when few people use data every day
-2. Informal networks: cabal of small number of people have extant informal mechanisms to obtain risk data. That said, they like training...
-3. Data decay rate: how fast it goes out of date (Currency Fade Rate). Examples?
-4. Utility of some data also fades over time (Utility Fade Rate). Examples?
+### Negative effects on growth
+
+1. Low data use: when few people use data every day, data tends to get stale.
+2. Informal networks: when a cabal of small number of people have extant informal mechanisms to obtain risk data. 
+3. Data Fade rate: how fast does data go out of date. 
+4. Utility Fade Rate: the Utility of some data also fades over time.
 
 
-## Creating a living ecosystem
+
 
 
