@@ -11,22 +11,24 @@ abstract: "Field Guide"
 
 # 2.	Open Data for Resilience
 
-Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the data necessary for impact and risk modeling. Among the several intended impacts is improved targeting of investments in mitigating the effects of disasters. An OpenDRI project offers a menu of choices for building high-resolution exposure data with collective action, including:
+Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the data necessary for impact and risk modeling. Among the several intended impacts is improved targeting of investments for mitigating the effects of disasters. An OpenDRI project offers a menu of DRM tactics for building high-resolution exposure data with collective action, including:
 
 1. **Collation of Open Government Risk Data (OGRD) and publication in an open geodata catalogue**. Data about the exposure of a nation to natural hazards are often fragmented across multiple institutions, often under policies that hinder the aggregation of those data into more comprehensive models. GIS and DMS platforms that enable this kind of aggregation are also rare and (until recently) were very expensive.
 
 2. **Collection of Exposure Data with Participatory Mapping**. In many places, there exist no geospatial database of the built infrastructure that aggregates key attributes about its vintage, construction materials, height, or elevation. OpenDRI works with communities to build this asset database from the bottom-up using low-cost participatory mapping techniques, where collection and curation of the data is done by the communities that those data describe.
 
-3. **Risk Communication via Impact modeling of probable hazards on the built environment**. By combining data about hazards, exposure, and vulnerabilities into a simple impact model, OpenDRI can help government officials understand how to apply the data to thinking differently about disaster preparation, mitigation, and recovery.
+3. **Risk Communication via Impact modeling**. By combining data about hazards, exposure, and vulnerabilities into a simple impact model, OpenDRI can help government officials see the effects of probably futures and understand how to apply the data to thinking differently about disaster preparation, mitigation, and recovery.
 
 OpenDRI also relies on parallel but separate efforts around improving the modeling of natural hazards, including weather forecasting and mid-term meteorological/climate forecasting. It also relies on cross-support from peers in risk assessment and modeling, who can take data curation that is at the core of OpenDRI and turn that information resource into actionable recommendations around risk management. **Note**: Risk Assessment is not part of OpenDRI.
 
 ## History
 OpenDRI began from catastrophe. The 2010 earthquake in Haiti killed many of the staff of the national mapping agency (CNIGS) and destroyed a growing knowledge of the geography of Haiti. The building collapse also buried servers with the sole copies of geographic data that would have aided the response and recovery to one of the biggest humanitarian disasters of the last century. Then something unexpected happened.
 
-Several satellite companies collected fresh high-resolution imagery of the damage and made the data available for free. The World Bank collected imagery via aircraft at even higher resolution. More than 600 volunteers of the OpenStreetMap community started tracing the imagery, creating a highly detailed map of Haiti. Volunteer made about 1.2 million edits to the map, performing an estimate year of cartographic work in about 20 days. For free. This effort catalyzed rethinking of community mapping and open data within the World Bank.  
+Several satellite companies collected fresh high-resolution imagery of the damage and made the data available for free. The World Bank collected imagery via aircraft at even higher resolution. More than 600 volunteers of the OpenStreetMap community started tracing the imagery, creating a highly detailed map of Haiti. Volunteers made about 1.2 million edits to the map, performing an estimate year of cartographic work in about 20 days--all for no cost. This effort catalyzed rethinking of community mapping and open data within the World Bank.  
 
-A question emerged: if community mapping could work in a crisis, what could be done before a disaster? Could the World Bank invest in building open data communities that combine mapping data with other government data, creating a 
+A question emerged: if community mapping could map most of a country in a crisis, what could be done before a disaster? Could GFDRR invest in collecting better data about the exposure of the built environment to natural hazards as a form of technical assistance? Could the communities then curate this data, creating the opportunity for better spatial and temporal resolution of the exposure of a country to threats?
+
+A second set of question emerged a few months later. When the famine of 2010 hit the Horn of Africa, GFDRR convened a meeting where partners to the response agreed to share their operational data using a shared data catalogue. This effort&mdash;[Open Data for the Horn](http://horn.rcmrd.org/)&mdash;
 
 <!-- sidebar -->
 <div class="info-box image-right adapted width-250px">
@@ -66,12 +68,13 @@ Collective action. Urbanization: Open Cities. How to use collective action to bu
 </div>
 
 ## Work Process Overview
-Like open data initiatives, OpenDRI starts small and scales virally. It deploys in one city, and then another, expanding in utility as the amount of data increases, driving more pilots in more cities. As such, OpenDRI is not a linear process, but rather a cycle that iterates across cities (Ex: Pedang, then Jakarta, then west coast of Indonesia. Columbo then Batticloa).
+Like open data initiatives, OpenDRI starts small and scales virally. It deploys in one site, and then another, expanding in utility as the amount of data increases. As such, OpenDRI is not a linear process, but rather a cycle that iterates across cities (Ex: Pedang, then Jakarta, then west coast of Indonesia. Columbo then Batticloa).
 
 1.	Scoping
-2.	Piloting
-3.	Scaling
-4.	Sustaining
+2. 	Designing
+3.	Piloting
+4.	Scaling
+5.	Sustaining
 
 ## Partners
 OpenDRI is a partnership. Starts from communities in which it gets implemented. Part bottom-up, part top-down.
@@ -87,33 +90,96 @@ OpenDRI starts as a partnership. Connect Bank, AusAID, GeoScience Australia with
 
 ## Tools
 
-### Open Government Data
+***
 
-### Participatory Mapping
-1.	OpenStreetMap
-2.	Walking Papers
-3.	Satellite Imagery
+### 1. Open Government Risk Data
+Open Government Risk Data (OGRD) programs provide for the strategic release of certain government datasets to the commons, where they can be curated, emended, amended, and (most importantly) reused in ways that governments alone cannot do. OGD is **not** the release of all government data to the public.
 
-### Geospatial/GeoNode Network
-1.	GeoNode
-2.	GeoPortal (ESRI)
+The strategic release of data to a public commons enables first recommendation from NHUD: 
+
+<blockquote class="quote-icon">
+<p>First, governments can and should make information more easily accessible. People are often guided in their prevention decisions by information on hazards, yet the seemingly simple act of collecting and providing information is sometimes a struggle. While some countries attempt to collect and archive their hazard data, efforts are generally inconsistent or insufficient. Specifically, there are no universal standards for archiving environmental parameters for defining hazards and related data. Data exchange, hazard analysis, and hazard mapping thus become difficult.</p>
+</blockquote>
+
+Open data empower decision makers at all levels of government, as well as in the private sector. Open data creates a common space where community can assembled around shared problems and co-develop solutions with a wide range of partners.
+
+#### Principles
+For data to serve decision makers across a society, it needs to be fully open. This means:
+
+1.	Technically Open: Many government datasets are locked in data formats that can only be read by proprietary software (and sometimes hardware, like obsolete magnetic tape backup drives). The data must be released in ways that allow any device or software can read it.
+2. Legally Open: the license under which the data is released must permit redistribution and reuse.
+2.	Accessible: the data must be available at a public Internet address (URI)
+3.	Interoperable: the data must follow open standards.
+4.	Reusable: can be redistributed and reused in ways that were not necessarily anticipated by the curator of the original data.
+
+<!-- Info Box -->
+<div class="info-box image-right adapted width-250px">
+	<h4>Ten Principles of Open Government Data (OGD)</h4>
+	<p><em>(src: Linked Open Data: The Essentials, Bauer and Kaltenböck)</em></p>
+	<ol>
+	<li>Data must be complete</li>
+	<li>Data must be primary</li>
+	<li>Data must be timely</li>
+	<li>Data must be accessible</li>
+	<li>Data must be machine-processable</li>
+	<li>Access must be non-discriminatory</li>
+	<li>Data formats must be non-proprietary</li>
+	<li>Data must be license free</li>
+	<li>Data must have permanence, be findable over time</li>
+	<li>Usage costs must be <em>de minimus</em></li>
+	</ol>
+	<p>From the Sebastopol meeting on Open Government Data</p>
+</div>
+
+#### How OpenDRI works with Governments
+OpenDRI advises ministries how on the collation, cleansing, and release of data related to risks. These datasets tend to be spread across governments. Sometimes, ministries sell them to each other (though the revenues tend to be low and the administrative costs for managing these sales tend to be high). OpenDRI partners work together to determine which data are appropriate for release. That said, rather than following the traditional method of aggregating data into a central web portal, OpenDRI recognizes that ministries wish to retain stewardship over their own data. So OpenDRI recommends that each ministry release its data using (free and open source) platforms that allow other ministries to subscribe to the data using web services. This model has a number of benefits:
+
+1. **Politics**: ministries retain control of their own information. Instead of adding a centralized umbrella web portal and the perception of a shift in data ownership, a government adds a free tool into existing workflows. 
+2. **Freshness**: the data in the ecosystem is always flowing from the source and is as new as the ministry is able to release.
+
+***
+
+### 2. Open Participatory Mapping Data
+Building better exposure data is very time intensive, but it need not be costly. It requires individuals to visit thousands of municipal buildings and locations of critical infrastructure, make a basic assessment about the construction of those sites, take pictures, and ask locals questions about the site. If performed by survey departments of the government or commercial ventures, the costs quickly spiral beyond the means of most governments and donors. In comparison, mapping Kathmandu under OpenDRI cost under $200,000 USD. 
+
+The approach taken by OpenDRI is to recruit and train community members to map their own cities. This method creates jobs for youth, trains them in modern geospatial tools, and prepares them for additional work curating the map of their cities. See [OpenCities](http://opencitiesproject.com/). It also creates a map that is free and open for all to use for any purpose.
+
+<!-- Info Box -->
+<div class="info-box image-right adapted width-250px">
+	<h4>Peta Gratis Untuk Semua (OpenStreetMap Indonesia)</h4>
+	<p>Case study TBD for OSM in Indonesia, from outcast to integrated into BIG.</p>
+</div>
+
+#### OpenStreetMap
+OpenStreetMap aims to create a free and open map of the world. Akin to Wikipedia, it allows anyone to draw on "the map" using a wide range of software and devices, including handheld computers and smartphones. To ensure accuracy and data quality, the OpenStreetMap Foundation works with communities in each country to encourage editors and experienced uses to review submissions, and provides software that makes it relatively easy for experienced users to correct the errors of person who has made a mistake or submitted inaccurate data. It is a community managed map.
+
+While some might expect that the accuracy of the map would therefore be far lower than professional cartography, academic studies show that the map is within the margin of error of consumer GPS devices (see Muki Hakley, University College, London in this [discussion of the accuracy and reliability of volunteered geographic information](osm.html))
+
+
+
+***
+
 
 ## Practices
 
-* Opening Government Data: How to work with government ministries to open existing data sets.
-See [Data Catalogue](datacatalogue.html)
+<div class="info-box image-right adapted width-250px">
+	<ul>
+<li>Opening Government Data: How to work with government ministries to open existing data sets.
+See <a href="datacatalogue.html">Data Catalogue</a></li>
 
-* Using Participatory Mapping: how to work with communities to build exposure data using OpenStreetMap
-See [Community Mapping](communitymapping.html)
+<li>Using Participatory Mapping: how to work with communities to build exposure data using OpenStreetMap
+See <a href="communitymapping.html">Community Mapping</a></li>
 
-* Launching and Curating a GeoNode: how to deploy an open geo-data catalogue with GeoNode
-See [GeoNode](geonode.html)
+<li>Launching and Curating a GeoNode: how to deploy an open geo-data catalogue with GeoNode
+See <a href="geonode.html">GeoNode</a></li>
 
-* Building Communities of Analysts: how to build and sustain a community of experts around OpenDRI
-See [Community of Practice](communityofpractice.html)
+<li>Building Communities of Analysts: how to build and sustain a community of experts around OpenDRI
+See <a href="communityofpractice.html">Community of Practice</a></li>
 
-* Teaching Impact Modeling: how to teach impact modeling using InaSAFE
-See [Risk Assessment](riskassessment.html)
+<li>Teaching Impact Modeling: how to teach impact modeling using InaSAFE
+See <a href="riskassessment.html">Risk Assessment</a></li>
+</ul>
+</div>
 
 ## Ecosystem
 What does the whole OpenDRI ecosystem look like and how does it work at the macro level?
@@ -181,74 +247,7 @@ The OpenDRI engagement packages three activities into the work plan:
 
 (Note: This section needs to be a hard-nosed discussion of why to pursue open data as the best option. Not about ideals, but about the practical nature of open data being the best pathway to cope with the problem of risk assessment in a highly dynamic and less predictable world. This section should be about collective intelligence. )
 
-***
 
-## 1. Open Government Risk Data
-Open Government Risk Data (OGRD) programs provide for the strategic release of certain government datasets to the commons, where they can be curated, emended, amended, and (most importantly) reused in ways that governments alone cannot do. OGD is **not** the release of all government data to the public.
-
-The strategic release of data to a public commons enables first recommendation from NHUD: 
-
-<blockquote class="quote-icon">
-<p>First, governments can and should make information more easily accessible. People are often guided in their prevention decisions by information on hazards, yet the seemingly simple act of collecting and providing information is sometimes a struggle. While some countries attempt to collect and archive their hazard data, efforts are generally inconsistent or insufficient. Specifically, there are no universal standards for archiving environmental parameters for defining hazards and related data. Data exchange, hazard analysis, and hazard mapping thus become difficult.</p>
-</blockquote>
-
-Open data empower decision makers at all levels of government, as well as in the private sector. Open data creates a common space where community can assembled around shared problems and co-develop solutions with a wide range of partners.
-
-### Principles
-For data to serve decision makers across a society, it needs to be fully open. This means:
-
-1.	Technically Open: Many government datasets are locked in data formats that can only be read by proprietary software (and sometimes hardware, like obsolete magnetic tape backup drives). The data must be released in ways that allow any device or software can read it.
-2. Legally Open: the license under which the data is released must permit redistribution and reuse.
-2.	Accessible: the data must be available at a public Internet address (URI)
-3.	Interoperable: the data must follow open standards.
-4.	Reusable: can be redistributed and reused in ways that were not necessarily anticipated by the curator of the original data.
-
-<!-- Info Box -->
-<div class="info-box image-right adapted width-250px">
-	<h4>Ten Principles of Open Government Data (OGD)</h4>
-	<p><em>(src: Linked Open Data: The Essentials, Bauer and Kaltenböck)</em></p>
-	<ol>
-	<li>Data must be complete</li>
-	<li>Data must be primary</li>
-	<li>Data must be timely</li>
-	<li>Data must be accessible</li>
-	<li>Data must be machine-processable</li>
-	<li>Access must be non-discriminatory</li>
-	<li>Data formats must be non-proprietary</li>
-	<li>Data must be license free</li>
-	<li>Data must have permanence, be findable over time</li>
-	<li>Usage costs must be <em>de minimus</em></li>
-	</ol>
-	<p>From the Sebastopol meeting on Open Government Data</p>
-</div>
-
-### How OpenDRI works with Governments
-OpenDRI advises ministries how on the collation, cleansing, and release of data related to risks. These datasets tend to be spread across governments. Sometimes, ministries sell them to each other (though the revenues tend to be low and the administrative costs for managing these sales tend to be high). OpenDRI partners work together to determine which data are appropriate for release. That said, rather than following the traditional method of aggregating data into a central web portal, OpenDRI recognizes that ministries wish to retain stewardship over their own data. So OpenDRI recommends that each ministry release its data using (free and open source) platforms that allow other ministries to subscribe to the data using web services. This model has a number of benefits:
-
-1. **Politics**: ministries retain control of their own information. Instead of adding a centralized umbrella web portal and the perception of a shift in data ownership, a government adds a free tool into existing workflows. 
-2. **Freshness**: the data in the ecosystem is always flowing from the source and is as new as the ministry is able to release.
-
-***
-
-## 2. Open Participatory Mapping Data
-Building better exposure data is very time intensive, but it need not be costly. It requires individuals to visit thousands of municipal buildings and locations of critical infrastructure, make a basic assessment about the construction of those sites, take pictures, and ask locals questions about the site. If performed by survey departments of the government or commercial ventures, the costs quickly spiral beyond the means of most governments and donors. In comparison, mapping Kathmandu under OpenDRI cost under $200,000 USD. 
-
-The approach taken by OpenDRI is to recruit and train community members to map their own cities. This method creates jobs for youth, trains them in modern geospatial tools, and prepares them for additional work curating the map of their cities. See [OpenCities](http://opencitiesproject.com/). It also creates a map that is free and open for all to use for any purpose.
-
-<!-- Info Box -->
-<div class="info-box image-right adapted width-250px">
-	<h4>Peta Gratis Untuk Semua (OpenStreetMap Indonesia)</h4>
-	<p>Case study TBD for OSM in Indonesia, from outcast to integrated into BIG.</p>
-</div>
-
-### OpenStreetMap
-OpenStreetMap aims to create a free and open map of the world. Akin to Wikipedia, it allows anyone to draw on "the map" using a wide range of software and devices, including handheld computers and smartphones. To ensure accuracy and data quality, the OpenStreetMap Foundation works with communities in each country to encourage editors and experienced uses to review submissions, and provides software that makes it relatively easy for experienced users to correct the errors of person who has made a mistake or submitted inaccurate data. It is a community managed map.
-
-While some might expect that the accuracy of the map would therefore be far lower than professional cartography, academic studies show that the map is within the margin of error of consumer GPS devices (see Muki Hakley, University College, London in this [discussion of the accuracy and reliability of volunteered geographic information](osm.html))
-
-
-
-***
 
 ## 3. Impact Models
 
