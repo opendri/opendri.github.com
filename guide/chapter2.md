@@ -13,7 +13,7 @@ abstract: "Field Guide"
 
 Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the data necessary for impact and risk modeling. Among the several intended impacts is improved targeting of investments for mitigating the effects of disasters. An OpenDRI project offers a menu of DRM tactics for building high-resolution exposure data with collective action, including:
 
-1. **Collation of Open Government Risk Data (OGRD) and publication in an open geodata catalogue**. Data about the exposure of a nation to natural hazards are often fragmented across multiple institutions, often under policies that hinder the aggregation of those data into more comprehensive models. GIS and DMS platforms that enable this kind of aggregation are also rare and (until recently) were very expensive.
+1. **Collation of Open Government Risk Data (OGRD) and publication in an open geodata catalogue**. Data about the exposure of a nation to natural hazards are often fragmented across multiple institutions, often under policies that hinder the aggregation of those data into more comprehensive models. GIS and Data Management System (DMS) platforms that enable this kind of aggregation are also rare and (until recently) were very expensive.
 
 2. **Collection of Exposure Data with Participatory Mapping**. In many places, there exist no geospatial database of the built infrastructure that aggregates key attributes about its vintage, construction materials, height, or elevation. OpenDRI works with communities to build this asset database from the bottom-up using low-cost participatory mapping techniques, where collection and curation of the data is done by the communities that those data describe.
 
@@ -26,12 +26,19 @@ OpenDRI began from catastrophe. The 2010 earthquake in Haiti killed many of the 
 
 Several satellite companies collected fresh high-resolution imagery of the damage and made the data available for free. The World Bank collected imagery via aircraft at even higher resolution. More than 600 volunteers of the OpenStreetMap community started tracing the imagery, creating a highly detailed map of Haiti. Volunteers made about 1.2 million edits to the map, performing an estimate year of cartographic work in about 20 days--all for no cost. This effort catalyzed rethinking of community mapping and open data within the World Bank.  
 
-A question emerged: if community mapping could map most of a country in a crisis, what could be done before a disaster? Could GFDRR invest in collecting better data about the exposure of the built environment to natural hazards as a form of technical assistance? Could the communities then curate this data, creating the opportunity for better spatial and temporal resolution of the exposure of a country to threats?
+The practical reality of what had happened in Haiti fused with a growing movement around open data and open government. Within the GFDRR team, a question emerged: if community mapping could map most of a country in a crisis, what could be done before a disaster? Could GFDRR invest in collecting better data about the exposure of the built environment to natural hazards as a form of technical assistance? Could the communities then curate this data, creating the opportunity for better spatial and temporal resolution of the exposure of a country to threats?
 
-A second set of question emerged a few months later. When the famine of 2010 hit the Horn of Africa, GFDRR convened a meeting where partners to the response agreed to share their operational data using a shared data catalogue. This effort&mdash;[Open Data for the Horn](http://horn.rcmrd.org/)&mdash;created a shared catalogue of the various data being collected around the famine, from the Famine Early Warning System to regional maps, geospatial data, and satellite imagery. 
+Before the team could set about researching this question, another major disaster struck: the 2010 famine in the Horn of Africa. GFDRR convened a meeting where partners to the response agreed to share their operational data using a shared data catalogue. This effort&mdash;[Open Data for the Horn](http://horn.rcmrd.org/)&mdash;created a shared catalogue of the various data being collected around the famine, from the Famine Early Warning System to regional maps, geospatial data, and satellite imagery. It has become one of the key points for coordinating activities among OCHA, the World Bank, RCMRD, and WFP. The [Sahel Response](http://sahelresponse.org/) data catalogue followed soon thereafter.
 
-In 2011, GFDRR began to package these open data efforts under one moniker: the Open Data for Resilience Initiative (OpenDRI). Teams from GFDRR began to offer World Bank regions and client governments technical assistance around how to use open data to catalyze better risk investments.
+But the activity at GFDRR was only a small part of a larger movement in open data. In September 2011, Open Government Partnership announced that 8 governments had become the founding signatories on an agreement to make government data far more open to citizens that in the past. Subsequently, 47 more governments signed the declaration. One part of this [declaration](http://www.opengovpartnership.org/open-government-declaration) reads that each government commits to: 
 
+<blockquote>
+<p>We commit to pro-actively provide high-value information, including raw data, in a timely manner, in formats that the public can easily locate, understand and use, and in formats that facilitate reuse... We recognize the importance of open standards to promote civil society access to public data, as well as to facilitate the interoperability of government information systems. </p>
+</blockquote>
+
+The World Bank itself announced an open data policy in April 2012. All its data and publications would be made available under the Creative Commons 3.0 Attribution License (CC-BY), which permits free reuse and redistribution so long as the data or publication is attributed. 
+
+With communities, governments, and international institutions all pursuing open data, the natural next step was to explore packaging open data into a set of approaches around risk.
 
 
 <!-- sidebar -->
@@ -42,34 +49,33 @@ In 2011, GFDRR began to package these open data efforts under one moniker: the O
 
 <p>Open-source software is a piece of software whose “source code is available to the general public for use and/or modification from its original design. Open source code is typically created as a collaborative effort in which programmers improve upon the code and share the changes within the community. Open source sprouted in the technological community as a response to proprietary software owned by corporations.”  </p>
 
-<p>Open standards/formats for data provide a free and openly available specification for “storing digital data, usually maintained by a standards organization, which can therefore be used and implemented by anyone. For example, an open format can be implementable by both proprietary and free and open source software, using the typical software licenses used by each.” </p>
+<p>Open standards/formats for data provide a free and openly available specification for “storing digital data, usually maintained by a standards organization, which can therefore be used and implemented by anyone. For example, an open format can be implementable by both proprietary and free and open source software, using the typical software licenses used by each.”</p>
 </div>
+<!-- end sidebar -->
 
-## Problem to be solved
 
-Hazard
-Exposure
-Vulnerability
-Impact Modeling/Risk Communication
-Risk Models
+## Packaging Open Data
+In 2012, GFDRR began to package these open data efforts under one moniker: the Open Data for Resilience Initiative (OpenDRI). Teams from GFDRR began to offer World Bank regions and client governments technical assistance around how to use open data to catalyze better risk investments.
+
+These projects centered on applying the principles of open data, open source software, and open standards to the disaster risk management cycle. The objective was to open several types of data for analysis by a wide audience: 
+
+* Hazard
+* Exposure
+* Vulnerability
+* Impact Modeling/Risk Communication
+
+
 
 Collective action. Urbanization: Open Cities. How to use collective action to build data necessary for understanding risk, then build system to curate the data. 
-
 
 ### Transparency
 ### Linking Risks to Investments
 ### Partnerships
 
-<!-- Info Box -->
-<div class="info-box image-right adapted width-250px">
-<h4>Risk Assessment, Impact Modeling, and Risk Communication</h4>
-<p><em>Talk with Robert and Lana about defining each term</em></p>
-<ul>
-	<li><strong>Risk Communication</strong>: definition</li>
-	<li><strong>Impact Modeling</strong>: definition</li>
-	<li><strong>Risk Assessment</strong>: definition</li>
-</ul>
-</div>
+Risk Assessment, Impact Modeling, and Risk Communication
+Risk Communication: definition
+Impact Modeling: definition
+Risk Assessment: definition
 
 ## Work Process Overview
 Like open data initiatives, OpenDRI starts small and scales virally. It deploys in one site, and then another, expanding in utility as the amount of data increases. As such, OpenDRI is not a linear process, but rather a cycle that iterates across cities (Ex: Pedang, then Jakarta, then west coast of Indonesia. Columbo then Batticloa).
