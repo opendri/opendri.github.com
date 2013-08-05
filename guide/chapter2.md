@@ -11,7 +11,7 @@ abstract: "Field Guide"
 
 # 2.	Open Data for Resilience
 
-Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the data necessary for impact and risk modeling. Among the several intended impacts is improved targeting of investments in mitigating the effects of disasters. An OpenDRI project offers implemented a menu of choices to building high-resolution exposure data with collective action, including:
+Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the data necessary for impact and risk modeling. Among the several intended impacts is improved targeting of investments in mitigating the effects of disasters. An OpenDRI project offers a menu of choices for building high-resolution exposure data with collective action, including:
 
 1. **Collation of Open Government Risk Data (OGRD) and publication in an open geodata catalogue**. Data about the exposure of a nation to natural hazards are often fragmented across multiple institutions, often under policies that hinder the aggregation of those data into more comprehensive models. GIS and DMS platforms that enable this kind of aggregation are also rare and (until recently) were very expensive.
 
@@ -22,7 +22,7 @@ Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and
 OpenDRI also relies on parallel but separate efforts around improving the modeling of natural hazards, including weather forecasting and mid-term meteorological/climate forecasting. It also relies on cross-support from peers in risk assessment and modeling, who can take data curation that is at the core of OpenDRI and turn that information resource into actionable recommendations around risk management. **Note**: Risk Assessment is not part of OpenDRI.
 
 ## History
-OpenDRI began from catastrophe. The 2010 earthquake in Haiti killed many of the staff of the national mapping agency (CNIGS) and destroyed a growing knowledge of the geography of Haiti. The building collapse also buried servers with the sole copies of geographic data that would have aided the response and recovery to one of the biggest humanitarian disasters of the last century. Something unexpected then happened.
+OpenDRI began from catastrophe. The 2010 earthquake in Haiti killed many of the staff of the national mapping agency (CNIGS) and destroyed a growing knowledge of the geography of Haiti. The building collapse also buried servers with the sole copies of geographic data that would have aided the response and recovery to one of the biggest humanitarian disasters of the last century. Then something unexpected happened.
 
 Several satellite companies collected fresh high-resolution imagery of the damage and made the data available for free. The World Bank collected imagery via aircraft at even higher resolution. More than 600 volunteers of the OpenStreetMap community started tracing the imagery, creating a highly detailed map of Haiti. Volunteer made about 1.2 million edits to the map, performing an estimate year of cartographic work in about 20 days. For free. This effort catalyzed rethinking of community mapping and open data within the World Bank.  
 
