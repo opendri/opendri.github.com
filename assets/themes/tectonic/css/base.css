@@ -255,6 +255,8 @@ li { line-height: 19px; margin-bottom: 5px; }
 
 ul.tight li, ul.square.tight li, ul.circle.tight li, ul.disc.tight li, ol.tight li { margin-bottom: 0; }
 
+#page-content ul { list-style: circle outside; }
+#page-content ul li {margin-left: 19px;}
 
 /*-----------------------------------------------------------------------------------*/
 /*	5. Buttons

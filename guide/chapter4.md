@@ -80,11 +80,6 @@ That said, OpenDRI cannot solve all data sharing problems. It focuses on the iss
 
 ### Cleansing of Data
 
-<div class="info-box image-right adapted width-200px">
-<h4>USAID and Data Cleansing</h4>
-<p>Development Credit Authority Crowdsourcing: Case Study on Data Cleansing</p>
-</div>
-
 Data that arrives from ministries may not always be ready for release or appropriate for OpenDRI:
 
 * **Open data can be old data**. It may be released from archives where its currency is low and risk to the ministry for its release is low.
