@@ -171,5 +171,5 @@ To change the mindset of planners at all levels of government, it is not only ne
 [note: put all info on the connection of risk communication/impact models here in the intro. Key points: need to plan the interface between the data cycle and risk assessment cycle, with a point of interface around the data. In this connection, planning the data schema matters, as the impact models/InaSAFE requires some data from both government (hazard and vulnerability) combined with exposure data to calculate the potential impact. ]
 
 #### InaSAFE
-Impact models are the brainchild of the partnership between the Government of Indonesia, AIFDR, AusAID, and the World Bank/GFDRR. (history to be continued).
+Impact models are the brainchild of the partnership between the Government of Indonesia, AIFDR, AusAID, and the World Bank/GFDRR.
 
