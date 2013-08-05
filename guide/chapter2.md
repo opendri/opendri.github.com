@@ -64,31 +64,14 @@ These projects centered on applying the principles of open data, open source sof
 * Vulnerability
 * Impact Modeling/Risk Communication
 
+Where good data did not exist, OpenDRI would catalyze its collection and curation as open data. Where data was already part of an archive, OpenDRI staff would work to negotiate its release as open data. The resulting ecosystem would have far more data on which to base decisions about investing in risk mitigation and (where no viable solution existed) disaster preparation. 
 
+***
 
-Collective action. Urbanization: Open Cities. How to use collective action to build data necessary for understanding risk, then build system to curate the data. 
+## Building Partnerships
+The process of building OpenDRI became synonymous with partnership building. By working on opening data, GFDRR opened a space where partners could each play a specialty around the DRM cycle. Science agencies helped prepare data standards around exposure data, in preparation for improving the resolution of their risk models. Donors worked with client governments to create independent entities which could coordinate funding, project management, data collection, and risk assessment, connecting the effort directly to capacity building within the client government. 
 
-### Transparency
-### Linking Risks to Investments
-### Partnerships
-
-Risk Assessment, Impact Modeling, and Risk Communication
-Risk Communication: definition
-Impact Modeling: definition
-Risk Assessment: definition
-
-## Work Process Overview
-Like open data initiatives, OpenDRI starts small and scales virally. It deploys in one site, and then another, expanding in utility as the amount of data increases. As such, OpenDRI is not a linear process, but rather a cycle that iterates across cities (Ex: Pedang, then Jakarta, then west coast of Indonesia. Columbo then Batticloa).
-
-1.	Scoping
-2. 	Designing
-3.	Piloting
-4.	Scaling
-5.	Sustaining
-
-## Partners
-OpenDRI is a partnership. Starts from communities in which it gets implemented. Part bottom-up, part top-down.
-OpenDRI starts as a partnership. Connect Bank, AusAID, GeoScience Australia with counterparts in the Governments of Indonesia, Philippines, etc. (emphasize the multidisciplinary aspects, as it emerges in the Design phase in the composition of the team for the scoping mission.)
+OpenDRI starts from communities in which it gets implemented. It has connected a wide range of partners:
 
 1.	Government Clients
 2.	Science Agencies
@@ -96,11 +79,25 @@ OpenDRI starts as a partnership. Connect Bank, AusAID, GeoScience Australia with
 4.	Development Partners
 5.	Local NGOs
 6.	Voluntary Organizations
-7.	Incubators
-
-## Tools
+7.	Incubators/Social Entrepreneurs
 
 ***
+
+## Work Process Overview
+Like open data initiatives, OpenDRI starts small and scales virally. It deploys in one site, and then another, expanding in utility as the amount of data increases. As such, OpenDRI is not a linear process, but rather a cycle that iterates across sites. 
+
+In general, OpenDRI unfolds in five stages:
+
+1.	**Scoping**: a mission to determine the risks, readiness, relationships, and use cases that would form the core of an OpenDRI pilot.
+2. 	**Designing**: a collaborative, multi-institutional process to customize OpenDRI to the unique mix of threats and opportunities face a client government.
+3.	**Piloting**: creating an initial presence for OpenDRI, seeding the initiative and seeing how it flourishes or flounders in the country context.
+4.	**Scaling**: expanding the open data ecosystem around the DRM cycle when an OpenDRI implementation sticks.
+5.	**Sustaining**: creating the conditions to hand an OpenDRI initiative to the communities that built it.
+
+***
+
+## Tools
+OpenDRI uses a growing menu of tactics to develop the open data ecosystem:
 
 ### 1. Open Government Risk Data
 Open Government Risk Data (OGRD) programs provide for the strategic release of certain government datasets to the commons, where they can be curated, emended, amended, and (most importantly) reused in ways that governments alone cannot do. OGD is **not** the release of all government data to the public.
@@ -165,107 +162,14 @@ OpenStreetMap aims to create a free and open map of the world. Akin to Wikipedia
 
 While some might expect that the accuracy of the map would therefore be far lower than professional cartography, academic studies show that the map is within the margin of error of consumer GPS devices (see Muki Hakley, University College, London in this [discussion of the accuracy and reliability of volunteered geographic information](osm.html))
 
-
 ***
 
-
-## Practices
-
-<div class="info-box image-right adapted width-250px">
-	<ul>
-<li>Opening Government Data: How to work with government ministries to open existing data sets.
-See <a href="datacatalogue.html">Data Catalogue</a></li>
-
-<li>Using Participatory Mapping: how to work with communities to build exposure data using OpenStreetMap
-See <a href="communitymapping.html">Community Mapping</a></li>
-
-<li>Launching and Curating a GeoNode: how to deploy an open geo-data catalogue with GeoNode
-See <a href="geonode.html">GeoNode</a></li>
-
-<li>Building Communities of Analysts: how to build and sustain a community of experts around OpenDRI
-See <a href="communityofpractice.html">Community of Practice</a></li>
-
-<li>Teaching Impact Modeling: how to teach impact modeling using InaSAFE
-See <a href="riskassessment.html">Risk Assessment</a></li>
-</ul>
-</div>
-
-## Ecosystem
-What does the whole OpenDRI ecosystem look like and how does it work at the macro level?
-
-## OpenCities Project
-OpenDRI and OpenCities. 
-
-## Principles
-
-### Start small and scale
-The value of a network is a function of the square of the nodes in the network--a function of the number of potential relationships. Similarly, the value of open data appears to be an exponential function of the number of people using it. Open data efforts tend to start small and scale exponentially. Indonesia. From a few thousand buildings mapped by x people to million buildings with y contributors. 
-
-### Start by listening
-
----
-
-Open Government Data
-Metadata standard for government data
-Look to OGP
-Look to Florian
-
-<!-- Info Box -->
-<div class="info-box image-right adapted width-250px">
-<h4>Definitions</h4>
-<ul>
-	<li>**Open Data**: def</li>
-	<li>**Open Government Data**: def</li>
-	<li>**term**: def</li>
-	<li>**term**: def</li>
-	<li>**term**: def</li>
-	<li>**term**: def</li>
-</ul>
-</div>
-
-## Principles and Lessons Learned
-1. Start with local needs. The project will flow from requirements driven by the client, rather than the needs of the risk modelers or international institution.
-
-2. Incubate Local Capacity. Create a space where citizens of the client nation can develop ever deeper capabilities. 
-
-3. Keep it simple, then scale. Agile development meets open data. 
-
-4. Question Assumptions. The underlying assumptions of an international are often different than the reality on the ground. Don't assume that client wants to perform advanced risk modeling when they lack a 0 level base layer.
-
-
-***
-
-## Recommendation Option: Combine Open Government Data with Collective Action from Community Mapping, Hazard Modeling, and Risk Communication
-
-Problem: how to aggregate information about a rapidly changing built environment amid a rapidly changing set of hazards. Has been attempted to be done through traditional governance mechanisms: submission of data on an periodic (often annual or multi-annual) basis. This collection rate is hard to sustain for many governments, but it is not fast enough to deal with the scale of the problem. 
-
-<div class="info-box image-right adapted width-250px">
-<p>Coping with the rapid aggregation and analysis of data from hundreds or thousands of potential sources is a problem that society already solved: stock market data. Investing or divesting from any particular form of equity is driven by the history and expected value of a stock price. The value of this price is driven by transaction of informed buyers and sellers. </p>
-
-<p>A market is not the solution to risk data--it is not structured as a price driven by supply and demand. Rather, the mechanism of collective information aggregation is. Allow government to regulate how information flows, who is authorized to access and use it, and freeing some of the information for redistribution and reuse.</p> 
-
-<p>(contact Tom Malone of MIT/CCI: here we have information aggregation mechanism from many sources which retain curation rights over their own data, but the value only derives from aggregation and analysis of the data. Decisions about what actions to take based on the data remain that of individual actors; coordination only generally happens in an emergency or preparation for an emergency. Conflict resolution does not yet exist, beyond maps, which is a wiki model). </p>
-</div>
-Combining top-down and bottom-up. Release government information that allows all actors to coordinate their assessments and mitigation activities around risks, and allow communities to curate the map of their own buildings' exposure to threats from natural hazards. 
-
-The OpenDRI engagement packages three activities into the work plan:
-
-1. Open Government Risk Data
-2. Open Community Mapping Data
-3. Open Risk Impact Models (Risk Communication)
-
-(Note: This section needs to be a hard-nosed discussion of why to pursue open data as the best option. Not about ideals, but about the practical nature of open data being the best pathway to cope with the problem of risk assessment in a highly dynamic and less predictable world. This section should be about collective intelligence. )
-
-
-
-## 3. Impact Models
+### 3. Impact Models
 
 To change the mindset of planners at all levels of government, it is not only necessary to give them maps and open up government data; they must also have simple tools that allow them to visualize potential futures. Because traditional risk assessment models require a great deal of training and expertise, a range of partners came together to build impact modeling tools that enable a municipal government official to pull hazard data from the national open risk data catalogue, exposure data about her city from OpenStreetMap, and with a few mouse clicks, show the potential impact of a hazard on the schools in her city.
 
 [note: put all info on the connection of risk communication/impact models here in the intro. Key points: need to plan the interface between the data cycle and risk assessment cycle, with a point of interface around the data. In this connection, planning the data schema matters, as the impact models/InaSAFE requires some data from both government (hazard and vulnerability) combined with exposure data to calculate the potential impact. ]
 
-### InaSAFE
+#### InaSAFE
 Impact models are the brainchild of the partnership between the Government of Indonesia, AIFDR, AusAID, and the World Bank/GFDRR. (history to be continued).
-
-***
 
