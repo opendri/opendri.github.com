@@ -28,7 +28,11 @@ Several satellite companies collected fresh high-resolution imagery of the damag
 
 A question emerged: if community mapping could map most of a country in a crisis, what could be done before a disaster? Could GFDRR invest in collecting better data about the exposure of the built environment to natural hazards as a form of technical assistance? Could the communities then curate this data, creating the opportunity for better spatial and temporal resolution of the exposure of a country to threats?
 
-A second set of question emerged a few months later. When the famine of 2010 hit the Horn of Africa, GFDRR convened a meeting where partners to the response agreed to share their operational data using a shared data catalogue. This effort&mdash;[Open Data for the Horn](http://horn.rcmrd.org/)&mdash;
+A second set of question emerged a few months later. When the famine of 2010 hit the Horn of Africa, GFDRR convened a meeting where partners to the response agreed to share their operational data using a shared data catalogue. This effort&mdash;[Open Data for the Horn](http://horn.rcmrd.org/)&mdash;created a shared catalogue of the various data being collected around the famine, from the Famine Early Warning System to regional maps, geospatial data, and satellite imagery. 
+
+In 2011, GFDRR began to package these open data efforts under one moniker: the Open Data for Resilience Initiative (OpenDRI). Teams from GFDRR began to offer World Bank regions and client governments technical assistance around how to use open data to catalyze better risk investments.
+
+
 
 <!-- sidebar -->
 <div class="info-box image-right adapted width-250px">
@@ -154,7 +158,6 @@ The approach taken by OpenDRI is to recruit and train community members to map t
 OpenStreetMap aims to create a free and open map of the world. Akin to Wikipedia, it allows anyone to draw on "the map" using a wide range of software and devices, including handheld computers and smartphones. To ensure accuracy and data quality, the OpenStreetMap Foundation works with communities in each country to encourage editors and experienced uses to review submissions, and provides software that makes it relatively easy for experienced users to correct the errors of person who has made a mistake or submitted inaccurate data. It is a community managed map.
 
 While some might expect that the accuracy of the map would therefore be far lower than professional cartography, academic studies show that the map is within the margin of error of consumer GPS devices (see Muki Hakley, University College, London in this [discussion of the accuracy and reliability of volunteered geographic information](osm.html))
-
 
 
 ***
