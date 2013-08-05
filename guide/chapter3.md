@@ -14,16 +14,24 @@ abstract: "Field Guide"
 
 <div class="info-box image-right adapted width-200px">
 <h4>Phase Summary</h4>
-<ul>
-<li>Timeline: 1-6 months</li>
-<li>Costs: $$</li>
-</ul> 
+
+<table class="standard margin-bottom-50px">
+<tr>
+	<td><strong>Timeline</strong></td>
+	<td>1-6 months</td>	
+</tr>
+<tr>
+	<td><strong>Costs</strong></td>
+	<td>$$$</td>	
+</tr>
+</table>
+
 </div>
 
-Deciding where and when to implement a OpenDRI project depends on a range of factors. OpenDRI initiatives work best in environments where a set of partners are ready for the challenge of collecting, assessing, and curating data about their built environment. Assessing the readiness of this environment requires a scoping mission (site visit) that looks at the country content across the four areas that fuse into OpenDRI:
+Deciding where and when to implement a OpenDRI project depends on a range of factors. OpenDRI initiatives work best in environments where a network of partners are ready for the challenge of collecting, assessing, and curating data about the built environment. Assessing the readiness of this network of partners requires a scoping mission (site visit) that looks at the country content across the four areas that fuse into OpenDRI:
 
 1. **Open Government Risk Data**. What data does the government collect about natural hazards, the built environment, and other risk factors? How does the government collate, coordinate, and analyze this data? How is this data made available to other parts of the public and private sectors?
-2. **Participatory Open Mapping**. What is the status of the open mapping community in the country? What are the coverage (extent) and accuracy of the data?
+2. **Open Mapping and Technology**. What is the status of the open mapping community in the country? What are the coverage (extent) and accuracy of the mapping data? What kind of open technology community exists to turn mapping data into useful tools? 
 3. **Risk/Impact Modeling and Communication**. What kind of risk or impact modeling does the country engage in? Who is responsible for which models? How do risks get communicated to the public and how does the country track how the public uses this information?
 4. **Hazard Monitoring, Modeling, and Communication**. What is the status monitoring of major risks (including weather forecasting)? How does the country communicate those risks?
 
@@ -32,9 +40,9 @@ Deciding where and when to implement a OpenDRI project depends on a range of fac
 
 ## Scoping Mission Objectives
 
-The scoping mission assesses the readiness of government and community to engage in the systematic management of data around the threats that a region faces from natural hazards. In many ways, this process will always be bespoke. For thousands of years, cultures have faced a unique blend of hazards with designs and technologies that reflect local beliefs. With rapid urbanization, globalization, migration, and population growth, many of these traditional ways have fallen under strain. That said, they are familiar and trusted. OpenDRI missions often begin with problems that reflect the areas where societies are ready to make adaptation, providing a pathway to understanding how new techniques and technologies can be fit to local contexts, beliefs, and practices.
+The scoping mission assesses the readiness of government and community to engage in the systematic management of data around the threats that a region faces from natural hazards. In many ways, this process will always be bespoke. For thousands of years, cultures have faced a unique blend of hazards with designs and technologies that reflect local beliefs. With rapid urbanization, globalization, migration, and population growth, many of these traditional ways have come under strain. That said, these approaches are familiar and trusted. OpenDRI missions often begin with problems that reflect the areas where societies are ready to make adaptation, providing a pathway to understanding how new techniques and technologies can be fit to local contexts, beliefs, and practices.
 
-With this need for customization, OpenDRI tends to start from a practical problems that can be solved in the immediate future. The scoping mission looks for the champions||early adopters and works with them to find how possible it is to build the basic feedback loop of OpenDRI using existing data:
+With this need for customization and sensitivity to local context, OpenDRI tends to start from a practical problems that can be solved in the immediate future. The scoping mission looks for the champions||early adopters and works with them to find how possible it is to build the basic feedback loop of OpenDRI using existing data:
 
 1. Hazard Data
 2. Exposure Data
@@ -44,7 +52,7 @@ With this need for customization, OpenDRI tends to start from a practical proble
 In most countries, it will not be possible to aggregate all four types of information from existing datasets. (That said, in countries with sufficient data, the scoping mission team can work with the ministries to develop customized training programs oriented at connecting them with more advanced risk analysis). GFDRR is developing a diagnostic tool to aid in understanding the readiness of a client country for OpenDRI, focused on assessing each component of the risk analysis process.
 
 ### Staffing the Team
-The team should be multi-disciplinary, drawn together from the partners that will be sponsoring the project and connected to the contacts/early adopters in the host government. In general, the team will include:
+The scoping mission team should be multi-disciplinary, drawn together from the partners that will be sponsoring the project and connected to the contacts/early adopters in the host government. In general, the team will include:
 
 * [**Regional/Country DRM Specialist**](tor/scoping/regionaldrm.html): OpenDRI happens as one component of a larger country and/or regional DRM strategy. The scoping mission should include a DRM specialist who can incorporate elements of the local and regional strategy, and connect local partners to resources from other OpenDRI or DRM/DRR activities.
 * [**OpenDRI Specialist**](tor/scoping/opendata.html): surveying the open data ecosystem around the DRM cycle requires experience and expertise. The OpenDRI specialist will build relationships, identify early adopters, and establish the context for an OpenDRI implementation. He or she will lead the design phase and be responsible for building the readiness report. 
@@ -64,6 +72,9 @@ OpenDRI generally begins with a request from a government ministry. This champio
 #### Government Ministries
 Which government ministries are involved in the DRM cycle? It may be useful to create a matrix of the hazards that the country faces with the datasets that often accompany the study of the 
 
+#### Incubators/Tech Community
+Is there a logical place to host OpenDRI? What incubators exist and how well connected are they with the tech community?
+
 #### Existing OSM Community
 What is the state of the existing OSM community and its leaders? What does the map look like? What are their strengths and constraints? How would capacity building change the OSM community?
 
@@ -76,9 +87,6 @@ What CSOs exist in the areas which need to be mapped? What capacities do they ha
 #### Private Sector
 What private sector entities are involved in the collection, curation, and sale of data within the DRM cycle? Some countries contract with outside entities to be stewards over datasets, such as hospitals, schools, and critical infrastructure. What license has the government negotiated for this data?
 
-#### Incubators/Tech Community
-Is there a logical place to host OpenDRI? What incubators exist and how well connected are they with the tech community?
-
 ***
 
 ## During the Mission
@@ -89,96 +97,26 @@ Upon arrival in country, the OpenDRI mission team should set about building conn
 #### Identify Champions
 The most important factor for success is to find the champions who are already trying to perform this work (sometimes without the authority, resources, or convening power to bring the whole system together on their own) and to **LISTEN** to their problems. Often, this work will take two forms:
 
-* **Top-down**: OpenDRI team will travel from ministry to ministry, asking several questions. What factors will drive or constrain the release and integration of existing data that is fragmented across ministries and the organizations that are supporting the ministries or managing their own operations around DRM?
-* **Bottom-up**: OpenDRI team will travel to the country's OpenStreetMap community, local/municipal governments, universities, and start-ups to ask: what factors will drive and constrain the collection of new data and the curation of those data by the communities that the data describes? How open is this data?
+* Inside Government: OpenDRI team will travel from ministry to ministry, asking several questions. What factors will drive or constrain the release and integration of existing data that is fragmented across ministries and the organizations that are supporting the ministries or managing their own operations around DRM?
+* Development Partners. OpenDRI team will travel to the country's OpenStreetMap community, local/municipal governments, universities, UN agencies, start-ups, and other development partners to ask: what factors will drive and constrain the collection of new data and the curation of those data by the communities that the data describes? How open is this data?
 
 Throughout these conversations, necessary to network to the people who each champion knows is working on various aspects of the problem. 
 
-Ministries and GIS companies may already have champions who understand open data and/or have been mapping the infrastructure of their country on their own time. Finding these individuals is a matter of networking, sometimes via surfing the data sets, sometimes by asking interesting questions of people on the scoping mission. Universities are a good place to start (...)
-
-It is common to find a champion who understands the need for better risk analysis, but who lacks the human resources to turn the vision into reality. It is also common to find under-resourced ministry officials who need a cookbook for meeting mandates that would be too costly to pursue through traditional means (like hiring a survey firm to map a large city). Sometimes, ministries will wish to protect their mandates and want to control work in risk analysis. Each case will require a tailored approach.
-
-### Open Government Risk Data
-
 ### Define the Use Case
-The use case for the data drives the effort. It provides the reason to collect, cleanse, and open data. It also is the engine that drives a community to contribute to a common goal. The Scoping Mission team shoudl 
 
-Mobilizing collective action requires some goal--problem, use case, or other organizing principle--to focus effort and create a practical, tangible outcome. The objective of the scoping mission is to uncover potential use cases that could mobilize action around open data, both initially as well as in the long term. ( ... ) How ready is the client to apply the data to probabilistic risk modeling?
+<div class="info-box image-right adapted width-200px">
+<h4>Collect Use Cases</h4>
+<p>The use case for the data drives the effort. It provides the reason to collect, cleanse, and open data. It also is the engine that drives a community to contribute to a common goal. They provide the reasons for the community to continue to care about the data long after the OpenDRI project has ended its formal implementation.</p>
+</div>
+
+Mobilizing collective action requires some goal--problem, use case, or other organizing principle--to focus effort and create a practical, tangible outcome. The objective of the scoping mission is to uncover potential use cases that could mobilize action around open data, both initially as well as in the long term. 
 
 ### Determine the Fit
-Client ministries and the offices of international organizations at the regional and country levels set strategic objectives that may include risk assessment, disaster preparedness, mitigation, post-disaster needs assessment (PDNA), and recovery. OpenDRI can fit into each part of the DRM cycle. For the World Bank, regional DRM leads will need to determine if and how an OpenDRI project fit into broader DRM agenda. 
+Client ministries and the offices of international organizations/development partners at the regional and country levels set strategic objectives that may include risk assessment, disaster preparedness, mitigation, post-disaster needs assessment (PDNA), and recovery. OpenDRI can fit into each part of the DRM cycle. For the World Bank, regional DRM leads will need to determine if and how an OpenDRI project fit into broader DRM agenda. 
 
-The first step in determining if OpenDRI fits into strategic intent is to listen. Listen to the potential partners and the problems they are having managing risks from natural hazards. Where do they want to start? What politics and constraints are they facing and why? 
+The key step in determining if OpenDRI fits into strategic intent is to listen. Listen to the potential partners and the problems they are having managing risks from natural hazards. Where do they want to start? What politics and constraints are they facing and why? 
 
 ### Assess Government Support/Constraints
-Are ministries selling data that are core to risk assessment: satellite imagery, maps, demographic data, cadastral data, hydro-met data, etc? What support is there for opening this data? Are there legal constraints or regulatory issues? Privacy issues? If so, are there ways to work through those issues and lawyers/legal advisors who are willing to build solutions instead of putting up roadblocks? ( ... )
-
-Listen to problems government and other local leaders are having around managing risk. These might include
-* existing use of Probabilistic Risk Modeling 
-* Data being used for risk modeling and decisions
-* Geospatial information systems
-
-### Survey Data Sets
-While donors may not fund the collection duplicative datasets (at least not intentionally), entities in country may collect data which already exists. This may happen for a variety of reasons: licensing of existing data may not allow for reuse or derivative works, no one may know of the existence of the data, the data may be of poor quality, etc. The scoping mission should try to find data sets that already exist within government. (note on snowball technique, reference to USAID report on Nepal mission, duplication of open space and building footprint datasets.)
-
-
-### Assess OpenStreetMap Community
-
-#### Leadership
-
-#### Organizational Capacity
-Status as organization. Capable of receiving funding? Capable of performing on contracts? What training do members need? 
-
-#### Map
-Coverage, accuracy.
-
-### Assess Risk/Impact Modeling Partners
-
-#### Exposure Data
-Structural engineering, architecture, seismic risk. Who are partners?
-
-***
-
-## After the Mission
-
-### Convene Open Data Advisory Working Group meetings via VOIP
-It is important to keep the process of engaging and developing relationships among the early adopters between the scoping mission and the design and pilot phases. While complicated platforms exists for online communities of practice, it is the experience of Bank and OCHA staff staff that group Skype/VOIP calls are an effective forum for discussing online issues, exploring ideas, and generating connections between members of the community who might not otherwise know each other.
-
-### Inquire into Funding
-What funding exists within the international community to support OpenDRI? Who has invested in DRR/DRM activities and at what funding level? 
-
-GFDRR will be building a basic [Cost Structures](budgets/budget.html) document to outline costs based on previous experiences.
-
-## Outputs
-
-### Readiness Report
-[link to readiness report template](reports/readiness.html)
-
-### Use Cases
-What are the use cases for the data? What problems can be solved in the immediate future? Which will require longer-term engagement? 
-
-### Map of Early Adopters
-Mapping the ecosystem can take the form of a socio-graph--literally, a social network graph of the early adopters, gatekeepers, and skeptics. This network map will evolve over time, but can help new staff get up to speed on who plays what role in the DRM ecosystem.
-
-#### Open Government Data
-1. Building Data: key municipal buildings as well as polygons and attributes about residential and commercial structures.
-2. Infrastructure Data
-3. Hazard Data
-4. Exposure, Vulnerability, Risk Data
-5. 
-
-#### Open Participatory Mapping Data
-1. Coverage
-2. Accuracy
-3. Attribute Data
-4. Collection Capacity
-5. Curation Capacity
-
-#### Risk/Impact Modeling
-1. Hazard Modeling Coordination
-2. Impact Modeling Software
-3. Risk Communication
-4. Risk Assessment
 
 <div class="info-box image-right adapted width-200px">
 <h4>Key questions about open data</h4>
@@ -188,7 +126,80 @@ Mapping the ecosystem can take the form of a socio-graph--literally, a social ne
 </ul> 
 </div>
 
-##
+
+One of the biggest impediments to opening data is the practice of selling government data. The scoping mission team should ask--are ministries selling data that are core to risk assessment: satellite imagery, maps, demographic data, cadastral data, hydro-met data, etc? What support is there for opening this data? Are there legal constraints or regulatory issues? Privacy issues? If so, are there ways to work through those issues and lawyers/legal advisors who are willing to build solutions instead of putting up roadblocks?
+
+One approach that has worked is collecting and analyzing the revenues against the lost uses of the information for DRM (an opportunity cost). The scoping team may wish to build a spreadsheet like the following, tracking who is selling what data to whom, at what cost, compared to the expenses around the data's production and the expenses to administer the sales/licensing of the data. While it may seem that data is generating revenues, they are often very small, especially in comparison to the costs of their administration. When the ROI on open data for resilience is higher than the ROI for sales of data, a strong case can be made for ending the sale of certain data sets.
+
+<table class="standard margin-bottom-50px">
+<tr>
+	<th>Seller</th>
+	<th>Buyer</th>
+	<th>Data Set</th>
+	<th>Annual Cost to Buyer</th>
+	<th>Annual Cost to Produce</th>
+	<th>Annual Expenses to Administer</th>
+</tr>
+<tr>
+	<td>Met Office</td>
+	<td>Finance</td>
+	<td>Flood inundation models</td>	
+	<td>$10,000</td>
+	<td>$10,000</td>
+	<td>$10,000</td>
+</tr>
+<tr>
+	<td>Met Office</td>
+	<td>Finance</td>
+	<td>Mid-term met forecasts</td>	
+	<td>$15,000</td>
+	<td>$10,000</td>
+	<td>$10,000</td>	
+</tr>
+</table>
+
+### Survey Data Sets
+While donors may not fund the collection duplicative datasets (at least not intentionally), entities in country may collect data which already exists. This may happen for a variety of reasons: licensing of existing data may not allow for reuse or derivative works, no one may know of the existence of the data, the data may be of poor quality, etc. The scoping mission should try to find data sets that already exist within government. (note on snowball technique, reference to USAID report on Nepal mission, duplication of open space and building footprint datasets.)
+
+### Assess Open Technology and Mapping Community
+Another set of tactics around creating open data for resilience centers on harnessing the energy of the open technology and community mapping communities in a client country. By analyzing the efforts of university departments, civil society groups, and the open-source software/community mapping communities, the scoping team can find new avenues for expanding data sets as well as applications that make those data useful to a wide audience.
+
+Community mapping efforts work best when situated in an existing community organization that can act as a sponsor. In places where such organizations exist, the scoping team should explore the readiness and enthusiasm in those organizations for hosting community mapping. In places where no such organizations are ready or willing to help with community mapping, the scoping mission team should look for ways to harness or found an incubator/innovation lab to catalyze the development of both community mapping and open technology communities.
+
+#### Leadership
+The leaders of open technology efforts span a wide variety of leadership styles and capacities. It is critical for the scoping mission team to identify and meet with these leaders to determine if they are aligned with the values of the effort and if they have the leadership and management capacity to administer a complex project. In some cases, leaders may need training in a specific area; the scoping mission team should note this need and plan to provide it as part of the training curriculum in the design phase. (It may be important to think about ensuring that leadership is spread among a number of individuals).
+
+#### Organizational Capacity
+To write a contract to support an effort, it may be legally necessary for the organization to be incorporated or formed into an entity with the authority, governance, and fiduciary structures to commit to performing certain actions and receiving money, and providing a clear account of work performed. The scoping mission team should inquire into the status of each open technology organization. Is it incorporated? Is it capable of receiving funding from the government or international institutions? How capable is it of performing on contracts? What training do members need? 
+
+#### Community Mapping
+OpenDRI encourages the collection and curation of data about the built environment to be in open platforms like OpenStreetMap. The scoping team should determine what platform is going to be best in a particularly context. This will entail inquiring into the coverage and accuracy of existing data, while also analyzing the curation capacity. 
+
+### Assess Risk/Impact Modeling Partners
+To determine the data structure for field surveys about the built environment, it is often prudent to build partnerships with structural engineering, architecture, and other risk assessment partners. The scoping mission team should inquire into potential partners and determine the fit with the project. What kind of data do they already have? Will such firms make past, current, and/or future data collections open? 
+
+***
+
+## After the Mission
+When the team arrives back from its mission, it must build a set of recommendations about actions. Is the context ready for OpenDRI? Who will be the primary partners, and what will be the use cases that drive that partnership? What funding exists within the international community to support OpenDRI? Who has invested in DRR/DRM activities and at what funding level? 
+
+<div class="info-box image-right adapted width-200px">
+<h4>Building a Budget</h4>
+<p>GFDRR will be building a basic [Cost Structures](budgets/budget.html) document to outline costs based on previous experiences.</p>
+</div>
+
+### Convene Open Data Advisory Working Group meetings
+It is important to keep the process of engaging and developing relationships among the early adopters between the scoping mission and the design and pilot phases. The scoping mission team should convene meetings of an open data working group. In some cases, this has been done online via voice over IP (VOIP) calls, such as Skype. In many contexts, these meetings are led by a local country representative. These meetings can provide a forum for discussing online issues, exploring ideas, and generating connections between members of the community who might not otherwise know each other.
+
+## Outputs
+The key outputs from the work after the mission are a mission report and a readiness report. 
+
+### Mission Report
+The Scoping Mission report captures the narrative experience of the team, as well as their analysis of the use case and recommended actions.[link to scoping mission report template](reports/scoping.html)
+
+### Readiness Report
+Readiness Report is a diagnostic tool that will be used to assess if a country is ready for OpenDRI. 
+[link to readiness report template](reports/readiness.html)
 
 
 
