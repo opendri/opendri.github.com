@@ -160,7 +160,7 @@ The history and overview of the OpenDRI process.
 
 ***
 
-* Fall production schedule (assume 8 Nov delivery for CG on 15-16 Nov)
+### Fall production schedule (assume 8 Nov delivery for CG on 15-16 Nov)
 * Start info design with designer (3 Sept)
 * Initial Draft of Information Design of Part I and II of Guide (20 Sept)
 * take input of edited cases and documents (20 Sept)
