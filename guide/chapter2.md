@@ -99,8 +99,8 @@ In general, OpenDRI unfolds in five stages:
 ## Tools
 OpenDRI uses a growing menu of tactics to develop the open data ecosystem:
 
-### 1. Open Government Risk Data
-Open Government Risk Data (OGRD) programs provide for the strategic release of certain government datasets to the commons, where they can be curated, emended, amended, and (most importantly) reused in ways that governments alone cannot do. OGD is **not** the release of all government data to the public.
+### Building a DRM Data Catalogue
+Building trust to release data into public or semi-public data catalogues enable the strategic release of certain government datasets to the commons, where they can be curated, emended, amended, and (most importantly) reused in ways that governments alone cannot do. Data catalogues do not mean that a government needs to release of all data to the public.
 
 The strategic release of data to a public commons enables first recommendation from NHUD: 
 
@@ -146,7 +146,16 @@ OpenDRI advises ministries how on the collation, cleansing, and release of data 
 
 ***
 
-### 2. Open Participatory Mapping Data
+### Open Data Working Groups
+A critical aspect of OpenDRI revolves around the development of an ecosystem of experts who use open data to create analytical products. Hosting open data working groups is a proven tactic to recruit, train, and connect individuals who need better access to DRM information. Working groups provide two critical functions: 
+
+* **Networking**: In many cases, the network of GIS experts, DRM analysts, and disaster managers in a country lack strong relationships. They may also not be aware of the data that other agencies/ministries hold. Open data working groups provide a venue for individuals to become aware of each other's problems, what data sets they curate and hold, and build sustainable links between institutions. This trust becomes the bedrock on which a sustainable network of DRM professionals curate open data.
+
+* **Training**: period working group meetings provide a venue where the network of DRM professionals can build capacity around risk assessment. Through partnerships with international institutions, the working groups receive regular contact with DRM experts from around the world, who may present in country or via webinars on topics of interest to the host country. Training sessions also catalyze cross-pollination between countries.
+
+***
+
+### Community Mapping of Exposure Data
 Building better exposure data is very time intensive, but it need not be costly. It requires individuals to visit thousands of municipal buildings and locations of critical infrastructure, make a basic assessment about the construction of those sites, take pictures, and ask locals questions about the site. If performed by survey departments of the government or commercial ventures, the costs quickly spiral beyond the means of most governments and donors. In comparison, mapping Kathmandu under OpenDRI cost under $200,000 USD. 
 
 The approach taken by OpenDRI is to recruit and train community members to map their own cities. This method creates jobs for youth, trains them in modern geospatial tools, and prepares them for additional work curating the map of their cities. See [OpenCities](http://opencitiesproject.com/). It also creates a map that is free and open for all to use for any purpose.
@@ -164,7 +173,17 @@ While some might expect that the accuracy of the map would therefore be far lowe
 
 ***
 
-### 3. Impact Models
+### Software Development around Open Data
+The release and creation of data under open licenses foments innovation by a host-country's technology community. In many cases, small companies and non-profit organizations can build revenue models around adding value to open data. A good example is the application of OpenStreetMap data to build routing applications for other business, particularly around the navigation of complex and fast-changing urban environments.
+
+***
+
+### Living Labs
+To support small businesses and non-profits that emerge around open data, a proven tactic is to use a "living lab" or "innovation lab." This innovation space provides an incubator where teams from multiple efforts can develop software in a co-working space. Even with basic curation, the environment can foster cross-pollination of ideas and interlinking of both data and business models. The living lab also provides a neutral space where government officials, international staff, local business, and community members can interact as peers and co-develop solutions to shared problems.
+
+***
+
+### Risk Communication Tools
 
 To change the mindset of planners at all levels of government, it is not only necessary to give them maps and open up government data; they must also have simple tools that allow them to visualize potential futures. Because traditional risk assessment models require a great deal of training and expertise, a range of partners came together to build impact modeling tools that enable a municipal government official to pull hazard data from the national open risk data catalogue, exposure data about her city from OpenStreetMap, and with a few mouse clicks, show the potential impact of a hazard on the schools in her city.
 
@@ -172,4 +191,7 @@ To change the mindset of planners at all levels of government, it is not only ne
 
 #### InaSAFE
 Impact models are the brainchild of the partnership between the Government of Indonesia, AIFDR, AusAID, and the World Bank/GFDRR.
+
+***
+
 

@@ -15,23 +15,24 @@ section: II. Practice
 <h4>Phase Summary</h4>
 <ul>
 <li>Timeline: 3-12 months</li>
-<li>Costs: $$</li>
+<li>Costs: ?</li>
 </ul> 
 </div>
 
 Turning the design into the first pilot often takes 1-6 months of work. The Design team will spend time building consensus among the partners, writing concept notes and terms of reference that require several organizations (and several departments within those organizations) to come to agreement and release funding. Once funding flows, however, work in the field can lead to relatively fast outputs.
 
-The piloting phase builds the first instances of a data catalogue, collects the first participatory mapping data, and (context permitting) may allow government officials to apply the new data to initial impact models of known hazards. 
+The piloting phase builds the first instances of a data catalogue, collects the first participatory mapping data, and (context permitting) may allow government officials to apply the new data to initial impact models.
 
-The Pilot Management Team should include several experts:
+The Pilot Management Team often includes three experts:
 
 * **OpenDRI Lead**: an expert manager of the integration of various tactics into a comprehensive strategy around DRM data collection and curation.
-* **Open Data Catalogue Specialist**: an expert in the technical mechanisms of collecting and cleansing data from government ministries and community mapping efforts into a comprehensive data catalogue. This expert will have skills to train local officials in the deploment of an OpenGeo GeoNode or the use of existing ESRI GeoPortal as data catalogue.
 * **Community Mapping Lead**: an expert in the implementation of community mapping methods for the collection of exposure data.
+* **Open Data Catalogue Specialist**: an expert in the technical mechanisms of collecting and cleansing data from government ministries and community mapping efforts into a comprehensive data catalogue. This expert will have skills to train local officials in the deployment of an OpenGeo GeoNode or the use of existing ESRI GeoPortal as data catalogue.
+
 
 ***
 
-## 1. Open Government Risk Data
+## Data Catalogue
 
 If OpenDRI is working with the client government on a Open Government Risk Data initiative, the OpenDRI data catalogue lead will identify consultants to partner with client on a campaign to collect, co-map, cleanse, and analyze new data around the DRM cycle. These consultants may be government officials or may be outside experts. In either case, they will learn how to prepare existing data for release and management the data catalogue as a sustainable resource.
 
@@ -121,7 +122,7 @@ The audience for the data catalogue generally falls into two classes of individu
 
 ***
 
-## 2. Community Mapping of Exposure Data
+## Community Mapping
 The first pilot of a community mapping initiative generally starts in one city, and potentially, within one neighborhood of a large city. The objective is to train a small pool of energetic, smart mappers into a team that can a) collect the first data and adapt initial approaches to the problems they discover in the field, and b) recruit and train other mappers as the initiative moves into the Scaling phase.
 
 **Note**: The OpenCities Project has created a toolkit which covers the implementation details of community mapping. This section provides a strategic overview of the OpenCities methodology.

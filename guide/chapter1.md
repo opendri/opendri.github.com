@@ -17,16 +17,16 @@ abstract: "Field Guide"
 
 ## Understanding Risk
 
-Disasters reveal chains of decisions about risk (NHUD, 2011). When infrastructure fails under strain of an earthquake, journalists may point to the failure of the construction firm to adhere to building standards. Or to the failure of a government to set and enforce code around retrofitting a school to seismic risks. Or to the owner of a factory to have inquired into the exposure of the structure to hazards and developed a strategy to cope with these potential vulnerabilities. 
+Disasters reveal chains of decisions about risk (*Natural Hazards, UnNatural Disasters* (NHUD), 2011). When infrastructure fails under strain of an earthquake, journalists may point to the failure of the construction firm to adhere to building standards. Or to the failure of a government to set and enforce code around retrofitting a school to seismic risks. Or to the owner of a factory to have inquired into the exposure of the structure to hazards and developed a strategy to cope with these potential vulnerabilities. 
 
 <!-- ~~~ ~~~ ~~~ SIDEBAR  ~~~ ~~~ ~~~ -->
 <div class="info-box image-right adapted width-250px">
-<h4>Natural Hazards, UnNatural Disasters</h4>
+<h4>*Natural Hazards, UnNatural Disasters*</h4>
 <p>Every disaster is unique, but each exposes actions&mdash;by individuals and governments at different levels&mdash;that, had they been different, would have resulted in fewer deaths and less damage.</p>
 </div>
 <!--  ~~~ ~~~ ~~~ END SIDEBAR  ~~~ ~~~ ~~~ -->
 
-In each case, the critical element is missing information. Information that might have driven a different choice about architectural designs, building materials, or the site for the building (siting). Information that might have driven a community to question choices. Information that might have driven a legislature to pass codes or officials to allocate staff time to enforcing them. 
+In each case, critical information is missing. Information that might have driven a different choice about architectural designs, building materials, or the site for the building (siting). Information that might have driven a community to question choices. Information that might have driven a legislature to pass codes or officials to allocate staff time to enforcing them. 
 
 Across the disaster risk management cycle, institutions are now engaged in a process to build this stock of information. The aim is to improve the chain of decision across entire ecosystem, from the donor who funds retrofitting of schools to the individual business person who need to mitigate potential losses from natural hazards while caring for his or her household. 
 
