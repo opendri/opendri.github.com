@@ -14,7 +14,7 @@ section: II. Practice
 <h4>Phase Summary</h4>
 <ul>
 <li>Timeline: ?? months</li>
-<li>Costs: $$</li>
+<li>Costs: ?</li>
 </ul> 
 </div>
 
@@ -23,14 +23,14 @@ Pilots demonstrate new possibilities. They allow partners to see firsthand how c
 This chapter explores scaling two OpenDRI tactics: open government risk data and community mapping.
 
 ***
-## 1. Open Government Data
+## Data Catalogue
 After early adopters have added data to a data catalogue, the slow process of building an ecosystem of users begins. The sign for this work to start is if a champion has loaded data and a user base begins to use the data catalogue to solve immediate problems. The usage indicates that the pilot happened in a fertile environment for additional work. 
 
 In general, there are three approaches to scaling open government risk data:
 
 * **Expanding the number of data catalogues**. Data catalogues no longer need to be centralized. Instead, they can form a confederation of catalogues. In this way, each ministry can own and curate its own data, and choose what data to make available to whom. The confederation of catalogues might offer other ministries very different access rights than the rights afforded to the general public.
 * **Increasing data sets within each data catalogue**. Often the initial data sets are limited to information which is considered to be low risk and high reward for its release. Expanding the data available in each catalogue will work towards data which might have lower rewards or higher risks for its release.
-* **Increasing interconnections**. The density of the interconnections between data will greatly affect the perceived value of the network. Each data set can be viewed as a LEGO(tm) piece. When topology data from one ministry can be combined with meteorological forecasts, flood inundation experts can more accurately predict flood damage from an upcoming storm seasons. When tsunami inundation models show the vulnerability of certain structures to the force of sea, disaster planners can design evacuation routes to alternative shelters.
+* **Increasing interconnections**. The density of the interconnections between data will greatly affect the perceived value of the network. Each data set can be viewed as a LEGO(tm) piece. When topolography data from one ministry can be combined with meteorological forecasts and river gauge data, flood models can more accurately predict flood damage from an upcoming storm seasons. 
 
 In each case, planning how to scale requires considering several factors:
 
@@ -51,15 +51,12 @@ When ministries begin sharing data that has previously been closed, policy and l
 * **Metadata**. *How can users find the data they need?* Metadata provides a common language to describe the data. In this way, experts in various specialties can define their vocabularies and enable others to find the data that they need.
 
 ### Building Curation capacity and QA/M&amp;E
-As data scales in size and interconnection, the challenges of curating it increase. When a system is flooded with high volumes of poor quality data, it becomes far less useful than it was when it started with a few solid datasets. The Data Curator needs to become the steward of the data. He or she will not only add new data, but also removing data that has become stale, cleanse data that contains errors in accuracy or formatting. The Data Curator's role is to leave data better than he or she found it. The Quality Assurance capacity and M&amp;E around OpenDRI need to be tied to the quality, findability, and usage of the data under curation. OpenDRI is developing a [guide to this curation process](datacuration.html). 
-
-### Building Communities of Practice
-
+As data scales in size and interconnection, the challenges of curating it increase. When a system is flooded with high volumes of poor quality data, it becomes far less useful than it was when it started with a few solid datasets. The Data Curator needs to become the steward of the data. He or she will not only add new data, but also removing data that has become stale, cleanse data that contains errors in accuracy or formatting. The Data Curator will need to establish and apply data typologies and hiearchies. The Data Curator's role is to leave data better than he or she found it. The Quality Assurance capacity and M&amp;E around OpenDRI need to be tied to the quality, findability, and usage of the data under curation. OpenDRI is developing a [guide to this curation process](datacuration.html). 
 
 
 ***
 
-## 2. Community Mapping of Exposure Data
+## Community Mapping
 Research indicates that scaling community mapping efforts is generally a process of building additional pilots, then interconnecting them. This strategy roughly parallels grassroots organizing, when organizers carry the effort from one place to the next, building a larger national effort along the way.
 
 ### Expanding each site
@@ -73,8 +70,14 @@ Each new pilot will generally start by cloning the previous cities, with customi
 ### Preparing pilots be sustainable entity
 The communities that come together to collect exposure data are not meant to be a one-off. They must curate that data over time to create a viable risk management ecosystem. While the costs are low, these organizations need to sustain a small set of paid leaders around a network of volunteer surveyors. The OpenDRI team needs to consider strategies to fund and sustain these efforts. To date, all pilots are still working off pilot funding and none have developed revenue models in either the not-for-profit or for-profit spaces. Some groups might well be able to develop social ventures/social entrepreneurship models.
 
+An important element of current work is partnerships with local universities. By integrating risk assessment into the curricula of geospatial and structural engineering courses, the OpenDRI team has been able to expose the next generation of government officials, engineers, and analysts to thinking about risk in terms of probable futures. Students have become an important source of volunteers, especially as they seek to gain experience in a new set of skills.
+
 ### Data Quality Reports with Universities
 As efforts scale, the dataset becomes an attractive subject for research by local academics. At the same time, the ecosystem often desires a third-party assessment of the quality of the growing data, along with recommendations about how to remedy any errors. OpenDRI team has had success contracting with local academic institutions to perform a QA study on community mapping data. One [such report was done by UGM in Indonesia](http://oo.or.id/2013-07-05/Dokumen%20Laporan/Final%20Report-OSM%20Evaluation%20in%20Indonesia_2012.pdf). It catalyzed a change to the conversation about community mapping in the client government, which subsequently expanded its use of OpenStreetMap.
+
+***
+
+## Open Data Working Group
 
 
 
@@ -85,23 +88,6 @@ TBD
 
 ***
 
-## Field Notes
-The is a growing set of insights around the scaling of OpenDRI which will be integrated into the guide over time. Some of these insights include the dynamics that cause net positive and negative effects on the ecosystem of open data. These dynamics include:
-
-### Positive effects on growth
-
-1. Disasters catalyze investment in risk management. 
-2. Funding handoffs between international institutions also drive new funding sources.
-3. When approved, new ToRs often lead to increases to data.
-4. Training programs lead to more and better data.
-5. Expanding the number of people who use spatial data in an ecosystem.
-
-### Negative effects on growth
-
-1. Low data use: when few people use data every day, data tends to get stale.
-2. Informal networks: when a cabal of small number of people have extant informal mechanisms to obtain risk data. 
-3. Data Fade rate: how fast does data go out of date. 
-4. Utility Fade Rate: the Utility of some data also fades over time.
 
 
 
