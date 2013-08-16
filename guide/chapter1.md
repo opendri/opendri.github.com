@@ -11,12 +11,10 @@ abstract: "Field Guide"
 
 
 # 1.	Introduction: The Need for Disaster Risk Management Data
-
 <!-- ## What problems does this approach address? -->
 <!-- introduce the core concepts of risk here, as if we are handing the guide to a person entirely new with GFDRR, DRR, and risk management -->
 
 ## Understanding Risk
-
 Disasters reveal chains of decisions about risk (*Natural Hazards, UnNatural Disasters* (NHUD), 2011). When infrastructure fails under strain of an earthquake, journalists may point to the failure of the construction firm to adhere to building standards. Or to the failure of a government to set and enforce code around retrofitting a school to seismic risks. Or to the owner of a factory to have inquired into the exposure of the structure to hazards and developed a strategy to cope with these potential vulnerabilities. 
 
 <!-- ~~~ ~~~ ~~~ SIDEBAR  ~~~ ~~~ ~~~ -->
@@ -26,9 +24,9 @@ Disasters reveal chains of decisions about risk (*Natural Hazards, UnNatural Dis
 </div>
 <!--  ~~~ ~~~ ~~~ END SIDEBAR  ~~~ ~~~ ~~~ -->
 
-In each case, critical information is missing. Information that might have driven a different choice about architectural designs, building materials, or the site for the building (siting). Information that might have driven a community to question choices. Information that might have driven a legislature to pass codes or officials to allocate staff time to enforcing them. 
+In each case, critical information is missing. Information that might have driven a different choice about architectural designs, building materials, or the site for the building (siting). Information that might have driven a community to question choices. Information that might have driven a legislature to pass laws or officials to allocate staff time to enforcing them. 
 
-Across the disaster risk management cycle, institutions are now engaged in a process to build this stock of information. The aim is to improve the chain of decision across entire ecosystem, from the donor who funds retrofitting of schools to the individual business person who need to mitigate potential losses from natural hazards while caring for his or her household. 
+Credible information about risk is an essential element of Disaster Risk Management (DRM). Across the disaster risk management cycle, institutions are now engaged in a process to build this stock of information. The aim is to improve the chain of decision across entire system, from the donor who funds retrofitting of schools to the individual business person who need to mitigate potential losses from natural hazards while caring for his or her household. 
 
 <div class="info-box image-right adapted width-200px">
 <h4>Resilience</h4>
@@ -38,19 +36,20 @@ Across the disaster risk management cycle, institutions are now engaged in a pro
 ***
 
 ## Risk Assessment and Communication
-While governments may be able to model hazards, few have the ability to take this curiousity the next step: to model how this energy will impact the built environment and human systems. Risk assessment requires data about both hazards and the exposure of the built environment to specific hazards to measure vulnerability of infrastructure to specific threats. This process requires curation of three dynamic datasets:
+Building risk assessments follows an internationally agreed approach that combines three elements: hazard, exposure and vulnerability.
 
-1.	**Hazard Data**: a set of historical models and forecasts for hydro-met, seismic, climate, and volcanic dynamics.
- 
-2.	**Exposure Data**: a dataset about the built environment specifically collected around the metrics necessary to calculating the vulnerability of a building or infrastructure to a specific natural hazard. These data change with the rate of urbanization and retrofitting. After a disaster, they must be updated to reflect the new built environment. 
+* **Hazard**: The likelihood (probability/chance) and intensity of a potentially destructive natural phenomenon. For example, ground shaking in an earthquake; severe wind/storm surge in a cyclone; inundation level and velocity in a flood event.
+* **Exposure**: The location, attributes and value of assets that are important to communities (people, property, infrastructure, agriculture/industry etc).
+* **Vulnerability**: The likelihood that assets will be damaged or destroyed when exposed to a hazard event. For example, the relationship between the intensity of earthquake shaking correspond and the level of damage for different buildings (Figure 2).
 
-3.	**Vulnerability Data**: a calculated dataset that shows the effect that one or more hazards will have on the a dynamic built environment.
+Understanding the threat from a given hazard can unfold through several levels of complexity. At the most basic, an analyst can modeling the **impact** of hazard estimates what might happen to people, buildings, crops etc from a single event, such as 1/100 year flood or an 8.1M earthquake. This is **Impact Modeling**.
 
-When countries have all three datasets under management, it is possible to engage in risk assessment: an examination of the primary risks posed by probable futures and strategic planning to mitigate those risks with retrofitting, building codes, and other forms of mitigation, such as drainage, irrigation, seawalls, and other major infrastructure.
+Impact modeling is not the same as risk assessment. **Risk** is the composite of the impacts of all potential events&mdash;e.g., using looking at the impact from 10,000 cyclone events&mdash;so this allows an agency to determine the annual average loss and probable maximum loss from individual or multiple hazards. Risk models can be very useful for financial planning and protection, prioritizing DRM investment within a country, and cost-benefit analysis of different risk reduction options. They are the basis for projects that build preparedness, focus risk reduction investment and action, and implement policies that slow the creation of new risks.
 
-(note to information designer: build info graphic on how these models come together to form a triad that leads to risk assessment, and how higher resolutions improve accuracy of the models. )
+### Managing Risks Requires Managing Risk Data
+Effective disaster risk management requires a commitment to collect, curate, and analyze data over the long term. However, many governments have lacked the resources to be stewards of the data that are essential for risk assessment. Many more lack the capacity to turn the data into models that show the potential impact of a given hazard upon the important elements of their society: people, properties, economies, and the natural environment. 
 
-![alt text](/assets/images/risk_hazard_exp_vul.png "Risk Assessment Triad: Hazards, Exposure, Vulnerability")
+The partners to this Field Guide are working to reduce the costs of collecting and curating data and transforming it into useful models that can guide policies and investments. Several have built non-traditional methods of creating exposure data, which tends to be the most costly to build and maintain. 
 
 ***
 
@@ -58,41 +57,27 @@ When countries have all three datasets under management, it is possible to engag
 Most countries lack the resources, training, and software to place all three types of data under a management process that allows for the assessment and mediation of risk. In many nations, the information necessary to catalyze this type of risk management thinking is blocked by a range of problems, including:
 
 ### Fragmentation of Specialists
-Risk requires multidisciplinary analysis, but these experts rarely sit in one organization. Specialization has driven the design of modern bureaucracy towards hierarchies. Great strength for transactions and coordination of workflows, but information raises challenge. Cross-cutting horizontal flows of information needed across specializations to coordinate decisions. Design of hierarchies often forces these flows through gates or up-then-down-and-across structures. 
+Risk assessment is a multidisciplinary process, but these experts rarely sit in one organization. Specialization has driven the design of modern bureaucracy towards hierarchies. While this structure is efficient for for transactions and coordination of workflows, the flow of information across organizations can be a challenge. Gatekeepers can prevent the timely flow of information, or may limit it in ways that hinder its use and reuse by others outside the original organization.
 
 ### Data Fragmentation
 Multidisciplinary analysis requires data from across specializations, yet these data are often segmented into silos. May be in proprietary formats, locked under intellectual property licenses that require expensive payments. Some ministries charge other parts of their own governments for use of the data. 
 
-<!-- ~~~ ~~~ ~~~ SIDEBAR  ~~~ ~~~ ~~~ -->
-<div class="info-box image-right adapted width-250px">
-<h4>Superstorm Sandy in NYC: Unexpected vulnerabilities</h4>
-<p>Even NYC had problems with exposure data. While it was possible to model potential flood inundation with relative accuracy, no one can calculated how a change in policy around generators and cold storage would affect the built environment. The major telco switching facility in Manhattan had once stored its fuel on the roof, next to the generator. A decade ago, the law changed, forcing the storage of fuel into the basement. When the flooding from Sandy hit, the fuel was under seawater, and the electrical pump that pushed fuel to the roof-top generator failed, leaving a facility that served over 10 million people without the capability of generating backup power. Staff had to hand-carry diesel fuel up 23 stories to the roof.</p>
-</div>
-<!-- ~~~ ~~~ ~~~ END SIDEBAR  ~~~ ~~~ ~~~ -->
-
 ### Data Duplication
 While donors may not set out to fund two or more collections of the same data, the result of having closed data is often just that. One ministry does not know what that other has or is currently collecting. This problem becomes more acute when NGOs are involved, and communication across sectors is not as good as it might be. Fusion separate datasets may not be possible, or may be very costly, if the groups are using different standards, software, and practices around its collection and quality assurance.
 
-### Data Access
-Data may be available, but it might be limited to use by specific parties. Access is discriminatory.
+### Data Access/Availability
+While policies may allow data to be made available, the data curators might limited access or use of the data to specific parties. In this sense, access is discriminatory: it is only for certain approved entities.
 
 ### Data Staleness and Incompleteness
-Data may reflect best knowledge from investment made more than decade before. In some countries, the last census or survey-quality map may be decades old. Data about exposure may have never been collected at the level of resolution necessary to build risk models. Data is outdated and/or incomplete.
+Data may reflect best knowledge from investment made more than decade before. In some countries, the last census or high-quality map may be decades old. Data about exposure may have never been collected at the level of resolution necessary to build risk models. Data is outdated and/or incomplete.
 
-### Exposure Data can be Expensive to collect and maintain
-Data about buildings and built environment is time-intensive to collect and maintain. The built environment changes at the rate of construction plus the rate of destruction. (Collective action to collect this data has become possible.)
+### Exposure Data can be Expensive to Collect and Maintain
+Data about buildings and built environment is resource-intensive to collect and maintain (time, cost, personnel, etc). The stock of buildings and infrastructure changes at the rate of construction minus the rate of destruction, mediated by a range of other factors, including the the rapid increase in population and the rate of urbanization. In mathematical terms, the stock of buildings is technically the partial integral of the rate of construction minus the rate of construction for a given time period between t(0) and t(n): ∫(construction_rate - destruction_rate).
 
 ***
 
 ## Policy Challenge: underlying risks are accelerating
-Climate Change and urbanization are changing the nature and magnitude of risks many developing countries, particularly those most at risk of increased cyclones, floods, and droughts in cities with swelling peri-urban slums sited in the most vulnerable areas. For these policy makers, it is become ever more difficult to get a handle on dynamic risks.
-
-<!-- ~~~ ~~~ ~~~ SIDEBAR  ~~~ ~~~ ~~~ -->
-<div class="info-box image-right adapted width-250px">
-<h4>Case Study: Kathmandu</h4>
-<p>Kathmandu Pre-OpenDRI: the need for basic map of schools and health facilities. Why we could not model seismic risks to critical infrastructure except at the macro level. Urbanization and growth rates (about 5%!). Rapid construction, low ability to enforce building codes. Ever more population at risk, more structures enter into risk pool. </p>
-</div>
-<!-- ~~~ ~~~ ~~~ END SIDEBAR  ~~~ ~~~ ~~~ -->
+The processes of urbanization, population growth, accelerating rates of poor construction and urban planning, and increase in subsidence are changing the nature and magnitude of risks many developing countries. This is particularly pronounced in those countries most at risk of increased cyclones, floods, and droughts in cities with swelling peri-urban slums sited in the most vulnerable areas. For these policy makers, it is become ever more difficult to get a handle on dynamic risks.
 
 ### That said, even dynamic risk can be mediated and managed. 
 The levers to manage risk are not always obvious. They may be at level of policy, such as building codes. They may require direct investments in retrofitting infrastructure to higher seismic standards. Or they may require soft infrastructure in a better prepared populace who stockpile supplies because they expect to be cut off from outside aid for a period of several weeks after the next major disaster.
@@ -100,27 +85,19 @@ The levers to manage risk are not always obvious. They may be at level of policy
 ### Managing dynamic risks requires higher resolution data
 Most governments function with data collected at best annually. In many places, data on the built environment have not been updated in decades, or are collected across a small sample of the country. Land cover estimates may be at greater than 1km or even 5km resolution (average building abstracted from sample across grid square.) There may be policy barriers to collecting the data, particularly where surveys of informal settlements by government officials might create political pressures to turn peri-urban slums into recognized municipalities. Yet, to assess the risk in places facing 5% annual population growth and increased probabilities of droughts, fires, floods, and landslides, governments need higher resolution data, both temporally (collection intervals) and spatially (grid square averages). 
 
-### But the components of risk assessment are no longer activities that most governments can afford to do alone; there is an increasing need for collective action.
+### But the collection of required components for risk evaluation are no longer activities that most governments can afford to do alone; there is an increasing need for collective action.
 To collect higher resolution data in times of economic uncertainty and tight budgets is a difficult choice. Professional surveys of urban areas can be very expensive. Analysis of the data can also be costly. But there is another way: collective action.
 
-In Indonesia, Nepal, and a growing number of countries, governments have been mobilizing their ministries and citizens to collect and curate the data necessary to make everyone safer. Because much of the labor is done by community organization, the resulting maps of built environment are being created at ultra low cost. Working together, members of the private sector, public sector, and community organizations are building a shared understanding of their probable futures. With the aid of risk managers, the government is guiding a conversation about how to invest in mitigating the worst possible outcomes as a whole nation.
+In Indonesia, Nepal, and a growing number of countries, governments have been mobilizing their ministries and citizens to collect and curate the data necessary to make everyone safer. Because much of the labor is done by community organization, the resulting maps of built environment are being created at ultra low cost. Working together, members of the private sector, public sector, and community organizations are building a shared understanding of their probable futures. With the aid of risk managers, the government is guiding a conversation about how to invest in resilient communities.
 
-### This need for collective action is emerging at time when communications tools and practices are introducing disruptive change in the methods of coordinating collective action. 
+### This need for collective action is emerging at time when communications tools and practices are introducing disruptive changes in the methods of coordinating collective action. 
 
-When communications are expensive, coordination generally occurs in centralized hierarchies, where decision makers at each level have specific authorities. Since the Internet, the costs of communications have been falling dramatically, so the point where they are now approaching zero. In parallel, ever more computing power have been concentrated in devices whose production costs are falling according to Moore's Law. (sidebar). As a result, billions of citizens of the world have access to low cost communications via handheld devices that allow for data collection, geolocation, and photography. They can organize their operations as swarms, collective intelligences that follow resilient networks of the Internet shaped into human form. 
-
-<ul class="circle">
-<li>GPS </li>
-<li>Cell Phones</li>
-<li>Overhead imagery</li>
-<li>Participatory or community mapping</li>
-<li>Open geospatial platforms</li>
-</ul>
+When communications are expensive, coordination generally occurs in centralized hierarchies, where decision makers at each level have specific authorities. Since the widespread use of the Internet, the costs of communications have been falling dramatically. In parallel, ever more computing power have been concentrated in devices whose production costs are falling according to Moore's Law. (sidebar). As a result, billions of citizens of the world have access to low cost communications via handheld devices that allow for data collection, geolocation, and photography. They can organize their operations as swarms, collective intelligences that follow resilient networks of the Internet shaped into human form. 
 
 ***
 
 ## Open Data for Resilience: Harnessing Collective Action
-Integrating these opportunities and new technologies has become the mission for a two-year old initiative called Open Data for Resilience. This partnership of international institutions, client governments, and community organizations harnesses low-cost, fast-cycle efforts to collate, collect, and analyze data about natural hazards and the risks that they poses to a nation. It is the subject of the next chapter.
+Integrating these opportunities and new technologies has become the mission for a two-year old initiative called Open Data for Resilience. This initiative has drawn together international institutions, client governments, and community organizations harnesses collective efforts to create, collate, and analyze data about natural hazards and the risks that they poses to a nation. It is the subject of the next chapter.
 
 
 
