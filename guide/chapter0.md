@@ -1,5 +1,4 @@
 ---
-published: true
 layout: guide
 navgroup: guide
 group: guidechapter
