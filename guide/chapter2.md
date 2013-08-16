@@ -11,13 +11,19 @@ abstract: "Field Guide"
 
 # 2.	Open Data for Resilience
 
-Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the data necessary for impact and risk modeling. Among the several intended impacts is improved targeting of investments for mitigating the effects of disasters. An OpenDRI project offers a menu of DRM tactics for building high-resolution exposure data with collective action, including:
+Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the exposure data necessary for impact and risk modeling, and to share the results of hazard and risk data and information to broader stakeholder groups. An OpenDRI project offers a menu of DRM tactics for building high-resolution exposure data with collective action, including:
 
-1. **Collation of Open Government Risk Data (OGRD) and publication in an open geodata catalogue**. Data about the exposure of a nation to natural hazards are often fragmented across multiple institutions, often under policies that hinder the aggregation of those data into more comprehensive models. GIS and Data Management System (DMS) platforms that enable this kind of aggregation are also rare and (until recently) were very expensive.
+* **Collation of data and their publication in an open geodata catalogue**. Data about the exposure of a nation to natural hazards are often fragmented across multiple institutions, often under policies that hinder the aggregation of those data into more comprehensive models. GIS and Data Management System (DMS) platforms that enable this kind of aggregation are also rare and (until recently) were very expensive.
 
-2. **Collection of Exposure Data with Participatory Mapping**. In many places, there exist no geospatial database of the built infrastructure that aggregates key attributes about its vintage, construction materials, height, or elevation. OpenDRI works with communities to build this asset database from the bottom-up using low-cost participatory mapping techniques, where collection and curation of the data is done by the communities that those data describe.
+* **Open Data Working Groups**. The development of a community between DRM practitioners is critical for fostering information sharing, providing training, and creating the network of analysts who become the primary users (and sustainers) of risk data.
 
-3. **Risk Communication via Impact modeling**. By combining data about hazards, exposure, and vulnerabilities into a simple impact model, OpenDRI can help government officials see the effects of probably futures and understand how to apply the data to thinking differently about disaster preparation, mitigation, and recovery.
+* **Collection of Exposure Data with Participatory Mapping**. In many places, there is no geospatial database of the built infrastructure that aggregates key attributes about its vintage, construction materials, elevation, or number of stories. OpenDRI works with communities to build this asset database from the bottom-up using low-cost participatory mapping techniques, where collection and curation of the data is done by the communities that those data describe.
+
+* **Software Development around Open Data**. Once risk data exists as a public good, it creates a strong incentive to build software applications and services around the application and analysis of those data. Some products are directly related to DRM. Some harness the information--maps, imagery, and data about the built environment--for uses beyond DRM, including navigation, logistics, and business analysis.
+
+* **Living Labs**. Building a community of technologists and organizers around risk data can be accelerated by using a living lab or innovation lab model, where a place serves as an incubator for new projects. 
+
+* **Risk Communication Tools**. To raise awareness of the potential impact of disasters that have not occurred in living memory, it is important that DRM experts create mechanisms to communicate threats to decision makers and the general public. Risk communication tools provide a platform for this work.
 
 OpenDRI also relies on parallel but separate efforts around improving the modeling of natural hazards, including weather forecasting and mid-term meteorological/climate forecasting. It also relies on cross-support from peers in risk assessment and modeling, who can take data curation that is at the core of OpenDRI and turn that information resource into actionable recommendations around risk management. **Note**: Risk Assessment is not part of OpenDRI.
 
