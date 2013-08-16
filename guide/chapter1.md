@@ -97,7 +97,26 @@ When communications are expensive, coordination generally occurs in centralized 
 ***
 
 ## Open Data for Resilience: Harnessing Collective Action
-Integrating these opportunities and new technologies has become the mission for a two-year old initiative called Open Data for Resilience. This initiative has drawn together international institutions, client governments, and community organizations harnesses collective efforts to create, collate, and analyze data about natural hazards and the risks that they poses to a nation. It is the subject of the next chapter.
+Integrating these opportunities and new technologies has become the mission for a two-year old initiative called Open Data for Resilience. This initiative has drawn together international institutions, client governments, and community organizations harnesses collective efforts to create, collate, and analyze data about natural hazards and the risks that they poses to a nation. 
+
+These partners include a mix of donors, science agencies, and development institutions. Each has take a slightly different role in the construction of open data for resilience:
+
+### Geoscience Australia
+
+### Global Facility for Disaster Reduction and Recovery
+GFDRR 
+
+### UNDP
+
+### UNICEF
+
+### UNISDR
+
+### United States Agency for International Development
+
+
+
+### 
 
 
 

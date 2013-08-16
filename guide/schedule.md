@@ -13,7 +13,7 @@ abstract: "Field Guide"
 # Schedule 
 
 ## [Preface](chapter0.html)
-* Draft COMPLETE
+* ~~Draft COMPLETE~~
 * Labs edits (*complete*)
 * Bank Edits (20 Aug)
 * Partner Edits (5 Sept)
