@@ -467,3 +467,25 @@ input, textarea {
 .width-80 { width: 80%; }
 .width-90 { width: 90%; }
 .width-100 { width: 100%; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	9. Parapraph Counters for Guide Pages
+/*-----------------------------------------------------------------------------------*/
+
+
+.chapter {
+    counter-reset: paragraph;
+    padding-left: 20px;
+}
+/*
+.page p {
+    width: 400px;
+}
+*/
+.page p:before {
+    position: absolute;
+    margin-left: -25px;
+    color: #c16225;
+    content: "\00b6" counter(paragraph);
+    counter-increment: paragraph;
+}
