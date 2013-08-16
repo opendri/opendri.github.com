@@ -34,9 +34,9 @@ Several satellite companies collected fresh high-resolution imagery of the damag
 
 The practical reality of what had happened in Haiti fused with a growing movement around open data and open government. Within the GFDRR team, a question emerged: if community mapping could map most of a country in a crisis, what could be done before a disaster? Could GFDRR invest in collecting better data about the exposure of the built environment to natural hazards as a form of technical assistance? Could the communities then curate this data, creating the opportunity for better spatial and temporal resolution of the exposure of a country to threats?
 
-Before the team could set about researching this question, another major disaster struck: the 2010 famine in the Horn of Africa. GFDRR convened a meeting where partners to the response agreed to share their operational data using a shared data catalogue. This effort&mdash;[Open Data for the Horn](http://horn.rcmrd.org/)&mdash;created a shared catalogue of the various data being collected around the famine, from the Famine Early Warning System to regional maps, geospatial data, and satellite imagery. It has become one of the key points for coordinating activities among OCHA, the World Bank, RCMRD, and WFP. The [Sahel Response](http://sahelresponse.org/) data catalogue followed soon thereafter.
+Before the team could set about researching this question, another major disaster emerged: the 2010 famine in the Horn of Africa. GFDRR convened a meeting where partners to the response agreed to share their operational data using a shared data catalogue. This effort&mdash;[Open Data for the Horn](http://horn.rcmrd.org/)&mdash;created a shared catalogue of the various data being collected around the famine, from the Famine Early Warning System to regional maps, geospatial data, and satellite imagery. It has become one of the key points for coordinating activities among OCHA, the World Bank, RCMRD, and WFP. The [Sahel Response](http://sahelresponse.org/) data catalogue followed soon thereafter.
 
-But the activity at GFDRR was only a small part of a larger movement in open data. In September 2011, Open Government Partnership announced that 8 governments had become the founding signatories on an agreement to make government data far more open to citizens that in the past. Subsequently, 47 more governments signed the declaration. One part of this [declaration](http://www.opengovpartnership.org/open-government-declaration) reads that each government commits to: 
+But the activity at GFDRR was only a small part of a larger movement in open data. In September 2011, Open Government Partnership announced that 8 governments had become the founding signatories on an agreement to make government data far more open to citizens than in the past. Subsequently, 47 more governments signed the declaration. One part of this [declaration](http://www.opengovpartnership.org/open-government-declaration) reads that each government commits to: 
 
 <blockquote>
 <p>We commit to pro-actively provide high-value information, including raw data, in a timely manner, in formats that the public can easily locate, understand and use, and in formats that facilitate reuse... We recognize the importance of open standards to promote civil society access to public data, as well as to facilitate the interoperability of government information systems. </p>
@@ -61,22 +61,22 @@ With communities, governments, and international institutions all pursuing open 
 
 
 ## Packaging Open Data
-In 2012, GFDRR began to package these open data efforts under one moniker: the Open Data for Resilience Initiative (OpenDRI). Teams from GFDRR began to offer World Bank regions and client governments technical assistance around how to use open data to catalyze better risk investments.
+In 2012, GFDRR began to package these open data efforts under one label: the Open Data for Resilience Initiative (OpenDRI). Teams from GFDRR began to offer World Bank regions and client governments technical assistance around how to use open data to catalyze better information on risks.
 
-These projects centered on applying the principles of open data, open source software, and open standards to the disaster risk management cycle. The objective was to open several types of data for analysis by a wide audience: 
+These projects centered on applying the principles of open data, open source software, and open standards to the disaster risk management cycle. The objective was to open several types of data for analysis to a wide range of stakeholders:
 
 * Hazard
 * Exposure
 * Vulnerability
-* Impact Modeling/Risk Communication
+* Risk Information
 
-Where good data did not exist, OpenDRI would catalyze its collection and curation as open data. Where data was already part of an archive, OpenDRI staff would work to negotiate its release as open data. The resulting ecosystem would have far more data on which to base decisions about investing in risk mitigation and (where no viable solution existed) disaster preparation. 
+Where appropriate data did not exist, OpenDRI would catalyze its collection and curation, where possible as open data. Where data was already part of an archive, OpenDRI staff would work to negotiate its release as open data, or establish the appropriate controls on the data with host nation officials. The resulting ecosystem would have far more data on which to base decisions about investing in DRM. 
+
+
 
 ***
 
 ## Building Partnerships
-The process of building OpenDRI became synonymous with partnership building. By working on opening data, GFDRR opened a space where partners could each play a specialty around the DRM cycle. Science agencies helped prepare data standards around exposure data, in preparation for improving the resolution of their risk models. Donors worked with client governments to create independent entities which could coordinate funding, project management, data collection, and risk assessment, connecting the effort directly to capacity building within the client government. 
-
 OpenDRI starts from communities in which it gets implemented. It has connected a wide range of partners:
 
 1.	Government Clients
@@ -90,31 +90,31 @@ OpenDRI starts from communities in which it gets implemented. It has connected a
 ***
 
 ## Work Process Overview
-Like open data initiatives, OpenDRI starts small and scales virally. It deploys in one site, and then another, expanding in utility as the amount of data increases. As such, OpenDRI is not a linear process, but rather a cycle that iterates across sites. 
+Like open data initiatives, OpenDRI starts small and scales virally. It deploys in one site, and then another, expanding in utility as the amount of data increases. It might start in a smaller city, then migrate to other areas as understanding and trust in the process builds. In this way, OpenDRI is an iterative process.
 
 In general, OpenDRI unfolds in five stages:
 
-1.	**Scoping**: a mission to determine the risks, readiness, relationships, and use cases that would form the core of an OpenDRI pilot.
-2. 	**Designing**: a collaborative, multi-institutional process to customize OpenDRI to the unique mix of threats and opportunities face a client government.
-3.	**Piloting**: creating an initial presence for OpenDRI, seeding the initiative and seeing how it flourishes or flounders in the country context.
+1.	**Scoping**: a dialogue to determine the risks, readiness, relationships, and use cases that would form the core of an OpenDRI pilot.
+2. 	**Designing**: a collaborative, multi-institutional process to customize the OpenDRI package to the unique context of a client government.
+3.	**Piloting**: creating an initial presence for OpenDRI, seeding the initiative and building a sustainable community around DRM data.
 4.	**Scaling**: expanding the open data ecosystem around the DRM cycle when an OpenDRI implementation sticks.
 5.	**Sustaining**: creating the conditions to hand an OpenDRI initiative to the communities that built it.
 
 ***
 
 ## Tools
-OpenDRI uses a growing menu of tactics to develop the open data ecosystem:
+OpenDRI uses a growing menu of tools to develop the open data ecosystem:
 
 ### Building a DRM Data Catalogue
 Building trust to release data into public or semi-public data catalogues enable the strategic release of certain government datasets to the commons, where they can be curated, emended, amended, and (most importantly) reused in ways that governments alone cannot do. Data catalogues do not mean that a government needs to release of all data to the public.
 
-The strategic release of data to a public commons enables first recommendation from NHUD: 
+The collation of links to critical data sets enables first recommendation from NHUD: 
 
 <blockquote class="quote-icon">
 <p>First, governments can and should make information more easily accessible. People are often guided in their prevention decisions by information on hazards, yet the seemingly simple act of collecting and providing information is sometimes a struggle. While some countries attempt to collect and archive their hazard data, efforts are generally inconsistent or insufficient. Specifically, there are no universal standards for archiving environmental parameters for defining hazards and related data. Data exchange, hazard analysis, and hazard mapping thus become difficult.</p>
 </blockquote>
 
-Open data empower decision makers at all levels of government, as well as in the private sector. Open data creates a common space where community can assembled around shared problems and co-develop solutions with a wide range of partners.
+Open data empower decision makers at all levels of government, as well as in the private sector. Open data creates a common space where community can gather around shared problems and co-develop solutions with a wide range of partners.
 
 #### Principles
 For data to serve decision makers across a society, it needs to be fully open. This means:
@@ -145,10 +145,10 @@ For data to serve decision makers across a society, it needs to be fully open. T
 </div>
 
 #### How OpenDRI works with Governments
-OpenDRI advises ministries how on the collation, cleansing, and release of data related to risks. These datasets tend to be spread across governments. Sometimes, ministries sell them to each other (though the revenues tend to be low and the administrative costs for managing these sales tend to be high). OpenDRI partners work together to determine which data are appropriate for release. That said, rather than following the traditional method of aggregating data into a central web portal, OpenDRI recognizes that ministries wish to retain stewardship over their own data. So OpenDRI recommends that each ministry release its data using (free and open source) platforms that allow other ministries to subscribe to the data using web services. This model has a number of benefits:
+OpenDRI advises ministries on the collation, cleansing, and release of data related to risks. These datasets tend to be spread across governments. Sometimes, ministries sell them to each other (though the revenues tend to be low and the administrative/transation costs for managing these sales tend to be high). OpenDRI partners work together to determine which data are appropriate for release. That said, rather than following the traditional method of aggregating data into a central web portal, OpenDRI recognizes that ministries wish to retain stewardship over their own data. So OpenDRI recommends that each ministry release its data using (free and open source) platforms that allow other ministries to subscribe to the data using web services. This model has a number of benefits:
 
 1. **Politics**: ministries retain control of their own information. Instead of adding a centralized umbrella web portal and the perception of a shift in data ownership, a government adds a free tool into existing workflows. 
-2. **Freshness**: the data in the ecosystem is always flowing from the source and is as new as the ministry is able to release.
+2. **Freshness**: the data in the system is always flowing from the source and is as new as the ministry is able to release.
 
 ***
 
@@ -162,7 +162,7 @@ A critical aspect of OpenDRI revolves around the development of an ecosystem of 
 ***
 
 ### Community Mapping of Exposure Data
-Building better exposure data is very time intensive, but it need not be costly. It requires individuals to visit thousands of municipal buildings and locations of critical infrastructure, make a basic assessment about the construction of those sites, take pictures, and ask locals questions about the site. If performed by survey departments of the government or commercial ventures, the costs quickly spiral beyond the means of most governments and donors. In comparison, mapping Kathmandu under OpenDRI cost under $200,000 USD. 
+Building better exposure data is very time intensive, but it need not be costly. It sometimes requires individuals to visit thousands of municipal buildings and locations of critical infrastructure, make a basic assessment about the construction of those sites, take pictures, and ask locals questions about the site. If performed by survey departments of the government or commercial ventures, the costs quickly spiral beyond the means of most governments and donors. In comparison, mapping Kathmandu under OpenDRI cost under $200,000 USD. 
 
 The approach taken by OpenDRI is to recruit and train community members to map their own cities. This method creates jobs for youth, trains them in modern geospatial tools, and prepares them for additional work curating the map of their cities. See [OpenCities](http://opencitiesproject.com/). It also creates a map that is free and open for all to use for any purpose.
 
@@ -191,13 +191,7 @@ To support small businesses and non-profits that emerge around open data, a prov
 
 ### Risk Communication Tools
 
-To change the mindset of planners at all levels of government, it is not only necessary to give them maps and open up government data; they must also have simple tools that allow them to visualize potential futures. Because traditional risk assessment models require a great deal of training and expertise, a range of partners came together to build impact modeling tools that enable a municipal government official to pull hazard data from the national open risk data catalogue, exposure data about her city from OpenStreetMap, and with a few mouse clicks, show the potential impact of a hazard on the schools in her city.
+To change the mindset of planners at all levels of government, it is not only necessary to give them maps and open up government data; they must also have simple tools that allow them to visualize potential disaster scenarios. Because traditional risk assessment models require a great deal of training and expertise, a range of partners came together to build impact modeling tools that enable a municipal government official to pull hazard data from existing data sources, such as exposure data about a city from OpenStreetMap, and with a few mouse clicks, show the potential impact of a hazard on the schools in the city.
 
-[note: put all info on the connection of risk communication/impact models here in the intro. Key points: need to plan the interface between the data cycle and risk assessment cycle, with a point of interface around the data. In this connection, planning the data schema matters, as the impact models/InaSAFE requires some data from both government (hazard and vulnerability) combined with exposure data to calculate the potential impact. ]
-
-#### InaSAFE
-Impact models are the brainchild of the partnership between the Government of Indonesia, AIFDR, AusAID, and the World Bank/GFDRR.
-
-***
 
 
