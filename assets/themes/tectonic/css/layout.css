@@ -2678,3 +2678,33 @@ ul.social-share li.facebook iframe { width: 105px; }
 	.pricing-table .features,
 	.pricing-table .footer { border-left: none !important; }
 }
+
+/* Print to Paper Format
+---------------------------------------------------------------------- */
+@media print {
+	
+	@page {
+	margin: 1cm;
+	}
+	
+	p a:after {
+	content: " (" attr(href) ")";
+	font-size: 80%;
+	}
+	
+	p a {
+	word-wrap: break-word;
+	}
+	
+	a {
+	color: #000;
+	}
+	
+	#navigation, #iBoard, #footer { display: none; }
+	
+	#pContent { width: 100% !important; }
+	#pContent.sixteen.columns { width: auto; } /* full-width page */
+	.sixteen.columns #page-content { padding: 55px 26px 55px; } /* full-width page */
+}
+
+

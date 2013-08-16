@@ -9,14 +9,14 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Open Data for Resilience
+tagline: Field Guide
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : John Crowley
+  email : jcrowley@worldbank.org
+  github : jcrowley
+  twitter : jcrowley
+  # feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -84,15 +84,7 @@ JB :
     provider : disqus
     disqus :
       short_name : opendri
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
