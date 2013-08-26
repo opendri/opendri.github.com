@@ -37,7 +37,7 @@ The Design Team should will be composed of one or more individuals who collectiv
 
 ***
 
-## Data Cataolgue
+## Data Catalogue
 A core objective of OpenDRI is to build an ecosystem of educated users around a national data management system for disaster risk management. The design for OGRD will center on the collation, cleansing, and release of fragmented datasets via one or more data catalogues, usually hosting on GeoNodes. It will also work on creating the policy/legal environment where these data can come together and and building the community of practice around the data.
 
 <div class="info-box image-right adapted width-200px">

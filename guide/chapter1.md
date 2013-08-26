@@ -15,7 +15,7 @@ abstract: "Field Guide"
 <!-- introduce the core concepts of risk here, as if we are handing the guide to a person entirely new with GFDRR, DRR, and risk management -->
 
 ## Understanding Risk
-Disasters reveal chains of decisions about risk (*Natural Hazards, UnNatural Disasters* (NHUD), 2011). When infrastructure fails under strain of an earthquake, journalists may point to the failure of the construction firm to adhere to building standards. Or to the failure of a government to set and enforce code around retrofitting a school to seismic risks. Or to the owner of a factory to have inquired into the exposure of the structure to hazards and developed a strategy to cope with these potential vulnerabilities. 
+Disasters reveal chains of decisions about risk (*Natural Hazards, UnNatural Disasters* (NHUD), 2011). When infrastructure fails under strain of an earthquake, citizens may point to the failure of the construction firm to adhere to building standards. Or to the failure of a government to set and enforce code around retrofitting a school to seismic risks. Or to the owner of a factory to have inquired into the exposure of the structure to hazards and developed a strategy to cope with these potential vulnerabilities. 
 
 <!-- ~~~ ~~~ ~~~ SIDEBAR  ~~~ ~~~ ~~~ -->
 <div class="info-box image-right adapted width-250px">
@@ -27,11 +27,6 @@ Disasters reveal chains of decisions about risk (*Natural Hazards, UnNatural Dis
 In each case, critical information is missing. Information that might have driven a different choice about architectural designs, building materials, or the site for the building (siting). Information that might have driven a community to question choices. Information that might have driven a legislature to pass laws or officials to allocate staff time to enforcing them. 
 
 Credible information about risk is an essential element of Disaster Risk Management (DRM). Across the disaster risk management cycle, institutions are now engaged in a process to build this stock of information. The aim is to improve the chain of decision across entire system, from the donor who funds retrofitting of schools to the individual business person who need to mitigate potential losses from natural hazards while caring for his or her household. 
-
-<div class="info-box image-right adapted width-200px">
-<h4>Resilience</h4>
-<p>OpenDRI works on a definition of resilience where informed mitigation prior to a disaster provides a buffer against the loss of human life and property when a hazard occurs. Information about the environment and likely places of failure also can improve response operations and target efforts at saving lives. OpenDRI also engages donors who fund recovery and reconstruction so that nations can build back better than before. Before, during, and after a disaster, information exposes decision makers to outcomes that would otherwise remain invisible.</p>
-</div>
 
 ***
 

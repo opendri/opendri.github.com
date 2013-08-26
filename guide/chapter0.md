@@ -53,7 +53,7 @@ This guide intends to:
 5.	Collate shared documents that can be used as templates for future implementations of OpenDRI practices.
 
 ## A Note on Style of this Guide
-The guide is written as an assembling of concise descriptions of practices around OpenDRI. This approach allows for several dynamics:
+The guide is written as an assembly of concise descriptions of practices around OpenDRI. This approach allows for several dynamics:
 
 1. Easy Reading
 2. Simplified Translation
