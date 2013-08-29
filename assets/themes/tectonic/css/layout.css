@@ -2689,7 +2689,7 @@ ul.social-share li.facebook iframe { width: 105px; }
 	
 	p a:after {
 	content: " (" attr(href) ")";
-	font-size: 12pt;
+	font-size: 12pt !important;
 	}
 	
 	p a {
