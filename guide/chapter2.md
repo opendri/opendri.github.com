@@ -6,12 +6,13 @@ section: I. Theory
 title: 2. Open Data for Resilience
 excerpt: "xx"
 abstract: "Field Guide"
+category: guide
 ---
 {% include JB/setup %}
 
 # 2.	Open Data for Resilience
 
-Open Data for Resilience (OpenDRI) builds the capacity of nations to collate and collect the exposure data necessary for impact and risk modeling, and to share the results of hazard and risk data and information to broader stakeholder groups. An OpenDRI project offers a menu of DRM tactics for building high-resolution exposure data with collective action, including:
+Open Data for Resilience (OpenDRI) works with governments to harness the value of Open Data practices in service of more effective disaster risk management and climate change adaptation. An OpenDRI project offers a menu of DRM tactics for building high-resolution exposure data with collective action, including:
 
 * **Collation of data and their publication in an open geodata catalogue**. Data about the exposure of a nation to natural hazards are often fragmented across multiple institutions, often under policies that hinder the aggregation of those data into more comprehensive models. GIS and Data Management System (DMS) platforms that enable this kind of aggregation are also rare and (until recently) were very expensive.
 
@@ -72,8 +73,6 @@ These projects centered on applying the principles of open data, open source sof
 
 Where appropriate data did not exist, OpenDRI would catalyze its collection and curation, where possible as open data. Where data was already part of an archive, OpenDRI staff would work to negotiate its release as open data, or establish the appropriate controls on the data with host nation officials. The resulting ecosystem would have far more data on which to base decisions about investing in DRM. 
 
-
-
 ***
 
 ## Building Partnerships
@@ -115,6 +114,18 @@ The collation of links to critical data sets enables first recommendation from N
 </blockquote>
 
 Open data empower decision makers at all levels of government, as well as in the private sector. Open data creates a common space where community can gather around shared problems and co-develop solutions with a wide range of partners.
+
+
+<div class="info-box image-right adapted width-200px">
+<h4>Open Data: the Five Stars</h4>
+
+<p>★ 	Available on the web (whatever format) but with an open licence, to be Open Data</p>
+<p>★★ 	Available as machine-readable structured data (e.g. excel instead of image scan of a table)</p>
+<p>★★★ 	as (2) plus non-proprietary format (e.g. CSV instead of excel)</p>
+<p>★★★★ 	All the above plus, Use open standards from W3C (RDF and SPARQL) to identify things, so that people can point at your stuff</p>
+<p>★★★★★ 	All the above, plus: Link your data to other people’s data to provide context</p>
+<p><em>source</em>: <a href="http://www.w3.org/DesignIssues/LinkedData.html">http://www.w3.org/DesignIssues/LinkedData.html</a></p>
+</div>
 
 #### Principles
 For data to serve decision makers across a society, it needs to be fully open. This means:

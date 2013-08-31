@@ -8,8 +8,6 @@ abstract: "Community Mapping"
 ---
 {% include JB/setup %}
 
-<!-- disclaimer -->
-{% include custom/tectonic/disclaimer%}
 
 
 # Community Mapping/Exposure Mapping

@@ -6,9 +6,9 @@ section: II. Practice
 title: 3. Scoping
 excerpt: "xx"
 abstract: "Field Guide"
+category: guide
 ---
 {% include JB/setup %}
-
 
 # 3. Scoping
 
@@ -174,6 +174,28 @@ The Scoping Mission report captures the narrative experience of the team, as wel
 Readiness Report is a diagnostic tool that will be used to assess if a country is ready for OpenDRI. 
 [link to readiness report template](reports/readiness.html)
 
+***
+
+## Sri Lanka Case
+In November 2012, GFDRR sent a consultant to Sri Lanka to scope a potential OpenDRI engagement, based on previous interest in open data expressed earlier in 2012. During a five-week (25 working days) mission to Colombo and Batticloa, the consultant met with ministries and organizations around DRM: Disaster Management Center, Metro Colombo Urban Development Project, Survey Department, Department of Census and Statistics, Nation Building Research Organisation, the Meteorological Office, Information and Communication Technology Agency, UNDP, and several universities and donors. 
+
+<div class="info-box image-right adapted width-200px">
+<h4>Vivien Deparday, Consultant, GFDRR</h4>
+<ul>
+<li>Education: </li>
+<li>Experience: A seasoned OpenDRI specialist who had trained GeoNode in the Caribbean and had technical knowledge of OpenStreetMap.</li>
+<li>Terms of Reference: provide link to ToR.</li>
+</ul> 
+</div>
+
+### Use Case
+He discovered a situation where use cases centered around data availability for impact assessment and rick communication. In many places, exposure data were not available or very outdated. Because Sri Lanka faces a wide range of natural hazards, he also found that data were fragmented among the ministries that specialize in various aspects of these threats. Ministries and development partners needed a mechanism to share data and to overcome a typical situation: while some officials were willing to share data, others were more reluctant, because their ministries had sold datasets to each other for some time; opening the data would disrupt those revenues. 
+
+### Recommendations
+The consultant worked with GFDRR on a set of recommendations that would enable a parallel bottom-up and top-down approach to data sharing. To build trust around community mapping and data catalogues, the project planned to provide trainings around OpenStreetMap and the GeoNode to build practical, concrete evidence around the effects of collecting and sharing data. To create policy-level support for a open-data strategy, the project would create an Open Disaster Data Advisory Committee. This committee would be charged with establishing guidelines, policies and standards to facilitate data sharing between the government agencies and opening those data to the public. It would be composed of the ministries involved in OpenDRI, plus several community and development partners. 
+
+### Results
+Sri Lanka's OpenDRI initiative is progressing rapidly, with pilots of the data catalogue and community mapping in both Colombo and Batticloa. The project will also be using InaSAFE as a risk communication tool.
 
 
 

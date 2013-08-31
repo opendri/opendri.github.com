@@ -26,6 +26,9 @@ abstract: "Field Guide"
 
 ## Federation
 
+## References
+[GeoNode in LAC](http://www.youtube.com/watch?v=A1P4phxRghM&feature=youtu.be)
+
 
 
 

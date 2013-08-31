@@ -6,9 +6,9 @@ section: I. Theory
 title: 1. Introduction
 excerpt: "xx"
 abstract: "Field Guide"
+category: guide
 ---
 {% include JB/setup %}
-
 
 # 1.	Introduction: The Need for Disaster Risk Management Data
 <!-- ## What problems does this approach address? -->
@@ -108,8 +108,6 @@ GFDRR
 ### UNISDR
 
 ### United States Agency for International Development
-
-
 
 ### 
 
