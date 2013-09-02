@@ -36,6 +36,8 @@ OpenDRI does not require a client country to start a "whole of government" open 
 1. **Data Collation and Release**. A process with the Open Data Working Group and the GeoNode that centers on obtaining access to existing datasets and then preparing them for release.
 2. **Data Collection and Release**. A process that center on the collection of data about the built environment and its exposure to the natural hazards of the place. Community mapping is one tactic in this area and the main focus of this guide, though other partners will add to these approaches.
 
+Once data is flowing in a pilot, the Open Data Working Group will need to confront policy and management issues around the new repository, including data access rights for certain privileged groups. They will also want to start learning how to apply the data to risk impact models or other analytical products, reinforcing the value of open data and expanding their understanding of *why* the project is collating and collecting data for DRM.
+
 ### 1. Data Collation
 Collating the right data is the key to keeping the project focused on solving problems around the DRM cycle. In general, OpenDRI data will have two attributes:
 
