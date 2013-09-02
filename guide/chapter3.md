@@ -32,12 +32,11 @@ Existing OpenDRI projects have not been standalone efforts, but instead have bee
 
 Assessing the readiness of this network of partners for OpenDRI requires a scoping mission (site visit) that looks at the country content across the four areas that fuse into OpenDRI:
 
-(*note: the elements of this assessment discussed in greater depth*)
-
 1. **Open Government Risk Data**. What data does the government collect about natural hazards, the built environment, and other risk factors? How does the government collate, coordinate, and analyze this data? How is this data made available to other parts of the public and private sectors?
 2. **Open Mapping and Technology**. What is the status of the open mapping community in the country? What are the coverage (extent) and accuracy of the mapping data? What kind of open technology community exists to turn mapping data into useful tools? 
 3. **Risk/Impact Modeling and Communication**. What kind of risk or impact modeling does the country engage in? Who is responsible for which models? How do risks get communicated to the public and how does the country track how the public uses this information?
 4. **Hazard Monitoring, Modeling, and Communication**. What is the status monitoring of major risks (including weather forecasting)? How does the country communicate those risks?
+
 
 ***
 
@@ -81,7 +80,7 @@ Mobilizing collective action requires some goal&mdash;a problem, use case, or ot
 ***
 
 ## Who: Create an Initial List of Contacts
-OpenDRI generally begins with a request from a government ministry. This champion should be able to guide the Scoping Mission Team on who to talk with. Such entities might include:
+OpenDRI generally begins with a request from an official at a government ministry. This champion should be able to guide the Scoping Mission Team on who to talk with. Such entities might include:
 
 #### Government Ministries
 Which government ministries are involved in the DRM cycle? It may be useful to create a matrix of the hazards that the country faces with the datasets that often accompany the study of the 
@@ -127,7 +126,7 @@ The key step in determining if OpenDRI fits into strategic intent is to listen. 
 </ul> 
 </div>
 
-One of the biggest impediments to opening data is the practice of selling government data. The scoping mission team should ask--are ministries selling data that are core to risk assessment: satellite imagery, maps, demographic data, cadastral data, hydro-met data, etc? What support is there for opening this data? Are there legal constraints or regulatory issues? Privacy issues? If so, are there ways to work through those issues and lawyers/legal advisors who are willing to build solutions instead of putting up roadblocks?
+One of the biggest impediments to opening data is the practice of selling government data. The scoping mission team should ask&mdash;are ministries selling data that are core to risk assessment: satellite imagery, maps, demographic data, cadastral data, hydro-met data, etc? What support is there for opening this data? Are there legal constraints or regulatory issues? Privacy issues? If so, are there ways to work through those issues and lawyers/legal advisors who are willing to build solutions instead of putting up roadblocks?
 
 One approach that has worked is collecting and analyzing the revenues against the lost uses of the information for DRM (an opportunity cost). The scoping team may wish to build a spreadsheet, tracking who is selling what data to whom, at what cost, compared to the expenses around the data's production and the expenses to administer the sales/licensing of the data. While it may seem that data is generating revenues, they are often very small, especially in comparison to the costs of their administration. When the ROI on open data for resilience is higher than the ROI for sales of data, a strong case can be made for ending the sale of certain data sets.
 
@@ -176,27 +175,57 @@ Readiness Report is a diagnostic tool that will be used to assess if a country i
 
 ***
 
-## Sri Lanka Case
-In November 2012, GFDRR sent a consultant to Sri Lanka to scope a potential OpenDRI engagement, based on previous interest in open data expressed earlier in 2012. During a five-week (25 working days) mission to Colombo and Batticloa, the consultant met with ministries and organizations around DRM: Disaster Management Center, Metro Colombo Urban Development Project, Survey Department, Department of Census and Statistics, Nation Building Research Organisation, the Meteorological Office, Information and Communication Technology Agency, UNDP, and several universities and donors. 
+## Malawi
 
-<div class="info-box image-right adapted width-200px">
-<h4>Vivien Deparday, Consultant, GFDRR</h4>
-<ul>
-<li>Education: </li>
-<li>Experience: A seasoned OpenDRI specialist who had trained GeoNode in the Caribbean and had technical knowledge of OpenStreetMap.</li>
-<li>Terms of Reference: provide link to ToR.</li>
-</ul> 
-</div>
+### Key points for writing case:
 
+WB/GFDRR combined teams held multiple missions to Malawi to:
+
+1. Raise awareness about community and data preparedness
+2. Solicit input from stakeholders at multiple levels of government
+	* Department of Management Affairs (DODMA) 
+	* Department of Surveys
+	* Department of Physical Planning
+	* Department of Water Resources
+	* Ministry of Agriculture and Food Security
+	
 ### Use Case
-He discovered a situation where use cases centered around data availability for impact assessment and rick communication. In many places, exposure data were not available or very outdated. Because Sri Lanka faces a wide range of natural hazards, he also found that data were fragmented among the ministries that specialize in various aspects of these threats. Ministries and development partners needed a mechanism to share data and to overcome a typical situation: while some officials were willing to share data, others were more reluctant, because their ministries had sold datasets to each other for some time; opening the data would disrupt those revenues. 
+To build data about flood risk in the Shire River Basin in the south of the country. 
 
-### Recommendations
-The consultant worked with GFDRR on a set of recommendations that would enable a parallel bottom-up and top-down approach to data sharing. To build trust around community mapping and data catalogues, the project planned to provide trainings around OpenStreetMap and the GeoNode to build practical, concrete evidence around the effects of collecting and sharing data. To create policy-level support for a open-data strategy, the project would create an Open Disaster Data Advisory Committee. This committee would be charged with establishing guidelines, policies and standards to facilitate data sharing between the government agencies and opening those data to the public. It would be composed of the ministries involved in OpenDRI, plus several community and development partners. 
+### Iterative Design
+1. Installed GeoNode as a data catalogue, to be managed by the National Spatial Data Center with the participation of the other members of the Shire River Basin Management Program Technical Taskforce.
+2. Collated data from a variety of sources, focusing first on the data from “Economic Vulnerability and Disaster Risk Assessment Study” , “Water Resources Investment Strategy” that was collected for Malawi (http://gfdrr.org/gfdrr/node/148) 
+3. Held Trainings in partnership with universities and ministries, including the representatives of departments in the region. Held training exercises around the data facilitated by a contractor. The scope of the exercise covered the entire two districts in the lower shire: Chikhwawa and Nsanje.
 
-### Results
-Sri Lanka's OpenDRI initiative is progressing rapidly, with pilots of the data catalogue and community mapping in both Colombo and Batticloa. The project will also be using InaSAFE as a risk communication tool.
+### Outcome
+ToRs for GeoNode, data collection, and trainings, as well as exercises in the Shire. Provide link to a story about the current state of open data in Malawi.
 
+***
+
+## The Case of Malawi
+
+### Key points for writing case:
+
+WB/GFDRR combined teams held multiple missions to Malawi to:
+
+1. Raise awareness about community and data preparedness
+2. Solicit input from stakeholders at multiple levels of government
+	* Department of Management Affairs (DODMA) 
+	* Department of Surveys
+	* Department of Physical Planning
+	* Department of Water Resources
+	* Ministry of Agriculture and Food Security
+	
+### Use Case
+To build data about flood risk in the Shire River Basin in the south of the country. 
+
+### Iterative Design
+1. Installed GeoNode as a data catalogue, to be managed by the National Spatial Data Center with the participation of the other members of the Shire River Basin Management Program Technical Taskforce.
+2. Collated data from a variety of sources, focusing first on the data from “Economic Vulnerability and Disaster Risk Assessment Study” , “Water Resources Investment Strategy” that was collected for Malawi (http://gfdrr.org/gfdrr/node/148) 
+3. Held Trainings in partnership with universities and ministries, including the representatives of departments in the region. Held training exercises around the data facilitated by a contractor. The scope of the exercise covered the entire two districts in the lower shire: Chikhwawa and Nsanje.
+
+### Outcome
+ToRs for GeoNode, data collection, and trainings, as well as exercises in the Shire. Provide link to a story about the current state of open data in Malawi.
 
 
 
