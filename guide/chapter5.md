@@ -7,7 +7,9 @@ excerpt: "xx"
 abstract: "Field Guide"
 section: II. Practice
 category: guide
+
 ---
+
 {% include JB/setup %}
 
 # 5.	Piloting
