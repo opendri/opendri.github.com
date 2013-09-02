@@ -96,10 +96,11 @@ Integrating these opportunities and new technologies has become the mission for 
 
 These partners include a mix of donors, science agencies, and development institutions. Each has take a slightly different role in the construction of open data for resilience:
 
+(note to each partner: this is a space for you to write a paragraph on your open data work)
+
 ### Geoscience Australia
 
 ### Global Facility for Disaster Reduction and Recovery
-GFDRR 
 
 ### UNDP
 
@@ -109,7 +110,6 @@ GFDRR
 
 ### United States Agency for International Development
 
-### 
 
 
 
