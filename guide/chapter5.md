@@ -165,11 +165,6 @@ The Pilot Management Team often includes three expert consultants:
 * **Community Mapping Lead**: an expert in the implementation of community mapping methods for the collection of exposure data.
 * **Open Data Catalogue Specialist**: an expert in the technical mechanisms of collecting and cleansing data from government ministries and community mapping efforts into a comprehensive data catalogue. This expert will have skills to train local officials in the deployment of an OpenGeo GeoNode or the use of existing ESRI GeoPortal as data catalogue.
 
-*** 
-
-## Outputs
-
-
 ***
 
 ## Outputs and Metrics
@@ -221,8 +216,4 @@ Similar to UGM study from Indonesia, worked with Muki Hakley, who gave advice to
 
 ### Demonstrated Capacity
 Data collected by mappers demonstrated the potential for open data to GoN as well as USAID. (get more)
-
- 
-
-
 
