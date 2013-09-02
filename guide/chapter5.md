@@ -41,7 +41,7 @@ OpenDRI does not require a client country to start a "whole of government" open 
 Collating the right data is the key to keeping the project focused on solving problems around the DRM cycle. In general, OpenDRI data will have two attributes:
 
 1. It will be **geospatial**, with geographic attributes that describe some aspect of the human systems and built environment and the hazards that may affect people and infrastructure.
-2. It will be in **open data formats** and compliant with [Open Geospatial Consortium (OGC)](http://www.opengeospatial.org/) standards.
+2. It will be in **open data formats** and compliant with [Open Geospatial Consortium](http://www.opengeospatial.org/) (OGC) standards.
 
 #### Install a platform for data collection
 The first step in each OpenDRI engagement has been to create a place where data can be shared. This space is meant to be neutral: a place where the data is legally and technically open for use by all (or at least those who have access to it). In a few cases, this space has solely been OpenStreetMap. In most cases, client ministries wish to have a data catalogue where they can upload datasets that are meant to be opened. The [process for building these data catalogues](datacatalogue.html) is described in the Methods section.
