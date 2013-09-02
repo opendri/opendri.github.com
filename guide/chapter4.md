@@ -31,12 +31,7 @@ By expanding the stock of available information about risk, OpenDRI helps its cl
 
 ## Objectives
 
-A core objective of OpenDRI is to build an ecosystem of educated users around a national data management system for disaster risk management. The design for an OpenDRI engagement centers on four activities:
-
-1. Collating, cleansing, and releasing fragmented datasets via one or more data catalogues, usually hosting on GeoNodes.
-2. Collecting data about the exposure of the built environment to natural hazards, usually by developing and sustaining a network of government officials, private sector entities, and community-based organizations that are prepared to curate this data.
-3. Creating the policy/legal environment where these data can come together and building the community of practice around the data.
-4. Catalyzing efforts around the use of the data for DRM as well as purposes unforeseen by the OpenDRI partners.
+A core objective of OpenDRI is to build an ecosystem of educated users around a national data management system for disaster risk management. 
 
 <div class="info-box image-right adapted width-200px">
 <h4>Co-Design as a Core Value</h4>
@@ -46,6 +41,13 @@ A core objective of OpenDRI is to build an ecosystem of educated users around a 
 Unlike many DRM practices, design in OpenDRI unfolds as iterative discovery. OpenDRI tends to bring those who have direct and specific knowledge of the constraints and realities into relationship with those who interpret and write policy. In the process, the teams explore faster, cheaper, and simpler ways to collect data while altering the frameworks by which government pursues data sharing. In turn, this process opens new possibilities in the minds of the partners,leading to innovation and catalyzing a new cycle to design a novel approach.
 
 An OpenDRI project will often include both a mix of bottom-up and top-down strategies. The former mobilizes champions and communities around the creation of tangible, practical projects that demonstrate what open data can do. The latter provides the policy guidance and political cover for open data to emerge in a government context. The design of each strategy OpenDRI engagement will generally pull together one or more tactics from a growing toolbox. Each is designed to feed into risk assessment; each requires that its work plan; and each requires the other.
+
+The design for an OpenDRI engagement centers on four activities:
+
+1. Collating, cleansing, and releasing fragmented datasets via one or more data catalogues, usually hosting on GeoNodes.
+2. Collecting data about the exposure of the built environment to natural hazards, usually by developing and sustaining a network of government officials, private sector entities, and community-based organizations that are prepared to curate this data.
+3. Creating the policy/legal environment where these data can come together and building the community of practice around the data.
+4. Catalyzing efforts around the use of the data for DRM as well as purposes unforeseen by the OpenDRI partners.
 
 ***
 
