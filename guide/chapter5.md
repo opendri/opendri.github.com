@@ -101,14 +101,6 @@ The Data Curator also will need to assess the quality of the data submitted to t
 
 All data sets are imperfect; the question comes about balancing the level of effort remediating those inaccuracies with the precision needed for the particular use case. The Data Curator needs to choose which data is highest priority for the time consuming task of data cleansing (or munging, in technical jargon). He or she will likely enlist the assistance of other members of the growing Open Risk Data Working Group, who may have specific domain knowledge or skills around particular types of data cleansing. 
 
-### Develop a Plan for Data Access
-The partners must also decide on who can have access to the data and under what terms. For data to be open, it needs to be licensed so that it can be capable of being redistributed, so that it can be turned into derived works that reuse the original data. Getting to this point is often a process:
-
-1. **Manual Interagency Sharing**: government agencies transfer data on a case-by-case basis using *ad hoc* means.
-2. **Internal Government Data Catalogue Network**: government agencies exchange data using a confederation of data catalogues and web services.
-3. **Open Government Data**: one-way sharing of government data to the public, sometimes via specific authorizations for specific individuals.
-4. **Open Linked Data**: the government and public participate in a data commons, where everyone exchanges data.
-
 ### Negotiate the release of data
 The Data Curator and OpenDRI Lead will spend a great deal more time negotiating the release of data than the System Administrator will spend building the technical infrastructure. Lobbying for the release of information requires having a clear use case that officials can understand and contribute to. It also requires listening to their concerns and addressing those issues with documented cases of how open data has worked in other countries. 
 
@@ -136,11 +128,108 @@ A lesson learned from previous engagements is that it is possible to spend inord
 
 ***
 
-## Top Down Strategy
+## 2. Collecting New Data
+The first pilot of a field data collection effort initiative generally starts in one city, and potentially, within one neighborhood of a large city. The objective is to train a small pool of energetic mappers into a team that can a) collect the first data and adapt initial approaches to the problems they discover in the field, and b) recruit and train other mappers as the initiative moves into the Scaling phase. OpenDRI has thus far used community mapping as the tactic to implement this objective. 
+
+**Note**: The OpenCities Project has created a toolkit which covers the implementation details of community mapping. This section provides a strategic overview of the OpenCities methodology.
+
+### Team
+The team starts with OpenDRI community mapping trainers, who have expertise in the application of community mapping practices to the collection of exposure data, preferable in the local context. The trainers need to ensure that the team builds skills in several areas:
+
+* Mapping and GIS
+* Software Development and Graphic Design
+* Outreach, training and mobilization
+
+The team consists of several key roles: 
+
+#### Project Lead
+The project lead is (ideally) a local national who can work with the trainers to connect the pilot with a network of relationships that they have within government, academia, and the NGO/IO community. The Project Lead manages the operations of the pilot, and therefore must have both management skills as well as a solid understanding of project management, participatory mapping, GIS, communications/social media, and community/grassroots organizing. The Lead will be the coordinator with the incubator, will hire other team members, and coordinate with the OpenDRI trainers on the field data collection methods and tools.
+
+#### Administrative Assistant
+The pilot require a person who maintains project finances, contracts, clerical duties, and emergent needs around the work space. The AA will track and record project activities in a log, which will help sponsors see how mapping is progressing and enable the Communications Lead to message the growth of the project to a larger audience. The AA may be asked to manage equipment sign-ins and sign-outs and to ensure that inventory of mapping (and office) supplies are kept at planned levels.
+
+#### Champions
+Several key skill sets are core to the pilot and generally are found by hiring professional 'champions', who can solve technical challenges and train others. These include:
+
+##### Technology Coordinator
+A technologist who can make devices and computers work and can coordinate with the AA over the signout of technology equipment (such as GPS units).
+
+##### Software Developer
+The pilot generally uses open-source software, which often needs to be customized to needs that are only discovered during the field data collection. The software developer should be skilled in programming around the software packages used in the pilot and capable of making customizations to meet team needs. He or she may also be asked to develop applications ('apps') that facilitate the growth of the community.
+
+##### Geospatial Specialist
+The pilot will encounter GIS challenges in the data entry. This GIS specialist will assist with building the team's knowledge of participatory mapping and geomatics. He or she will have experience with land surveying, remote sensing, cartography, and GIS.
+
+##### Participatory Mapping Specialist
+Participatory mapping also has its challenges in training, field data collection, data entry, and quality assurance. The Participatory Mapping Specialist will be a key resource around these issues. He or she will likely have a background in GIS, Geography, Computer Science or a related field and have some experience working on community-based participatory mapping projects. It is preferable to have knowledge of OSM and other open-source GIS tools, such as QuantumGIS.
+
+#### Field Data Collectors
+The core of the project are the teams of field data collectors, who perform the field data collection and data entry into the GIS application. They tend to be students, who may be studying geography/GIS or computer science and are quick to learn.
+
+#### Occasional Roles
+More complex projects may require additional help in operation management, M&amp;E, and communications. The OpenCities Toolkit has a description of additional roles in these areas.
+
+### Activities
+
+#### Setup
+The initial stages of pilot center on the logistics of starting-up a new initiative. These activities include:
+
+##### Contracting Incubation Space
+Under its ToR with OpenDRI, the incubator/logistics company will work with the Project Lead to contract a work space. This office may be solely for use by the project, or more commonly, it may work with an existing innovation space or incubator to bring OpenDRI into a larger community of entrepreneurs and technologists. This latter option is preferable because it exposes the team to additional resources and provides a platform for building relationships, which is important for scaling the initiative.
+
+##### Obtaining Equipment
+The logistics company will need to purchase computers, GPS units, PDAs/smart phones, communications tools (radios/phones), and potentially, some office software (though most software needed is free and open source). The OpenDRI pilot management team will need to ensure that this equipment has a plan to ensure its security, and that any devices which go into the field have a basic sign-in and sign-out procedure. 
+
+##### Hiring Staff
+The OpenDRI trainers will likely already have the Project Lead under ToR from the Design phase. This management team will reach out to universities and other partners so that they can hire the rest of the staff. It is recommended that the pilot hold an event to raise awareness, recruit surveyors, and tell the story about what OpenDRI is doing.
+
+##### Developing the questionnaire for field data collection
+Based on the data model from the Design phase, the team will work with the Geospatial lead, local universities, local government champion, and other experts to develop the questionnaire that surveyors will use in the field. This document needs to be short, yet cover the necessary data for tens of thousands of buildings. It can be changed, but alterations affect how commensurate data will be between earlier and later versions, and may require resurveying large areas. Careful thought should go into this document. The OpenCities Toolkit has deeper levels of detail on how to build the questionnaire. 
+
+#### Training
+Once the space and staff are hired and ready for work, the pilot is ready for training in community mapping of exposure data. In general, this training will consist of the following skills:
+
+* OpenStreetMap: how to enter data into the OpenStreetMap wiki or other geospatial platform.
+* Field Data Collection Techniques: how to use a GPS unit, paper maps, and field survey tools to collect data that can be entered into the OpenStreetMap database.  
+* NOTE CONTROVERSY: Exposure Mapping: how to examine a building and understand how its construction is exposed to natural hazards, including common signs of structural weakness.
+* Questionnaire: a training to bring together how the questionnaire developed for the pilot related to OpenStreetMap, Field Survey Techniques, and Exposure Mapping.
+
+The National Society for Earthquake Technology&ndash;Nepal has built a training manual to teach how to read a building for structural weaknesses (add link when approved).
+
+#### Data Collection: Field Surveys and Mapping Parties
+<div class="info-box image-right adapted width-200px">
+<h4>Map Cakes: a tradition</h4>
+<img src="/assets/images/mapcake.png" title="Risk Assessment Triad: Hazards, Exposure, Vulnerability" width="150">
+<p>Mapping is a social activity. It can be very technical and tedious, but it should also be fun. For many years, large mapping parties have traditionally ended with map cakes, where the frosting is printed into a map that reflects the hard work of the team. The activity builds a sense of collective accomplishment. It also forms the core energy and network of relationships that allow for the project to scale. (more TBD, to interview Mikel)</p>
+</div>
+
+When surveyors have been trained, the pilot begins to collect data via mapping parties. These events organizing between 10-40 mappers to collect data in a specific region of a city, with the goal of being as comprehensive as is possible for that region. 
+
+Mapping parties generally last several hours, depending on how long the team needs to travel from the work space to the area that needs to be surveyed.  If transportation is needed, the incubator/logistics company should arrange for rentals, drivers, or other arrangement suitable to context.
+
+When teams return to the work space, they should enter their data into OpenStreetMap as a social activity, where experts can aid surveyors with questions about how to code specific attributes and answer any unexpected issues that emerge. More information can be found in the OpenCities Toolkit. This routine becomes the daily work for several months, until the goals of the pilot are reached.
+
+#### Data Quality Assessment: Coverage, Accuracy, reviews with team
+As the surveying teams progress, it is important that the geomatics lead work with local universities and other OpenDRI experts to assess the quality of the data that is being entered into OpenStreetMap. OSM novices often make mistakes, and this problem is amplified by the specificity required in the entry of exposure data. When a pattern emerges in the consistent miscoding of certain information, the management team should train volunteers around the issue. 
+
+### Participatory Mapping: Troubleshooting politics and perceptions
+Participatory mapping has been a technique for more the 20 years. It has a wide variance in the quality of work. Several national mapping agencies have reacted to poor quality of participatory mapping data, especially when those activities have not adhered to national or international standards for mapping data. the advent of OpenStreetMap has largely addressed the core concerns in this area. That said, OpenDRI team should work with the national mapping agencies to understand its standards and adhere as closely as possible to them.
+
+***
+
+## Policy Development
 The space for OpenDRI to develop pilots requires coordination and communication between the various ministries and partners. This process is relationship intensive: it requires building trust through consistent contact as well as the delivery of small bits of data across previously unscalable boundaries. The chief ally for this work is the Open Data Working Group and the country offices of the DRM project managers (TTLs) that OpenDRI is supporting.
 
 ### Open Data Working Group
 (this is an area where we need to explore additional cases around how OpenDRI works with ODWG to develop its policies)
+
+#### Develop a Plan for Data Access
+The partners must also decide on who can have access to the data and under what terms. For data to be open, it needs to be licensed so that it can be capable of being redistributed, so that it can be turned into derived works that reuse the original data. Getting to this point is often a process:
+
+1. **Manual Interagency Sharing**: government agencies transfer data on a case-by-case basis using *ad hoc* means.
+2. **Internal Government Data Catalogue Network**: government agencies exchange data using a confederation of data catalogues and web services.
+3. **Open Government Data**: one-way sharing of government data to the public, sometimes via specific authorizations for specific individuals.
+4. **Open Linked Data**: the government and public participate in a data commons, where everyone exchanges data.
 
 ### DRM Project Managers
 (this is an are where we need additional data. What are the key lessons learned from developing the pilot with the DRM team in a region or country? What do they need to know on a weekly or monthly basis)?
@@ -148,6 +237,10 @@ The space for OpenDRI to develop pilots requires coordination and communication 
 ### Reporting Strategy
 OpenDRI has developed monthly progress reports to keep partners informed about what data is being collected and released. It provides a summary of the key achievements, a table of the latest data summary figures and participation numbers, as well as an area for lessons learned and future plans. The format may be found here: [Progress Report Template](reports/progressreport.html).
 
+***
+
+## 4. Demonstrations of Analytical Products
+to build
 
 ***
 
