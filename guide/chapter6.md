@@ -28,7 +28,7 @@ The effort to scale pilots usually takes the form of implementing the lessons le
 
 ### BOTTOM-UP
 
-#### Data Catalogue
+#### Collating Data
 After early adopters have added data to a data catalogue, the slow process of building an ecosystem of users begins. The sign for this work to start is if a champion has loaded data and a user base begins to use the data catalogue to solve immediate problems. The usage indicates that the pilot happened in a fertile environment for additional work. 
 
 In general, there are three approaches to scaling open government risk data:
@@ -42,8 +42,8 @@ In each case, planning how to scale requires considering several factors:
 * **Meeting the use cases of partners**. The availability of data often exposes new use cases, many of which may have additional data needs.
 * **Building relationships with gatekeepers to other data sets**. Data catalogues often become gravity wells for information: they pull others with data toward growing supernodes. This credibility enables the OpenDRI to locate islands of data which may be considered core to DRM, but may be held outside of government (often survey or GIS firms). Negotiating the release of these data sets has sometimes proven to be relatively easy when there is a place to host the data without cost to the gatekeepers.
 
-#### Community Mapping
-Research indicates that scaling community mapping efforts is generally a process of building additional pilots, then interconnecting them. This strategy roughly parallels grassroots organizing, when organizers carry the effort from one place to the next, building a larger national effort along the way.
+#### Collecting Data
+Research indicates that scaling the efforts to collect data (e.g. via community mapping) is generally a process of building additional pilots, then interconnecting them. This strategy roughly parallels grassroots organizing, when organizers carry the effort from one place to the next, building a larger national effort along the way.
 
 ##### Expanding each site
 Each new pilot will generally start by cloning the previous cities, with customizations to context. Some areas of customization include architectural traditions of a particular city, natural hazards in the specific place, language, and custom.
@@ -61,8 +61,6 @@ An important element of current work is partnerships with local universities. By
 ##### Data Quality Reports with Universities
 As efforts scale, the dataset becomes an attractive subject for research by local academics. At the same time, the ecosystem often desires a third-party assessment of the quality of the growing data, along with recommendations about how to remedy any errors. OpenDRI team has had success contracting with local academic institutions to perform a QA study on community mapping data. One [such report was done by UGM in Indonesia](http://oo.or.id/2013-07-05/Dokumen%20Laporan/Final%20Report-OSM%20Evaluation%20in%20Indonesia_2012.pdf). It catalyzed a change to the conversation about community mapping in the client government, which subsequently expanded its use of OpenStreetMap.
 
-### TOP-DOWN
-
 #### Building Policies to manage linked open data
 When ministries begin sharing data that has previously been closed, policy and legal question often arise. Some of these issues center on access, privacy, and standards. The OpenDRI team will need consider several questions:
 
@@ -79,6 +77,8 @@ When ministries begin sharing data that has previously been closed, policy and l
 #### Building Curation capacity and QA/M&amp;E
 As data scales in size and interconnection, the challenges of curating it increase. When a system is flooded with high volumes of poor quality data, it becomes far less useful than it was when it started with a few solid datasets. The Data Curator needs to become the steward of the data. He or she will not only add new data, but also removing data that has become stale, cleanse data that contains errors in accuracy or formatting. The Data Curator will need to establish and apply data typologies and hiearchies. The Data Curator's role is to leave data better than he or she found it. The Quality Assurance capacity and M&amp;E around OpenDRI need to be tied to the quality, findability, and usage of the data under curation. OpenDRI is developing a [guide to this curation process](datacuration.html).
  
+### Connecting Data with Analytical Products
+InSAFE to write
 
 ***
 

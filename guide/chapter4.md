@@ -31,11 +31,11 @@ By expanding the stock of available information about risk, OpenDRI helps its cl
 
 ## Objectives
 
-A core objective of OpenDRI is to build an ecosystem of educated users around a national data management system for disaster risk management. The design for an OpenDRI engagement centers on a few activities:
+A core objective of OpenDRI is to build an ecosystem of educated users around a national data management system for disaster risk management. The design for an OpenDRI engagement centers on four activities:
 
 1. Collating, cleansing, and releasing fragmented datasets via one or more data catalogues, usually hosting on GeoNodes.
-2. Creating the policy/legal environment where these data can come together and building the community of practice around the data.
-3. Developing and sustaining a network of government officials, private sector entities, and community-based organizations that are prepared to collect and curate data about their built environment.
+2. Collecting data about the exposure of the built environment to natural hazards, usually by developing and sustaining a network of government officials, private sector entities, and community-based organizations that are prepared to curate this data.
+3. Creating the policy/legal environment where these data can come together and building the community of practice around the data.
 4. Catalyzing efforts around the use of the data for DRM as well as purposes unforeseen by the OpenDRI partners.
 
 <div class="info-box image-right adapted width-200px">
@@ -47,7 +47,7 @@ Unlike many DRM practices, design in OpenDRI unfolds as iterative discovery. Ope
 
 An OpenDRI project will often include both a mix of bottom-up and top-down strategies. The former mobilizes champions and communities around the creation of tangible, practical projects that demonstrate what open data can do. The latter provides the policy guidance and political cover for open data to emerge in a government context. The design of each strategy OpenDRI engagement will generally pull together one or more tactics from a growing toolbox. Each is designed to feed into risk assessment; each requires that its work plan; and each requires the other.
 
-## Bottom Up Design
+## Collating Existing Data
 Once the members of the Open Data Working Group have committed to releasing data, the hard work of obtaining the data begins. In many countries, data about the built environment is decades old and needs to be collected anew. Data that does exist needs to be put into forms that can be released to an open data platform.
 
 The bottom-up portion of the OpenDRI Design phase mobilizes the champions for open data and provides a framework for them to connect fragmented resources into a more comprehensive, integrated data ecosystem. Two tactics in this approach are data catalogues (usually with GeoNode) and community mapping (usually with OpenStreetMap).
@@ -94,8 +94,8 @@ To cleanse the data, it is often necessary to contract a Data Curator, whose is 
 
 ***
 
-### Community Mapping
-Aggregating data from existing sources rarely creates a usable repository about the current built environment. Community mapping develops a network of people who are prepared to collect and (importantly) use data about the exposure of their communities to natural hazards. This approach requires bringing together several entities:
+### 2. Collecting New Data
+Aggregating data from existing sources rarely creates a usable repository about the current built environment. OpenDRI also develops a network of people who are prepared to collect and (importantly) use data about the exposure of their communities to natural hazards. This approach generally applies techniques from participatory/community mapping and requires bringing together several entities:
 
 1. A community mapping partner
 2. A local government sponsor
@@ -146,7 +146,7 @@ Where possible, the Design team should plan for the collection of data on smart 
 
 ***
 
-## Top Down Design
+## 3. Creating the policy/legal environment
 Creating the policy environment where open data can take root is often best done by creating a neutral space where partner to the process can discuss concerns, explore policy options, and review the demonstrations of open data projects from OpenDRI's bottom-up strategy. This neutral space is usually embedded in an Open Data Working Group.
 
 ### Open Data Working Group
@@ -157,6 +157,11 @@ The goal of the work group including building consensus, addressing underlying i
 A key step in the formation of the working group is to get members to commit to opening their data. It is this commitment that provides the necessary policy guidance and political cover for mid-level government officials to perform the practical actions by which data moves from a closed server to an open data catalogue.
 
 It is also important to focus on specific use cases. Working Groups that work on policy questions in the abstract tend to get stuck on edge cases and, as a result, become risk averse. Groups that focus on practical use cases can assess the potential political liabilities around a specific scenario and find solutions that may be imperfect, but get the group started on sharing more data.
+
+***
+4. Catalyzing efforts around the use of the data
+
+We need to develop this section around programs like InaSAFE.
 
 ***
 

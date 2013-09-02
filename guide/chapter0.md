@@ -8,22 +8,6 @@ excerpt: xx
 abstract: Field Guide
 category: guide
 
-title: 0. Preface
-# dc_title: 
-dc_creator: John Crowley (mailto:jcrowley@worldbank.org)
-dc_subject: 
-# dc_description: 
-dc_publisher: gfdrr.org
-dc_contributor: gfdrr.org
-# dc_date:
-dc_type: 
-dc_format: html
-# dc_identifier: 
-dc_source: 
-dc_language: en
-dc_relation: 
-# dc_coverage: 
-dc_rights: http://creativecommons.org/licenses/by-sa/3.0/deed.en_US
 
 ---
 
