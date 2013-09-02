@@ -38,6 +38,8 @@ OpenDRI does not require a client country to start a "whole of government" open 
 
 Once data is flowing in a pilot, the Open Data Working Group will need to confront policy and management issues around the new repository, including data access rights for certain privileged groups. They will also want to start learning how to apply the data to risk impact models or other analytical products, reinforcing the value of open data and expanding their understanding of *why* the project is collating and collecting data for DRM.
 
+***
+
 ### 1. Data Collation
 Collating the right data is the key to keeping the project focused on solving problems around the DRM cycle. In general, OpenDRI data will have two attributes:
 
@@ -216,7 +218,7 @@ Participatory mapping has been a technique for more the 20 years. It has a wide 
 
 ***
 
-## Policy Development
+## 3. Policy Development
 The space for OpenDRI to develop pilots requires coordination and communication between the various ministries and partners. This process is relationship intensive: it requires building trust through consistent contact as well as the delivery of small bits of data across previously unscalable boundaries. The chief ally for this work is the Open Data Working Group and the country offices of the DRM project managers (TTLs) that OpenDRI is supporting.
 
 ### Open Data Working Group
