@@ -151,12 +151,6 @@ OpenDRI has developed monthly progress reports to keep partners informed about w
 
 ## Who
 
-### Open Data Working Group
-
-### Community Mapping Efforts
-
-### Data Curators
-
 ### Management Team
 
 The Pilot Management Team often includes three expert consultants:
