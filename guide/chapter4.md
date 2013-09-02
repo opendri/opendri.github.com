@@ -47,7 +47,9 @@ Unlike many DRM practices, design in OpenDRI unfolds as iterative discovery. Ope
 
 An OpenDRI project will often include both a mix of bottom-up and top-down strategies. The former mobilizes champions and communities around the creation of tangible, practical projects that demonstrate what open data can do. The latter provides the policy guidance and political cover for open data to emerge in a government context. The design of each strategy OpenDRI engagement will generally pull together one or more tactics from a growing toolbox. Each is designed to feed into risk assessment; each requires that its work plan; and each requires the other.
 
-## Collating Existing Data
+***
+
+## 1. Collating Existing Data
 Once the members of the Open Data Working Group have committed to releasing data, the hard work of obtaining the data begins. In many countries, data about the built environment is decades old and needs to be collected anew. Data that does exist needs to be put into forms that can be released to an open data platform.
 
 The bottom-up portion of the OpenDRI Design phase mobilizes the champions for open data and provides a framework for them to connect fragmented resources into a more comprehensive, integrated data ecosystem. Two tactics in this approach are data catalogues (usually with GeoNode) and community mapping (usually with OpenStreetMap).
@@ -97,13 +99,13 @@ To cleanse the data, it is often necessary to contract a Data Curator, whose is 
 ### 2. Collecting New Data
 Aggregating data from existing sources rarely creates a usable repository about the current built environment. OpenDRI also develops a network of people who are prepared to collect and (importantly) use data about the exposure of their communities to natural hazards. This approach generally applies techniques from participatory/community mapping and requires bringing together several entities:
 
-1. A community mapping partner
-2. A local government sponsor
-3. Community mapping trainers
+* A community mapping partner
+* A local government sponsor
+* Community mapping trainers
 
 The [architecture of a community mapping initiative](communitymapping.html) is described in the Methods section of the Field Guide.
 
-#### 1. Local Government Sponsor and CoMapping
+#### Local Government Sponsor and CoMapping
 In most cases, the government will drive the mapping effort, defining standards and reviewing content for community mapping. In several countries, it has also been critical to develop a technique that has become known as comapping. An OpenStreetMap or community mapper partners with a local government official to review data collected from the field on a map. The local government official then comaps with the mapper to add attributes to the data and correct inaccuracies in the polygons. Because of his or her authority in the local ecosystem, the local government official can sign off on the accuracy of the mapping, lending far greater authority to the data than would be possible with OpenStreetMap/community mapping work alone. The most common comappers are managers of small local governments (wards, villages, etc), GIS officers, and local officials in land use and disaster management. They each bring a set of relationships that are critical to success of community mapping. They bring the authority to speak with building owners, school and hospital officials, and other individuals who can provide first-hand information about the building stock and construction techniques. 
 
 The design team should ask:
@@ -112,14 +114,14 @@ The design team should ask:
 * Is that local government sponsor willing to lend their authority to the community mapping effort?
 * In the country context, what will be necessary to enlist the support of that local government sponsor? Will a request need to be sent from a provincial-level official to the locality? Or will the local leader need to recruited through local relationships?
  
-#### 2. Community mapping trainers
+#### Community mapping trainers
 The techniques of *participatory mapping* have been developing over the past 20+ years. That said, the OpenStreetMap community has transformed old notions of participatory mapping by creating a central database for geographic data centered around shared open standards. Previously disparate efforts with varied techniques (and accuracy) have gradually coalesced into a relatively uniform practices. 
 
 However, collecting data that accurately describes the built environment is a highly specialized niche within the OpenStreetMap and participatory mapping domain. OpenDRI has pioneered a set of techniques around field data collection, data models, and initial analysis that require the Design team to think beyond traditional participatory mapping efforts. Most OpenStreetMap data collections capture attributes about buildings and infrastructure found on maps used for navigation. OpenDRI collects data about the construction of buildings, sometimes in databases that run parallel to OpenStreetMap. 
 
 Because of the specialized techniques around tagging buildings with structural analysis and collection of data into parallel databases, the Design team should include a community mapping trainer with prior OpenDRI experience in the plans for training a local community in the techniques of collecting data about exposure. Where no such community organization exists, the Design team should consider hiring the trainer as the host of an innovation lab or incubator (described below).
 
-#### 3. Finding the Incubator/Logistics Company
+#### Finding the Incubator/Logistics Company
 A tactic that has helped both existing community organizations and outside mapping trainers is an incubator/innovation lab. This shared space acts as an accelerator: an organization rents portions of its physical space to entities that need conference rooms, Internet access, phones, and storage space. Incubators enable community mappers to host meetings, help with the purchase and maintenance of equipment, and provide a space where they can allow volunteers to engage in the hard work of turning field data surveys into maps. The incubator can be thought of as a logistics partner to OpenDRI: it facilitates the effort, providing critical services that otherwise would fall on the OpenDRI management. 
 
 The Design Team should look for a logistics partner who can run the incubator. Typical criteria for selection include:
@@ -159,7 +161,7 @@ A key step in the formation of the working group is to get members to commit to 
 It is also important to focus on specific use cases. Working Groups that work on policy questions in the abstract tend to get stuck on edge cases and, as a result, become risk averse. Groups that focus on practical use cases can assess the potential political liabilities around a specific scenario and find solutions that may be imperfect, but get the group started on sharing more data.
 
 ***
-4. Catalyzing efforts around the use of the data
+### 4. Catalyzing efforts around the use of the data
 
 We need to develop this section around programs like InaSAFE.
 
