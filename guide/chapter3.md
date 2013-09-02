@@ -200,33 +200,6 @@ To build data about flood risk in the Shire River Basin in the south of the coun
 ### Outcome
 ToRs for GeoNode, data collection, and trainings, as well as exercises in the Shire. Provide link to a story about the current state of open data in Malawi.
 
-***
-
-## The Case of Malawi
-
-### Key points for writing case:
-
-WB/GFDRR combined teams held multiple missions to Malawi to:
-
-1. Raise awareness about community and data preparedness
-2. Solicit input from stakeholders at multiple levels of government
-	* Department of Management Affairs (DODMA) 
-	* Department of Surveys
-	* Department of Physical Planning
-	* Department of Water Resources
-	* Ministry of Agriculture and Food Security
-	
-### Use Case
-To build data about flood risk in the Shire River Basin in the south of the country. 
-
-### Iterative Design
-1. Installed GeoNode as a data catalogue, to be managed by the National Spatial Data Center with the participation of the other members of the Shire River Basin Management Program Technical Taskforce.
-2. Collated data from a variety of sources, focusing first on the data from “Economic Vulnerability and Disaster Risk Assessment Study” , “Water Resources Investment Strategy” that was collected for Malawi (http://gfdrr.org/gfdrr/node/148) 
-3. Held Trainings in partnership with universities and ministries, including the representatives of departments in the region. Held training exercises around the data facilitated by a contractor. The scope of the exercise covered the entire two districts in the lower shire: Chikhwawa and Nsanje.
-
-### Outcome
-ToRs for GeoNode, data collection, and trainings, as well as exercises in the Shire. Provide link to a story about the current state of open data in Malawi.
-
 
 
 
