@@ -79,11 +79,6 @@ When ministries begin sharing data that has previously been closed, policy and l
 #### Building Curation capacity and QA/M&amp;E
 As data scales in size and interconnection, the challenges of curating it increase. When a system is flooded with high volumes of poor quality data, it becomes far less useful than it was when it started with a few solid datasets. The Data Curator needs to become the steward of the data. He or she will not only add new data, but also removing data that has become stale, cleanse data that contains errors in accuracy or formatting. The Data Curator will need to establish and apply data typologies and hiearchies. The Data Curator's role is to leave data better than he or she found it. The Quality Assurance capacity and M&amp;E around OpenDRI need to be tied to the quality, findability, and usage of the data under curation. OpenDRI is developing a [guide to this curation process](datacuration.html).
  
-***
-
-## Who
-
-(still working on this)
 
 ***
 
