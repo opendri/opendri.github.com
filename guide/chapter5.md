@@ -31,9 +31,6 @@ The piloting phase builds the first instances of a data catalogue, collects the 
 ## Objectives
 The primary objective of a pilot is to open the imagination of the partners to what is possible when they share data about risk. The pilot provides a tangible use case to focus the efforts of multiple organizations on building the various parts of an open data ecosystem, some of which may be inside of government, some of which may be fully public. In some cases, the pilot provides in impetus to get over "last mile" problems, where partners have already made great strides towards building risk data but are prevented from launching their work by a mix of problems that often were discovered only by engaging with the task.  
 
-***
-
-## Bottom Up Strategy
 OpenDRI does not require a client country to start a "whole of government" open data program. However, it requires a significant commitment to release data in a narrow band of areas about natural hazards, the built environment, and the threats that disasters pose to a society. The work from the bottom up will build up the proof that this kind of data can be released in open formats on open platforms. There are two parts to this approach:
 
 1. **Data Collation and Release**. A process with the Open Data Working Group and the GeoNode that centers on obtaining access to existing datasets and then preparing them for release.
