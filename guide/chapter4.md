@@ -21,7 +21,7 @@ abstract: "Field Guide"
 	<h4>Phase Summary</h4>
 	<ul>
 	<li>Timeline: 1-6 months</li>
-	<li>Costs: ?</li>
+	<li>Costs: ??</li>
 	</ul> 
 </div>
 
