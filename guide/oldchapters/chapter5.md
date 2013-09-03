@@ -19,8 +19,6 @@ section: II. Practice
 </ul> 
 </div>
 
-{% include snippets/datacat/building.md | markdownify %}
-
 Turning the design into the first pilot often takes 1-6 months of work. The Design team will spend time building consensus among the partners, writing concept notes and terms of reference that require several organizations (and several departments within those organizations) to come to agreement and release funding. Once funding flows, however, work in the field can lead to relatively fast outputs.
 
 The piloting phase builds the first instances of a data catalogue, collects the first participatory mapping data, and (context permitting) may allow government officials to apply the new data to initial impact models. 

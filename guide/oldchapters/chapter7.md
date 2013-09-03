@@ -57,9 +57,6 @@ The mix of sustaining efforts may change over time, but they will also need to b
 
 #### Academic Partnerships
 
-#### 
-
-
 ## Who
 
 
@@ -69,6 +66,7 @@ The mix of sustaining efforts may change over time, but they will also need to b
 ## Outputs
 
 ***
+
 
 Sustaining OpenDRI initiatives is a new problem. All current projects remain funded through their pilot or scaling funding plans. None have built self-sustaining revenue streams. That said, several dynamics are creating living ecosystems around open data for resilience:
 
