@@ -258,12 +258,12 @@ OpenDRI has developed monthly progress reports to keep partners informed about w
 The goal of OpenDRI is to provide the data that others can transform into tools that explore risks from natural hazards. However, there are few stronger incentives to expand data collation and collection efforts than seeing newly available data turned into an analytical product&mdash;especially a visualization that shows something unexpected or confirms a hunch which previously had no evidence to support it. OpenDRI frequently partners with other efforts in DRM to provide this link between DRM data management and DRM analysis.
 
 ### InaSAFE
- 
+Built through a partnership between the Australian Indonesian Fund for Disaster Reduction (AIFDR), Geoscience Australia, and the World Bank, the InaSAFE tool is a free and open-source risk communication tool for non-technical users. It allows anyone to pull information about the built environment together with models of natural hazards and create a scenario that shows the potential impact of the hazard on the built environment. 
 
+InaSAFE is built as an easy-to-install plugin for another open-source GIS desktop software QuantumGIS (often called qGIS). It can pull data from the GeoNode or other web services, OpenStreetMap, and models like the Global Earthquake Model or several tsunami and flooding models built by Geoscience Australia and other partners.
 
 ### CAPRA
 (team: we need an explanation and example of the link between an OpenDRI project and CAPRA. Who has documentation: concept notes, ToRs, graphics, etc? Bolivia? LAC?)
-
 
 ***
 
@@ -295,37 +295,26 @@ The pilot produces data and grow community. As a result, its output metrics cent
 
 ## Case: Nepal: Pilot of Kathmandu.
 
-## Context
-In early 2012, the World Bank's South Asia Region (SAR) engaged in the project with Nepal's Ministries of Education and Health to retrofit schools and health facilities against seismic risks in the Kathmandu valley. The prioritization of this investment required knowing both where these facilities were located and the relative exposure of these structures to earthquakes. When the teams could locate a comprehensive list of schools or health facilities to begin their risk assessment, they turned to the GFDRR team that was working on OpenDRI.
+In early 2012, the World Bank's South Asia Region (SAR) engaged in the project with Nepal's Ministries of Education and Health to retrofit schools and health facilities against seismic risks in the Kathmandu valley. The prioritization of this investment required knowing both where these facilities were located and the relative exposure of these structures to earthquakes. When the teams could not locate a comprehensive list of schools or health facilities to begin their risk assessment, they turned to the GFDRR team that was working on OpenDRI.
 
-## Scoping
+### Scoping
 Through a series of meetings, GFDRR introduced SAR and the GoN to the work that OpenStreetMap had done in Indonesia under AIFDR as well as the OSM efforts in the Kotse Valley with the American Red Cross. Based on the need to collect high-resolution data about more than 10,000 buildings in Kathmandu, SAR and the GoN worked with GDRR to fund an OpenStreetMap effort to map every school and health clinic in Kathmandu. In the process, SAR and GFDRR agreed to create the first site in a new OpenCities Project, where open data and efforts like OpenStreetMap would be used to catalyze better urban planning.
 
-## Design
-(will write prose around final form of the chapter)
+### Design
+The pilot focused on building a field data collection work flow that would allow for the rapid discovery and mapping of schools and hospitals in the Kathmandu valley. This required establishing a task force of ministries and local partners to advise the effort and provide the authority for the work. It also required building an innovative approach to rapidly mapping an unknown number of facilities. 
 
-### Key Personnel and Partnerships
-* Three consultants: PM (Robert), OSM Consultant (Nama), KM (Ryan)
-* NSET for structural engineering. 
-* University for students. 
-* Biruwa for incubation space.
-
-### Community Mapping/Field Data Collection
-* started without a list of schools
-* 13 interns plus 350 active volunteer mappers.
-* divided city into 4 quadrants. Used mapmyschool.org along with questions in each neighborhood to locate schools and health facilities not on any list.
-* collected data (show graph of progress from reports)
-* created linkages: NSET, USAID, ICIMOD. OpenDataDay. 
+#### Community Mapping
+The pilot used the innovation lab design, contracting with a local incubator (Biruwa) host and help mobilize field data collectors. The team included an OpenDRI specialist who went on a three-month mission to Kathmandu; a local OSM consultant who had recently completed a PhD around OpenStreetMap; and a part-time knowledge manager, who was responsible for tracking progress and lessons learned. The team trained a staff of 13 interns, who in trained over 350 local mappers.  They divided city into 4 quadrants, and used [mapmyschool.org](http://mapmyschool.org) to locate schools and health facilities not found on any list. Volunteers were also given a letter from the Ministry of Education to help allay concerns of principals who were reluctant to share information or allow teams onto their property. 
 
 ### Data Quality
-In first three months, collected over 65,000 building footprints with over 350 active mappers. Required checking for accuracy.
+In first three months, the mappers collected over 65,000 building footprints using a detailed [field data collection form](schema/nepal_field_survey.html). The project also partnered with the Nepal Society of Earthquake Technology, a local that provides seismic and structural engineering consulting, and two universities, where professors and engineers provided QA on the data. 
 
 #### NSET
 NSET reviewed a sampling of small percentage of the buildings surveyed by the volunteers. They flagged issues to adjust training, and then provided that training to volunteers. It helped to taking pictures of every building along the way, enabling engineers to review both photos and forms.
 
-#### UCL
-Similar to UGM study from Indonesia, worked with Muki Hakley, who gave advice to the Geomatics Dept on Kath Univ on assessment of geometry of data and fitness of use. Reviewed the accuracy of building footprints, road networks (where roads overlap.
+#### University College, London
+Similar to UGM study from Indonesia, the team worked with Muki Hakley, who gave advice to the Geomatics Dept at Kathmandu University on assessment of geometry of data and fitness of use. Professor Hakley also reviewed the accuracy of building footprints, road networks (where roads overlap), and other aspects of the data.
 
-### Demonstrated Capacity
-Data collected by mappers demonstrated the potential for open data to GoN as well as USAID. (get more)
+### Demonstrating Analytical Products
+A team from Stanford University is currently building earthquake risk models from the data collected in Kathmandu, with plans to show how the impact of a seismic event on the municipal facilities that would be critical sites for a response operation.
 
