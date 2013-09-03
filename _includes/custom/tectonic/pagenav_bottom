@@ -1,0 +1,14 @@
+<hr />
+<h4>Chapters</h4>
+<nav class="pagination clearfix">
+	<a href="chapter0.html" title="Preface" {% for node in pages_list %}{% if group == null or group == node.group %}{% if page.url == node.url %} class="current" {% endif %}{% endif %}{% endfor %} >0</a>
+	<a href="chapter1.html" title="Introduction" {% for node in pages_list %}{% if group == null or group == node.group %}{% if page.url == node.url %} class="current" {% endif %}{% endif %}{% endfor %} >1</a>
+	<a href="chapter2.html" title="OpenDRI" {% for node in pages_list %}{% if group == null or group == node.group %}{% if page.url == node.url %} class="current" {% endif %}{% endif %}{% endfor %} >2</a>
+	<a href="chapter3.html" title="Scoping" {% for node in pages_list %}{% if group == null or group == node.group %}{% if page.url == node.url %} class="current" {% endif %}{% endif %}{% endfor %} >3</a>
+	<a href="chapter4.html" title="Design" {% for node in pages_list %}{% if group == null or group == node.group %}{% if page.url == node.url %} class="current" {% endif %}{% endif %}{% endfor %} >4</a>
+	<a href="chapter5.html" title="Piloting" {% for node in pages_list %}{% if group == null or group == node.group %}{% if page.url == node.url %} class="current" {% endif %}{% endif %}{% endfor %} >5</a>
+	<a href="chapter6.html" title="Scaling" {% for node in pages_list %}{% if group == null or group == node.group %}{% if page.url == node.url %} class="current" {% endif %}{% endif %}{% endfor %} >6</a>
+	<a href="chapter7.html" title="Sustaining" {% for node in pages_list %}{% if group == null or group == node.group %}{% if page.url == node.url %} class="current" {% endif %}{% endif %}{% endfor %} >7</a>	
+</nav>
+{% assign pages_list = nil %}
+{% assign group = nil %}
