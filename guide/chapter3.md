@@ -176,30 +176,23 @@ Readiness Report is a diagnostic tool that will be used to assess if a country i
 ***
 
 ## Malawi
-
-### Key points for writing case:
-
-WB/GFDRR combined teams held multiple missions to Malawi to:
+In early 2012, GFDRR received a request to send a scoping mission to Malawi around the Integrated Flood Risk Management Plan for the Shire Basin (IFRMP). The mission had two objectives:
 
 1. Raise awareness about community and data preparedness
-2. Solicit input from stakeholders at multiple levels of government
-	* Department of Management Affairs (DODMA) 
-	* Department of Surveys
-	* Department of Physical Planning
-	* Department of Water Resources
-	* Ministry of Agriculture and Food Security
-	
-### Use Case
-To build data about flood risk in the Shire River Basin in the south of the country. 
+2. Solicit input from stakeholders at multiple levels of government around community mapping and a planned data preparedness exercise. 
 
-### Iterative Design
-1. Installed GeoNode as a data catalogue, to be managed by the National Spatial Data Center with the participation of the other members of the Shire River Basin Management Program Technical Taskforce.
-2. Collated data from a variety of sources, focusing first on the data from “Economic Vulnerability and Disaster Risk Assessment Study” , “Water Resources Investment Strategy” that was collected for Malawi (http://gfdrr.org/gfdrr/node/148) 
-3. Held Trainings in partnership with universities and ministries, including the representatives of departments in the region. Held training exercises around the data facilitated by a contractor. The scope of the exercise covered the entire two districts in the lower shire: Chikhwawa and Nsanje.
+The team traveled to Malawi in April 2012, meeting with the Department of Management Affairs (DODMA), Department of Surveys, Department of Physical Planning, Department of Water Resources, Ministry of Agriculture and Food Security, National Statistical Office, and the Chikhwawa and Nsanje District Civil Protection Committee, as well as UN agencies. 
+
+### Use Case
+Across various interviews with a task force of government officials, the team discovered a need to ensure that data created by a number of past or ongoing projects is maintained in an online platform so that this information remains accessible and useful to the Government of Malawi. 
+
+### Champions
+The GFDRR team found the task force very willing to co-design a data catalogue with the World Bank, and subsequently drafted a Terms of Reference for a firm to develop a GeoNode for Malawi and then train officials in its use through the data preparedness exercise.
 
 ### Outcome
-ToRs for GeoNode, data collection, and trainings, as well as exercises in the Shire. Provide link to a story about the current state of open data in Malawi.
-
+1. The World Bank gave start-up funding to install a GeoNode as a data catalogue, to be managed by the National Spatial Data Center with the participation of the other members of the Shire River Basin Management Program Technical Taskforce.
+2. The task force worked with the firm to collate data from a variety of sources, focusing first on the data from “Economic Vulnerability and Disaster Risk Assessment Study”, “Water Resources Investment Strategy” that was collected for Malawi (http://gfdrr.org/gfdrr/node/148). The result can be viewed at [http://www.masdap.mw/](http://www.masdap.mw/).
+3. The firm held trainings in partnership with local universities and ministries, including the representatives of departments in the region. 
 
 
 

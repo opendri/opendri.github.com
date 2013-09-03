@@ -68,3 +68,5 @@ The guide also focuses on cataloguing the set of practices that have emerged ove
 
 ## Collective Intelligence around Open Data for Resilience
 The intention of this guide is to make the work itself a collective effort. It is seeded from the experience of a handful of partners, and shared with communities that work in open data or hope to emulate this approach. Curators will continue to steward the content, ensuring that added knowledge reflects the community's shared experiences.
+
+
