@@ -41,7 +41,7 @@ The core objective of OpenDRI is to build an ecosystem of educated users around 
 <p>Implementation by a formal institution **on behalf of** a country is no where near as effective as co-designing and co-deployment **in partnership with** a host government and a larger network of DRM partners. Whenever conceivably possible, a slow process of designing and building the data catalogue and collating the data should be done with the client leading the process and formal partners creating the supporting structures. Haiti's national mapping agency just launched the new version of a data catalogue in GeoNode, co-designed with the Bank and is now being loaded with fresh data.</p>
 </div>
 
-Unlike many DRM practices, design in OpenDRI unfolds as iterative discovery. OpenDRI tends to bring those who have direct and specific knowledge of the constraints and realities into relationship with those who interpret and write policy. In the process, the teams explore faster, cheaper, and simpler ways to collect data while altering the frameworks by which government pursues data sharing. In turn, this process opens new possibilities in the minds of the partners,leading to innovation and catalyzing a new cycle to design a novel approach.
+Unlike many DRM practices, design in OpenDRI unfolds as iterative discovery. It starts with a problem of immediate import  to a *client's* challenge in disaster risk management. OpenDRI brings those who have direct and specific knowledge of the problem (including various constraints and realities around solutions) into relationship with those who interpret and write policy around data sharing in the country. In the process of exploring the challenge and potential solutions, the teams explore faster, cheaper, and simpler ways to collect data while altering the policy frameworks by which government pursues data sharing. In turn, this process opens new possibilities in the minds of the partners,leading to innovation and catalyzing a new cycle to design a novel approach.
 
 An OpenDRI project will often include both a mix of bottom-up and top-down strategies. The former mobilizes champions and communities around the creation of tangible, practical projects that demonstrate what open data can do. The latter provides the policy guidance and political cover for open data to emerge in a government context. The design of each strategy OpenDRI engagement will generally pull together one or more tactics from a growing toolbox. Each is designed to feed into risk assessment; each requires that its work plan; and each requires the other.
 
@@ -49,92 +49,35 @@ The design for an OpenDRI engagement centers on four activities:
 
 1. **Collating**. Collating, cleansing, and releasing fragmented datasets via one or more data catalogues, usually hosting on GeoNodes.
 2. **Collecting** data about the exposure of the built environment to natural hazards, usually by developing and sustaining a network of government officials, private sector entities, and community-based organizations that are prepared to curate this data.
-3. **Conditioning** the partners to work together in a new way by creating the policy/legal environment where these data can come together and building the community of practice around the data.
+3. **Creating the policy framework** where these data can come together and building the community of practice around the data.
 4. **Catalyzing** efforts around the use of the data for DRM as well as purposes unforeseen by the OpenDRI partners.
+
+This guide is built around these four activities. This first draft will discuss approaches to each activity during each phase of OpenDRI. A second draft will explore structuring the chapters of the guide around the four activities, showing the phases of development inside each activity.
 
 ***
 
 ## 1. Collating Existing Data
-Once the members of the Open Data Working Group have committed to releasing data, the hard work of obtaining the data begins. In many countries, data about the built environment is decades old and needs to be collected anew. Data that does exist needs to be put into forms that can be released to an open data platform.
+Once the members of the Open Data Working Group have committed to releasing data, the hard work of obtaining the data begins. In countries like Nepal, data about the built environment is decades old and needs to be collected anew. Any data that does exist need to be put into formats that can be released via an open data platform. 
 
-The bottom-up portion of the OpenDRI Design phase mobilizes the champions for open data and provides a framework for them to connect fragmented resources into a more comprehensive, integrated data ecosystem. Two tactics in this approach are data catalogues (usually with GeoNode) and community mapping (usually with OpenStreetMap).
+The bottom-up portion of the OpenDRI Design phase mobilizes the champions for open data and provides a framework for them to connect fragmented resources into a more comprehensive, integrated data ecosystem. Two tactics in this approach are data catalogues (usually with GeoNode) and community mapping (usually with OpenStreetMap). The design for each 
 
 ### Designing Data Catalogues
 Gathering data from existing archives requires a strategy around aggregating and cataloguing those data. In general, the critical step in this strategy is to implement a data catalogue, which provides a place for all the newly-released data to reside. The design of this data catalogue requires close collaboration between OpenDRI's implementing partners and the Open Data Working Group. The design of the data catalogue is described in greater detail in the Methods section of the guide: [Data Catalogue](datacatalogue.html).
 
-#### Map out the data aggregation challenges
-Aggregating data around the DRM cycle is only partly a technical problem. It is mostly a process of building support for the release of existing data and a commitment to collecting new data among a range of actors. The work is mostly about listening to the problems that ministries and partners are having around risk assessment/analysis, then seeking out the underlying problems. The data that ministries need to make decisions may be hidden behind fears about what the data describe (national security), the accuracy and age of the data (data quality), or a lack of knowledge of how to harness the data for decision making (capacity building in risk assessment). Regardless of rationale, partners will often want to know that they are not the first or only organization to release data.
+It is worth pulling out some critical points from the Methods section and discussing them here.
 
-That said, OpenDRI cannot solve all data sharing problems. It focuses on the issues around the DRM cycle and the datasets that support decision makers around risk assessment, mitigation, preparedness, response, recovery, and reconstruction. The collation of data should center on a) data necessary for solving the use case(s) of early adopters, and b) the data sets that ministries are already prepared to release (low-hanging fruit). 
-
-#### Define the Use Case with Early Adopters
-Based on the scoping mission, the team will have a map of the champions, allies, skeptics, and gatekeepers for data related to the DRM cycle. It is the early adopters who will function as champions. In general, they will have a set of problems that can only be solved by aggregating data. The scoping team should map out these use cases and decide with which ones which will likely form the core of the initial pilot. (It is important to remember that government officials tend to need to see use cases for data before they release it). 
-
-#### Data Catalogue Co-Design
-The design of a data catalogue architecture generally begins with a choice: using existing government systems (often proprietary) versus implementing new open systems. This choice needs to be made in conjunction with the client based on several factors:
-
-1. **Client Infrastructure**. If the host government has made major investments in building a spatial data infrastructure that uses a proprietary solution, it will likely wish to use OpenDRI as a method of driving additional open data into that infrastructure. If the client has a fragmented ecosystem with several different platforms (or different versions fo the same software), a free and open source solution may be ideal. 
-
-2. **Compatibility with Web Services**. The basic principles of open data require that the complete dataset be available a public Internet address in an open data format using an open web services protocol (e.g., WMS, WFS, etc). If the current implementation of a spatial data infrastructure does not support web services, it would be prudent to work with the client on construction a set of tools that enable open data. More recent versions of ESRI software generally support web services, but the specific version in use will matter.
-
-3. **Extent of Partnerships**. Data that deal with hazards, exposure, vulnerabilities, and risks may be spread over a large number of organizations that are inside and outside of government. They may all be centralized in a handful of ministries. The design of the data catalogue will be heavily influenced by the magnitude of the data aggregation/collation problem.
-
-<div class="info-box image-right adapted width-200px">
-<h4>Resources</h4>
-<ul>
-<li>[Worldbank LAC | AusAID | AIFDR InaSAFE Guides](http://worldbank.org)</li>
-<li>[US Open Data Policy Implementation Guide ](http://project-open-data.github.io/schema/)</li>
-<li>[US Open Data Policy Metadata Schema ](http://project-open-data.github.io/schema/)</li>
-</ul>
-</div>
-
-#### Plan for Data Cleansing
-
-Data that arrives from ministries may not always be ready for release or appropriate for OpenDRI:
-
-* **Open data can be old data**. It may be released from archives where its currency is low and risk to the ministry for its release is low.
-* **Data may not have the right schema for DRM analysis**. To analyze how a range of structures in a given area will react to a hazard, an analyst requires data that feed into specific aspects of a model. Data collated from ministries may not have these fields, and they may need to be collected afresh.
-* **Data may need cleansing**. Data is often collected in ways that prevent its use in analysis. Location information may cram all geographical data into a single column in a database, so that GPS coordinates are mixed with postal addresses or even long-winded descriptions. Quantitative models need to have information in specific formats.
-* **Geographic data may be in another projection**. There are many ways to turn the three-dimensional surface of the earth into a flat, two-dimensional map. These various methods are called *projections*. Some geographic data may have been collected using a projection different from the ones used in modern web services architectures. OpenDRI has discovered data in old projections that were customized to specific countries and are incompatible with modern projects, or a colossal drain on staff time to convert to projections that are compatible with open data.
-
-To cleanse the data, it is often necessary to contract a Data Curator, whose is to prepare data for release and make its metadata available in the data catalogue. The design of the OpenDRI engagement needs to include this work. It also needs to guard against a danger inherent in hiring a data curator: focusing on making small datasets perfect that the expense of getting as much data possible available to the community of users.
+1. **Approach data collation as a political challenge, not a technology problem**. Aggregating data around the DRM cycle is only partly a technical problem. It is mostly a process of building support for the release of existing data and a commitment to collecting new data among a range of actors. The work is mostly about listening to the problems that ministries and partners are having around risk assessment/analysis, then seeking out the underlying problems. The data that ministries need to make decisions may be hidden behind fears about what the data describe (national security), the accuracy and age of the data (data quality), or a lack of knowledge of how to harness the data for decision making (capacity building in risk assessment). Regardless of rationale, partners will often want to know that they are not the first or only organization to release data.
+2. **Focus on the DRM data, not all data**. OpenDRI cannot solve all data sharing problems in a society. It focuses on the issues around the DRM cycle and the datasets that support decision makers around risk assessment, mitigation, preparedness, response, recovery, and reconstruction. The collation of data should center on a) data necessary for solving the use case(s) of early adopters, and b) the data sets that ministries are already prepared to release (low-hanging fruit).
+3. **Plan on Data Cleansing**. Data that arrives from ministries may not always be ready for release or appropriate for OpenDRI. The pilot phase will need to confront data munging/cleansing to make the information immediately useful to others.
+4. **Keep it simple and practical**. The process of cataloguing data often means adding detailed metadata. Developing simple, practical standards that everyone can use consistently will work out better than complex standards that can only be catalogued by experts.
 
 ***
 
 ### 2. Collecting New Data
-Aggregating data from existing sources rarely creates a usable repository about the current built environment. OpenDRI also develops a network of people who are prepared to collect and (importantly) use data about the exposure of their communities to natural hazards. This approach generally applies techniques from participatory/community mapping and requires bringing together several entities:
+Aggregating data from existing sources rarely creates a usable repository about the current built environment. OpenDRI also develops a network of people who are prepared to collect and (importantly) use data about the exposure of their communities to natural hazards. This approach generally applies techniques from participatory/community mapping 
+The [architecture of a community mapping initiative](communitymapping.html) is described in the Methods section of the Field Guide. The design issues here are abstracted from this more detailed method.
 
-* A community mapping partner
-* A local government sponsor
-* Community mapping trainers
-
-The [architecture of a community mapping initiative](communitymapping.html) is described in the Methods section of the Field Guide.
-
-#### Local Government Sponsor and CoMapping
-In most cases, the government will drive the mapping effort, defining standards and reviewing content for community mapping. In several countries, it has also been critical to develop a technique that has become known as comapping. An OpenStreetMap or community mapper partners with a local government official to review data collected from the field on a map. The local government official then comaps with the mapper to add attributes to the data and correct inaccuracies in the polygons. Because of his or her authority in the local ecosystem, the local government official can sign off on the accuracy of the mapping, lending far greater authority to the data than would be possible with OpenStreetMap/community mapping work alone. The most common comappers are managers of small local governments (wards, villages, etc), GIS officers, and local officials in land use and disaster management. They each bring a set of relationships that are critical to success of community mapping. They bring the authority to speak with building owners, school and hospital officials, and other individuals who can provide first-hand information about the building stock and construction techniques. 
-
-The design team should ask:
-
-* Is there a local government sponsor who is willing to engage in comapping with the effort to collect data about the built environment?
-* Is that local government sponsor willing to lend their authority to the community mapping effort?
-* In the country context, what will be necessary to enlist the support of that local government sponsor? Will a request need to be sent from a provincial-level official to the locality? Or will the local leader need to recruited through local relationships?
- 
-#### Community mapping trainers
-The techniques of *participatory mapping* have been developing over the past 20+ years. That said, the OpenStreetMap community has transformed old notions of participatory mapping by creating a central database for geographic data centered around shared open standards. Previously disparate efforts with varied techniques (and accuracy) have gradually coalesced into a relatively uniform practices. 
-
-However, collecting data that accurately describes the built environment is a highly specialized niche within the OpenStreetMap and participatory mapping domain. OpenDRI has pioneered a set of techniques around field data collection, data models, and initial analysis that require the Design team to think beyond traditional participatory mapping efforts. Most OpenStreetMap data collections capture attributes about buildings and infrastructure found on maps used for navigation. OpenDRI collects data about the construction of buildings, sometimes in databases that run parallel to OpenStreetMap. 
-
-Because of the specialized techniques around tagging buildings with structural analysis and collection of data into parallel databases, the Design team should include a community mapping trainer with prior OpenDRI experience in the plans for training a local community in the techniques of collecting data about exposure. Where no such community organization exists, the Design team should consider hiring the trainer as the host of an innovation lab or incubator (described below).
-
-#### Finding the Incubator/Logistics Company
-A tactic that has helped both existing community organizations and outside mapping trainers is an incubator/innovation lab. This shared space acts as an accelerator: an organization rents portions of its physical space to entities that need conference rooms, Internet access, phones, and storage space. Incubators enable community mappers to host meetings, help with the purchase and maintenance of equipment, and provide a space where they can allow volunteers to engage in the hard work of turning field data surveys into maps. The incubator can be thought of as a logistics partner to OpenDRI: it facilitates the effort, providing critical services that otherwise would fall on the OpenDRI management. 
-
-The Design Team should look for a logistics partner who can run the incubator. Typical criteria for selection include:
-
-* **Physical Space**: Provision of a physical space appropriate to the scale and scope of the community mapping effort. This space should have reliable electricity and Internet access, as well as meeting spaces and work spaces. Locked storage for GPS and computing equipment is also important.
-* **Services**: the entity should be able to host meetings, draw together a larger network of technologists, and create synergies between mappers and the local technology communities. They are a relationship broker, with a deep network of contacts in the communities in which OpenDRI works.
-
-### Designing Field Data Collection
+#### Designing Field Data Collection
 Collecting data from field environments have special challenges, especially in countries where maps are poor and addresses are often a long narrative than a postal address in the traditional sense. The Design team will need to consider several questions to ensure that the project has a solid field data collection design:
 
 * What data need to be collected to drive which specific analytical problem? 
@@ -142,18 +85,9 @@ Collecting data from field environments have special challenges, especially in c
 
 The Design team should work with the cross support of risk assessment and DRM experts, comparing data models recommended by this design process with the models from previous OpenDRI engagements.
 
-#### Imagery
-A key component of field data collection is the availability of fresh satellite imagery. Imagery should be of a vintage that it reflects the current built environment. It should also be of 1m resolution or better, so that mappers can identify structures and use the imagery to trace building polygons. Coarser resolutions make it difficult to identify individual buildings in dense urban environments and reduce the accuracy of the maps.
-
-#### Data Model
-Each country will require its own data model to reflect its architectural traditions, construction methods, and mix of natural hazards. That said, there are many common elements between OpenDRI data models for field surveys. The Design team should ensure that the project is using standard methods, customized to context.
-
-#### Method of Collection: Electronic or Paper
-Where possible, the Design team should plan for the collection of data on smart phones and tablets. This method greatly reduces lost time and accuracy from the use of traditional paper surveys. That said, in many places where electricity and Internet is unreliable, paper is the preferred method. The Design team should consult with the OpenDRI specialist to decide which approach will be most viable for the country context.
-
 ***
 
-## 3. Conditioning: Creating the environment
+## 3. Creating the policy environment
 Creating the environment where open data can take root is often best done by creating a neutral space where partner to the process can discuss concerns, explore policy options, and review the demonstrations of open data projects from OpenDRI's bottom-up strategy. This neutral space is usually embedded in an Open Data Working Group. It is also the space from which unexpected synergies emerge.
 
 ### Open Data Working Group
@@ -166,11 +100,13 @@ A key step in the formation of the working group is to get members to commit to 
 It is also important to focus on specific use cases. Working Groups that work on policy questions in the abstract tend to get stuck on edge cases and, as a result, become risk averse. Groups that focus on practical use cases can assess the potential political liabilities around a specific scenario and find solutions that may be imperfect, but get the group started on sharing more data.
 
 ***
+
 ### 4. Catalyzing efforts around the use of the data
+A critical moment in OpenDRI engagement occurs when new or newly available data gets transformed into an analytical product that tells a risk manager something surprising. It might be a map of which schools are likely going to be destroyed in an earthquake, with a second layer on map showing that the NDMA's response plan relies heavily on the schools that are most likely to collapse. Catalyzing the ecosystem of thinkers who can probe the data for these linkages and  correlations is more difficult that one might think.
 
-We need to develop this section around programs like InaSAFE.
+Education systems may focus on conveying technical skills and testing competency around those skills. Government ministries may hire competent individuals who have passed these tests, and then place them in a promotion scheme where they are required to perform a task in a bureaucracy to a standard. When education and evaluation align with execution of a task, curiousity can get squeezed out. 
 
-
+OpenDRI works to create an ecosystem where thinkers can probe the data and turn it into products that the design team will be unable to predict. OpenDRI directly invests in the development of software that catalyzes this type of risk thinking (see InaSAFE). OpenDRI also works with university professors, entrepreneurs, and non-profit leaders to foster linkages between curricula and the development of tools that harness high-resolution analysis of the built environment.
 
 ***
 
@@ -208,23 +144,24 @@ The Design Team should identify academic partners and configure an agreement wit
 ***
 
 # Outputs
+The Design phase creates an architecture for sharing data. Its goal is to catalyze innovative thinking among the client ministries and development partners, while at the same time, implementing early versions of open-source software to jump=-start open data collection and collation.
 
-## Concept Note
-Consensus concept notes between host government/client, Regional DRM contacts, OpenDRI/GFDRR contacts, and partners to building the open data ecosystem.
+For GFDRR, the Design phase creates two types of documents:
 
-(example concept note)
+1. Concept Note: A consensus concept notes between host government/client, Regional DRM contacts, OpenDRI/GFDRR contacts, and partners to building the open data ecosystem. This note captures the use case and provides a narrative of how the project will collate and collect new data about risks, create the environment for those data to be open, and catalyze the use of that data by those who can change the game around disaster risk management in a country or region.
 
-## Terms of Reference
-TORs for:
+2. Terms of Reference. The ToRs are the contracts by which the Bank hires expert assistance. The Design team will need to craft ToRs for each individual or firm who will contribute to building the pilot. These ToRs will include:
 
-1. Data Catalogue. GeoNode or other.
-2. Community Mapping
-3. Incubator/Innovation Lab
-4. OpenDRI Consultant Lead
-5. OpenDRI Technical Lead
+	* Data Catalogue. GeoNode or other.
+	* Community Mapping
+	* Incubator/Innovation Lab
+	* OpenDRI Consultant Lead
+	* OpenDRI Technical Lead
 
-## Fail early and often
-Change comes slowly. Often, the act of experimenting with something new leads to an initial failure. So long as a each failure leads to learning something new, and each subsequent failure is a *new* mistake, the act of experimenting is something to be fostered. In international development, this type of thinking is often penalized. In open data, the fear is not of *being in error*, but of *burying error*. Innovation requires risk, though it may be managed and taken with precautions. 
+<div class="info-box image-right adapted width-200px">
+<h2>Fail early and often</h2>
+<p>Change comes slowly. Often, the act of experimenting with something new leads to an initial failure. So long as a each failure leads to learning something new, and each subsequent failure is a *new* mistake, the act of experimenting is something to be fostered. In international development, this type of thinking is often penalized. In open data, the fear is not of <em>being in error</em>, but of <em>burying error</em>. Innovation requires risk, though it may be managed and taken with precautions.</p>
+</div>
 
 ***
 

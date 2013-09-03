@@ -53,12 +53,12 @@ GFDRR is developing a diagnostic tool to aid in understanding the readiness of a
 ### Staffing the Team
 The scoping mission team should be multi-disciplinary, drawn together from the partners that will be sponsoring the project and connected to the contacts/early adopters in the host government. In most situations, the team will include:
 
-* [**OpenDRI Specialist**](tor/scoping/opendata.html): surveying the open data ecosystem around the DRM cycle requires experience and expertise. The OpenDRI specialist will build relationships, identify early adopters, and establish the context for an OpenDRI implementation. He or she will lead the design phase and be responsible for building the readiness report. 
-* [**Regional/Country DRM Specialist**](tor/scoping/regionaldrm.html): OpenDRI happens as one component of a larger country and/or regional DRM strategy. The scoping mission should include a DRM specialist who can incorporate elements of the local and regional strategy, and connect local partners to resources from other OpenDRI or DRM/DRR activities.
+* [**OpenDRI Specialist**](tors/scoping/opendata.html): surveying the open data ecosystem around the DRM cycle requires experience and expertise. The OpenDRI specialist will build relationships, identify early adopters, and establish the context for an OpenDRI implementation. He or she will lead the design phase and be responsible for building the readiness report. 
+* [**Regional/Country DRM Specialist**](tors/scoping/regionaldrm.html): OpenDRI happens as one component of a larger country and/or regional DRM strategy. The scoping mission should include a DRM specialist who can incorporate elements of the local and regional strategy, and connect local partners to resources from other OpenDRI or DRM/DRR activities.
 
 In an ideal situation, the team would also include:
 
-* [**Risk Assessment Specialist**](tor/scoping/riskassessment.html) (*optional*): some countries may require specialized technical assistance in risk assessment, modeling, and data curation. Such missions should include a risk assessment specialist.
+* [**Risk Assessment Specialist**](tors/scoping/riskassessment.html) (*optional*): some countries may require specialized technical assistance in risk assessment, modeling, and data curation. Such missions should include a risk assessment specialist.
 
 ***
 
