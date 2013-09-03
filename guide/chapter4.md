@@ -25,17 +25,20 @@ abstract: "Field Guide"
 	</ul> 
 </div>
 
-By expanding the stock of available information about risk, OpenDRI helps its clients target their DRM investments in areas with the highest potential impact. The architecture for this work is highly specific to the client's context. As a result, the Design phase of OpenDRI starts by listening: reviewing the use cases, concerns, and hopes collected during the Scoping mission. The initial OpenDRI team co-develops a set of practical solutions for collecting and curating the right data for their analytical needs. OpenDRI has amassed a set of solutions and is still expanding its repertoire. Other organizations are exploring their own approaches. This Design chapter summarizes an approach for today's methods, leaving room for expansion and rethinking in the future.
+By expanding the stock of available information about risk, OpenDRI helps its clients target their DRM investments in areas with the highest potential impact. The design of each engagement is highly specific to the client's context. As a result, the Design phase of OpenDRI starts by listening: reviewing the use cases, concerns, and hopes collected during the Scoping mission. The initial OpenDRI team co-develops a set of practical solutions for collecting and curating the right data for their analytical needs. It focuses on making these solutions immediately useful for the partners and scalable in the local context.
+
+OpenDRI has amassed a set of solutions and is still expanding its repertoire. Other organizations are exploring their own approaches. This Design chapter summarizes an approach for today's methods, leaving room for expansion and rethinking in the future.
 
 ***
 
 ## Objectives
 
-A core objective of OpenDRI is to build an ecosystem of educated users around a national data management system for disaster risk management. 
+The core objective of OpenDRI is to build an ecosystem of educated users around a national data management system for disaster risk management. 
 
 <div class="info-box image-right adapted width-200px">
 <h4>Co-Design as a Core Value</h4>
-<p>The World Bank has learned some hard lessons in the process of building an ecosystem for open risk data with its clients. Implementation by a formal institution **on behalf of** a country is no where near as effective as co-designing and co-deployment **in partnership with** a host government and a larger network of DRM partners. Whenever conceivably possible, a slow process of designing and building the data catalogue and collating the data should be done with the client leading the process, and formal partners creating the supporting structures. </p>
+<p>The World Bank has learned some hard lessons in the process of building an ecosystem for open risk data with its clients. After the earthquake in Haiti in 2010, the Bank built a data catalogue for the national mapping agency, instead of working within the agency to meet its immediate needs and gradually build a data catalogue that met its internal requirements. The first GeoNode failed: it had stale data and its technical infrastructure was not maintained</p>
+<p>Implementation by a formal institution **on behalf of** a country is no where near as effective as co-designing and co-deployment **in partnership with** a host government and a larger network of DRM partners. Whenever conceivably possible, a slow process of designing and building the data catalogue and collating the data should be done with the client leading the process and formal partners creating the supporting structures. Haiti's national mapping agency just launched the new version of a data catalogue in GeoNode, co-designed with the Bank and is now being loaded with fresh data.</p>
 </div>
 
 Unlike many DRM practices, design in OpenDRI unfolds as iterative discovery. OpenDRI tends to bring those who have direct and specific knowledge of the constraints and realities into relationship with those who interpret and write policy. In the process, the teams explore faster, cheaper, and simpler ways to collect data while altering the frameworks by which government pursues data sharing. In turn, this process opens new possibilities in the minds of the partners,leading to innovation and catalyzing a new cycle to design a novel approach.
@@ -44,10 +47,10 @@ An OpenDRI project will often include both a mix of bottom-up and top-down strat
 
 The design for an OpenDRI engagement centers on four activities:
 
-1. Collating, cleansing, and releasing fragmented datasets via one or more data catalogues, usually hosting on GeoNodes.
-2. Collecting data about the exposure of the built environment to natural hazards, usually by developing and sustaining a network of government officials, private sector entities, and community-based organizations that are prepared to curate this data.
-3. Creating the policy/legal environment where these data can come together and building the community of practice around the data.
-4. Catalyzing efforts around the use of the data for DRM as well as purposes unforeseen by the OpenDRI partners.
+1. **Collating**. Collating, cleansing, and releasing fragmented datasets via one or more data catalogues, usually hosting on GeoNodes.
+2. **Collecting** data about the exposure of the built environment to natural hazards, usually by developing and sustaining a network of government officials, private sector entities, and community-based organizations that are prepared to curate this data.
+3. **Conditioning** the partners to work together in a new way by creating the policy/legal environment where these data can come together and building the community of practice around the data.
+4. **Catalyzing** efforts around the use of the data for DRM as well as purposes unforeseen by the OpenDRI partners.
 
 ***
 
@@ -150,8 +153,8 @@ Where possible, the Design team should plan for the collection of data on smart 
 
 ***
 
-## 3. Creating the policy/legal environment
-Creating the policy environment where open data can take root is often best done by creating a neutral space where partner to the process can discuss concerns, explore policy options, and review the demonstrations of open data projects from OpenDRI's bottom-up strategy. This neutral space is usually embedded in an Open Data Working Group.
+## 3. Conditioning: Creating the environment
+Creating the environment where open data can take root is often best done by creating a neutral space where partner to the process can discuss concerns, explore policy options, and review the demonstrations of open data projects from OpenDRI's bottom-up strategy. This neutral space is usually embedded in an Open Data Working Group. It is also the space from which unexpected synergies emerge.
 
 ### Open Data Working Group
 To address underlying issues that prevent data sharing, it is necessary to confront the technical, policy, and science questions together. GFDRR's experience points at the importance of establishing a working group around open data. Membership includes champions from various government ministries, international organizations, and community partners.
@@ -165,7 +168,11 @@ It is also important to focus on specific use cases. Working Groups that work on
 ***
 ### 4. Catalyzing efforts around the use of the data
 
+
+
 We need to develop this section around programs like InaSAFE.
+
+
 
 ***
 
@@ -217,6 +224,9 @@ TORs for:
 3. Incubator/Innovation Lab
 4. OpenDRI Consultant Lead
 5. OpenDRI Technical Lead
+
+## Fail early and often
+Change comes slowly. Often, the act of experimenting with something new leads to an initial failure. So long as a each failure leads to learning something new, and each subsequent failure is a *new* mistake, the act of experimenting is something to be fostered. In international development, this type of thinking is often penalized. In open data, the fear is not of *being in error*, but of *burying error*. Innovation requires risk, though it may be managed and taken with precautions. 
 
 ***
 
