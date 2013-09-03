@@ -189,6 +189,9 @@
 				{{ content }}
 				</div>
 				</div>
+				{% assign pages_list = site.pages %}
+			  	{% assign group = 'guide_chapter' %}
+				{% include custom/tectonic/pagenav_bottom %}
 				
 				<hr/>
 				
