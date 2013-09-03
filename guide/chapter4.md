@@ -168,8 +168,6 @@ It is also important to focus on specific use cases. Working Groups that work on
 ***
 ### 4. Catalyzing efforts around the use of the data
 
-
-
 We need to develop this section around programs like InaSAFE.
 
 
