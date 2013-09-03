@@ -24,12 +24,12 @@ category: guide
 
 The Design team will spend several weeks or even months building consensus among the partners, writing concept notes and terms of reference that require several organizations (and several departments within those organizations) to come to agreement and release funding. Once funding flows, however, work in the field can lead to relatively fast outputs.
 
-The piloting phase builds the first instances of a data catalogue, collects the first participatory mapping data, and convenes the Open Data Working Group to review policy issues around the new data.
+The piloting phase collates existing data from government archives, performs the first field data collections, and convenes the stakeholders necessary for developing an environment conducive to open data.
 
 ***
 
 ## Objectives
-The primary objective of a pilot is to open the imagination of the partners to what is possible when they share data about risk. The pilot provides a tangible use case to focus the efforts of multiple organizations on building the various parts of an open data ecosystem, some of which may be inside of government, some of which may be fully public. In some cases, the pilot provides in impetus to get over "last mile" problems, where partners have already made great strides towards building risk data but are prevented from launching their work by a mix of problems that often were discovered only by engaging with the task.  
+The primary objective of a pilot is to open the imagination of the partners to what is possible when they share data about risk. The pilot provides a tangible use case to focus the efforts of multiple organizations on building the various parts of an open data ecosystem, some of which may be accessible only inside of government, some of which may be fully public. In some cases, the pilot provides in impetus to get over "last mile" problems, where partners have already made great strides towards building risk data but are prevented from launching their work by a mix of problems that often were discovered only by engaging with the task.  
 
 OpenDRI does not require a client country to start a "whole of government" open data program. However, it requires a significant commitment to release data in a narrow band of areas about natural hazards, the built environment, and the threats that disasters pose to a society. The work from the bottom up will build up the proof that this kind of data can be released in open formats on open platforms. There are two parts to this approach:
 
@@ -41,16 +41,30 @@ Once data is flowing in a pilot, the Open Data Working Group will need to confro
 ***
 
 ### 1. Data Collation
-Collating the right data is the key to keeping the project focused on solving problems around the DRM cycle. In general, OpenDRI data will have two attributes:
+
+The first steps in each OpenDRI engagement has been to create a place where data can be shared and to hire a Data Curator, to manage this collation process. The data catalogue is meant to be a neutral space: a place where the data is legally and technically open for use by all (or at least those who have access to it). In a few cases, this space has solely been OpenStreetMap. In most cases, client ministries wish to have a data catalogue where they can upload datasets that are meant to be opened. The [process for building these data catalogues](datacatalogue.html) is described in the Methods section.
+
+#### Data Curator
+The Data Curator is generally a technical specialist with GIS training as well as data management background. He or she will be able to perform the following work: 
+
+1.  Upload spatial data layers into the data catalogue
+2.  Ensure metadata is entered into the platform in compliance with World Bank GeoSpatial Metadata standards (based on ISO 19115:2003).
+3.  Style the uploaded datasets using the SLD format to allow for basic visualization on the platform.
+4.  Create of a suite of basic “mashups” or maps with data made available on the platform in close collaboration with the Open Data Working Group and other stakeholders.
+
+A [Terms of Reference](tors/scoping/datacurator.html) is under development for this role. 
+
+#### Collating the First Data Sets
+Collating the *right* data is the key to keeping the project focused on solving problems around the DRM cycle. In general, OpenDRI data will have three attributes:
 
 1. It will be **geospatial**, with geographic attributes that describe some aspect of the human systems and built environment and the hazards that may affect people and infrastructure.
 2. It will be in **open data formats** and compliant with [Open Geospatial Consortium](http://www.opengeospatial.org/) (OGC) standards.
+3. It will match the **use case** of the client.
 
-#### Install a platform for data collection
-The first step in each OpenDRI engagement has been to create a place where data can be shared. This space is meant to be neutral: a place where the data is legally and technically open for use by all (or at least those who have access to it). In a few cases, this space has solely been OpenStreetMap. In most cases, client ministries wish to have a data catalogue where they can upload datasets that are meant to be opened. The [process for building these data catalogues](datacatalogue.html) is described in the Methods section.
-
-#### Focus on the use case
-When the government of Malawi built a pilot instance of OpenDRI, it focused efforts on one hazard in a single region: flooding in the lower Shire valley. This effort enabled multiple ministries to collect and prepare data related to meteorology, climate change, and geospatial analysis for upload into a GeoNode. In the initial pilot, the focus excluded data related to other hazards, but enabled ministry officials at the national and regional levels to learn how to work in an open data ecosystem.
+<div class="info-box image-right adapted width-200px">
+	<h4>The Use Case of the GeoNode in Malawi</h4>
+	<p>When the government of Malawi built a pilot instance of OpenDRI, it focused efforts on one hazard in a single region: flooding in the lower Shire valley. This effort enabled multiple ministries to collect and prepare data related to meteorology, climate change, and geospatial analysis for upload into a GeoNode. In the initial pilot, the focus excluded data related to other hazards, but enabled ministry officials at the national and regional levels to learn how to work in an open data ecosystem.</p>
+</div>
 
 #### Collect the data for the use case
 Within a single use case, there may be several types of data that need to be aggregated and prepared for release. These include:
@@ -132,10 +146,10 @@ A lesson learned from previous engagements is that it is possible to spend inord
 ## 2. Collecting New Data
 The first pilot of a field data collection effort initiative generally starts in one city, and potentially, within one neighborhood of a large city. The objective is to train a small pool of energetic mappers into a team that can a) collect the first data and adapt initial approaches to the problems they discover in the field, and b) recruit and train other mappers as the initiative moves into the Scaling phase. OpenDRI has thus far used community mapping as the tactic to implement this objective. 
 
-**Note**: The OpenCities Project has created a toolkit which covers the implementation details of community mapping. This section provides a strategic overview of the OpenCities methodology.
+**Note**: The OpenCities Project has created a toolkit which covers the implementation details of community mapping. This section provides a strategic overview of the OpenCities methodology. A link to this resource will be added when the Toolkit is published.
 
 ### Team
-The team starts with OpenDRI community mapping trainers, who have expertise in the application of community mapping practices to the collection of exposure data, preferable in the local context. The trainers need to ensure that the team builds skills in several areas:
+The team starts with OpenDRI community mapping trainers, who have expertise in the application of community mapping practices to the collection of exposure data, preferably in the local context. The trainers need to ensure that the team builds skills in several areas:
 
 * Mapping and GIS
 * Software Development and Graphic Design
@@ -199,9 +213,9 @@ The National Society for Earthquake Technology&ndash;Nepal has built a training 
 
 #### Data Collection: Field Surveys and Mapping Parties
 <div class="info-box image-right adapted width-200px">
-<h4>Map Cakes: a tradition</h4>
+<h4>Making the Work Fun is Good Business Sense</h4>
 <img src="/assets/images/mapcake.png" title="Risk Assessment Triad: Hazards, Exposure, Vulnerability" width="150">
-<p>Mapping is a social activity. It can be very technical and tedious, but it should also be fun. For many years, large mapping parties have traditionally ended with map cakes, where the frosting is printed into a map that reflects the hard work of the team. The activity builds a sense of collective accomplishment. It also forms the core energy and network of relationships that allow for the project to scale. (more TBD, to interview Mikel)</p>
+<p>Mapping is a social activity. It can be very technical and tedious, but it should also be fun. For many years, large mapping parties have traditionally ended with map cakes, where the frosting is printed into a map that reflects the hard work of the team. The activity builds a sense of collective accomplishment. It also forms the core energy and network of relationships that allow for the project to scale.</p>
 </div>
 
 When surveyors have been trained, the pilot begins to collect data via mapping parties. These events organizing between 10-40 mappers to collect data in a specific region of a city, with the goal of being as comprehensive as is possible for that region. 
@@ -241,7 +255,15 @@ OpenDRI has developed monthly progress reports to keep partners informed about w
 ***
 
 ## 4. Demonstrations of Analytical Products
-to build
+The goal of OpenDRI is to provide the data that others can transform into tools that explore risks from natural hazards. However, there are few stronger incentives to expand data collation and collection efforts than seeing newly available data turned into an analytical product&mdash;especially a visualization that shows something unexpected or confirms a hunch which previously had no evidence to support it. OpenDRI frequently partners with other efforts in DRM to provide this link between DRM data management and DRM analysis.
+
+### InaSAFE
+ 
+
+
+### CAPRA
+(team: we need an explanation and example of the link between an OpenDRI project and CAPRA. Who has documentation: concept notes, ToRs, graphics, etc? Bolivia? LAC?)
+
 
 ***
 
