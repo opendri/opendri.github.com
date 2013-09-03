@@ -19,9 +19,9 @@ section: II. Practice
 </ul> 
 </div>
 
-In a sense, an OpenDRI engagement never ends: it just transforms into new ways of managing data about risk. When OpenDRI has been successful, governments and communities will have new tools and methods to collect and curate data about their exposure to natural hazards. They will have met the goals that the partners outlined in the design phase and adapted along the way. 
+When OpenDRI has been successful, governments and communities will have new tools and methods to collect and curate data about their exposure to natural hazards. They will have met the goals that the partners outlined in the design phase and adapted along the way. 
 
-Sustaining a changed way of working with risk data is the work of the host nation itself. However, sustaining change is difficult. Without continuous funding, communities of practice often fall back to using familiar, older methods; thought leaders move onto the next problem; and experts find opportunities to grow their skills further in new organizations. The risk for OpenDRI is that risk data becomes stale&mdash;that they no longer reflect the realities of fast changing urban environments and the vulnerability of a society to new risks.
+Sustaining a changed way of working with risk data is the work of the host nation itself. However, sustaining change is difficult. Without continuous funding, communities of practice often fall back to using familiar, older methods; thought leaders move onto the next problem; and experts find opportunities to grow their skills further in new organizations. The risk for OpenDRI is that after the project is over (and the consultants and firms have moved onto other projects), key stakeholders will revert to the approaches that they used for data sharing prior to the OpenDRI engagement.
 
 OpenDRI's designers take a practical approach to this problem, acknowledging that an occasional influx of energy and resources may be necessary to keep work going. The development partners who funded and catalyzed the change can take steps to ensure the effort remains vibrant and productive.  
 
@@ -38,6 +38,7 @@ There is a point in the maturation of risk thinking that OpenDRI must clarify it
 The goals of the Sustaining phase can include:
 
 * Creating opportunities for training and networking that increase the interconnections between members of the network of data collectors, curators, analysts, and decision makers.
+* Linking the projects with other development partners, including handing off the OpenDRI program to other organizations.
 * Building trust in the accuracy and authority of the data.
 * Encouraging academic institutions to include OpenDRI training materials, software, and data in their curricula.
 * Catalyzing the development of organizations around data collection and management, often as social enterprises.
@@ -67,6 +68,9 @@ The more organizations that make use of OpenDRI data, the more likely the data a
 
 #### Software Development around OpenDRI Data
 In the process of expanding the use of OpenDRI tools and practices, government ministries may encounter software interoperability problems or discover the need to extend a tool to include features that were not foreseen during the initial OpenDRI implementation. This moment is ideal for a small investment&mdash;potentially in the low $10,000s USD&mdash;to help add features to the software. Because OpenDRI is an open-source software model, licensing is already established to allow for the feature to be usable by other countries as they encounter similar challenges or desired functionality.
+
+#### Partnerships with other international development organizations
+Several institutions are building open data initiatives, several of which are partners to this field guide. An OpenDRI program can be integrated with this work. At the very least, data services can be connected. More desirable would be full integration and coordination of the efforts, so that open data enables the system of actors to better understand what each is doing, better target their investments and activities, and better listen to the actual needs of the client through better data.
 
 ***
 
