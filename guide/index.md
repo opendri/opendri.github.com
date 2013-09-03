@@ -12,16 +12,6 @@ abstract: "Field Guide"
 
 # Table of Contents
 
-<!-- Info Box -->
-<div class="info-box image-right adapted width-250px">
-<h4>List of Pages by Filename</h4>
-<ul id="secondary-menu">
-  {% assign pages_list = site.pages|sort:"name" %}
-  {% assign group = 'guidechapter' %}
-  {% include custom/tectonic/pages_list %}
-</ul>
-</div>
-
 ## Schedule for Drafting
 [Schedule 2013.07.29](schedule.html)
 
@@ -63,6 +53,11 @@ The history and overview of the OpenDRI process.
 #### [GeoNode](geonode.html)
 #### [InaSAFE](inasafe.html)
 
-
+# List of all pages
+<ul id="secondary-menu">
+  {% assign pages_list = site.pages|sort:"name" %}
+  {% assign group = 'guidechapter' %}
+  {% include custom/tectonic/pages_list %}
+</ul>
 
 
