@@ -2,6 +2,8 @@
 layout: guide
 navgroup: guide
 group: guidechapter
+pagetype: core
+
 section: II. Practice
 title: 3. Scoping
 excerpt: "xx"

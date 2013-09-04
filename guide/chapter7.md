@@ -2,6 +2,8 @@
 layout: guide
 navgroup: guide
 group: guidechapter
+pagetype: core
+
 title: "7. Sustaining"
 excerpt: "xx"
 abstract: "Field Guide"

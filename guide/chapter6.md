@@ -2,6 +2,8 @@
 layout: guide
 navgroup: guide
 group: guidechapter
+pagetype: core
+
 title: 6. Scaling
 excerpt: "xx"
 abstract: "Field Guide"
@@ -32,7 +34,7 @@ The effort to scale OpenDRI pilots is often a matter of replicating the structur
 <h4>Small Pieces, Loosely Joined</h4>
 <p>BCG paper on small pieces, loosely joined.</p>
 </div>
-
+.
 
 ***
 
@@ -64,6 +66,7 @@ The partners to this guide are actively seeking to build connections between nat
 <li><strong>UNISDR</strong> has built a data catalogue around DRR: insert link and short description.</li>
 </ul> 
 </div>
+.
 
 *** 
 

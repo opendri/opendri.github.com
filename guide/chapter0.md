@@ -3,6 +3,8 @@ layout: guide
 navgroup: guide
 group: guidechapter
 section: I. Theory
+pagetype: core
+title: Preface
 
 excerpt: xx
 abstract: Field Guide
@@ -58,11 +60,13 @@ This guide intends to:
 ## A Note on Style of this Guide
 The guide is written as an assembly of concise descriptions of practices around OpenDRI. This approach allows for several dynamics:
 
+
 1. Easy Reading
 2. Simplified Translation
 3. Multiple Layouts: A3, A4, A5, and web.
 4. Easy reference in the form of a growing body of knowledge
 5. Simpler version control around a "small pieces, loosely joined" model. 
+
 
 The guide also focuses on cataloguing the set of practices that have emerged over the management of open data, the curation of community maps, and the rise of practices around risk communication that illustrate the potential impact of natural hazards on a given place. Each of these practices is set forth as closed wiki: a module in a larger whole that authorized individuals can edit as they learn and improve upon the original idea of OpenDRI. Overall editorial decision making will remain with GFDRR until a governance structure can be established to perform this function.
 

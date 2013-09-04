@@ -4,6 +4,7 @@ layout: guide
 navgroup: guide
 group: guidechapter
 category: guide
+pagetype: core
 
 # chapter metadata
 section: II. Practice
@@ -162,8 +163,10 @@ For GFDRR, the Design phase creates two types of documents:
 <h2>Fail early and often</h2>
 <p>Change comes slowly. Often, the act of experimenting with something new leads to an initial failure. So long as a each failure leads to learning something new, and each subsequent failure is a *new* mistake, the act of experimenting is something to be fostered. In international development, this type of thinking is often penalized. In open data, the fear is not of <em>being in error</em>, but of <em>burying error</em>. Innovation requires risk, though it may be managed and taken with precautions.</p>
 </div>
+.
 
 ***
+
 
 ## Sri Lanka
 In November 2012, GFDRR sent a consultant to Sri Lanka to scope a potential OpenDRI engagement, based on previous interest in open data expressed earlier in 2012. During a five-week (25 working days) mission to Colombo and Batticloa, the consultant met with ministries and organizations around DRM: Disaster Management Center, Metro Colombo Urban Development Project, Survey Department, Department of Census and Statistics, Nation Building Research Organisation, the Meteorological Office, Information and Communication Technology Agency, UNDP, and several universities and donors. 

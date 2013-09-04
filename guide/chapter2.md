@@ -2,6 +2,8 @@
 layout: guide
 navgroup: guide
 group: guidechapter
+pagetype: core
+
 section: I. Theory
 title: 2. Open Data for Resilience
 excerpt: "xx"
@@ -48,7 +50,6 @@ The World Bank itself announced an open data policy in April 2012. All its data 
 With communities, governments, and international institutions all pursuing open data, the natural next step was to explore packaging open data into a set of approaches around risk.
 
 
-<!-- sidebar -->
 <div class="info-box image-right adapted width-250px">
 <h4>Defining Open</h4>
 
@@ -58,7 +59,6 @@ With communities, governments, and international institutions all pursuing open 
 
 <p>Open standards/formats for data provide a free and openly available specification for “storing digital data, usually maintained by a standards organization, which can therefore be used and implemented by anyone. For example, an open format can be implementable by both proprietary and free and open source software, using the typical software licenses used by each.”</p>
 </div>
-<!-- end sidebar -->
 
 
 ## Packaging Open Data
@@ -118,7 +118,6 @@ Open data empower decision makers at all levels of government, as well as in the
 
 <div class="info-box image-right adapted width-200px">
 <h4>Open Data: the Five Stars</h4>
-
 <p>★ 	Available on the web (whatever format) but with an open licence, to be Open Data</p>
 <p>★★ 	Available as machine-readable structured data (e.g. excel instead of image scan of a table)</p>
 <p>★★★ 	as (2) plus non-proprietary format (e.g. CSV instead of excel)</p>
@@ -136,7 +135,6 @@ For data to serve decision makers across a society, it needs to be fully open. T
 3.	Interoperable: the data must follow open standards.
 4.	Reusable: can be redistributed and reused in ways that were not necessarily anticipated by the curator of the original data.
 
-<!-- Info Box -->
 <div class="info-box image-right adapted width-250px">
 	<h4>Ten Principles of Open Government Data (OGD)</h4>
 	<p><em>(src: Linked Open Data: The Essentials, Bauer and Kaltenböck)</em></p>
@@ -177,7 +175,6 @@ Building better exposure data is very time intensive, but it need not be costly.
 
 The approach taken by OpenDRI is to recruit and train community members to map their own cities. This method creates jobs for youth, trains them in modern geospatial tools, and prepares them for additional work curating the map of their cities. See [OpenCities](http://opencitiesproject.com/). It also creates a map that is free and open for all to use for any purpose.
 
-<!-- Info Box -->
 <div class="info-box image-right adapted width-250px">
 	<h4>Peta Gratis Untuk Semua (OpenStreetMap Indonesia)</h4>
 	<p>Case study TBD for OSM in Indonesia, from outcast to integrated into BIG.</p>
