@@ -1,7 +1,6 @@
 ---
-layout: print
-section: I. Theory
-title: 0. Preface
+layout: default
+title: All Chapters
 excerpt: xx
 abstract: Field Guide
 chapters: 
@@ -16,3 +15,7 @@ chapters:
 
 ---
 
+{% assign pages_list = site.pages|sort:"name" %}
+{% assign group = 'guidechapter' %}
+{% assign pagetype = "core" %}
+{% include custom/tectonic/allpages %}
