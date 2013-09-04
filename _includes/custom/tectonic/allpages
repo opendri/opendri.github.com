@@ -34,7 +34,6 @@ Usage:
   {% for node in pages_list %}
      {% if group == null or group == node.group %}
 		{% if node.pagetype == "core" %}
-<h1>{{ node.title }}</h1>
 {{ node.content  }}
 <hr />
       	{% endif %}
